@@ -24,13 +24,14 @@ nav ul li {
 }
 
 .nav-item-active {
-	background-color: #ffcc00;
+	background-color: #ffb3b3;
 }
 
 nav a {
   display: inline-block;
   color: black;
   text-align: center;
+  font-weight: bold;
   padding: 15px 45px;
 }
 
