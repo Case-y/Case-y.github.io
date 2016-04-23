@@ -56,6 +56,11 @@ h1 {
 	margin: 0 px 20px 0px 35px;
 }
 
+.intro {
+	text-align: justify;
+    text-justify: inter-word;
+}
+
 .aboutcasey {
 	font-family: 'Raleway', cursive;
 	font-size: 1.4em;
