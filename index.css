@@ -11,6 +11,11 @@
 ul {
   display: block;
   list-style-type: disc;
+  -webkit-margin-before: 1em;
+  -webkit-margin-after: 1em;
+  -webkit-margin-start: 0px;
+  -webkit-margin-end: 0px;
+  -webkit-padding-start: 40px;
 }
 
 nav ul li {
@@ -22,4 +27,23 @@ nav a {
   display: inline-block;
   color: black;
   text-align: center;
+}
+
+main {
+	display: block;
+}
+
+h1.intro {
+	font-family: 'Raleway', cursive;
+	text-align: right;
+	font-size: 3em;
+	color: #ffff99;
+}
+
+#portrait {
+	width: 180px;
+	border-radius: 100%;
+	border: 3 px solid #ffff99;
+	float: right;
+	margin: 0 px 20px 0px 35px;
 }
