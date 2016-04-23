@@ -31,14 +31,16 @@ body {
   position: relative;
   z-index: 15;
   top: -10%;
+  font-family: 'Shadows Into Light', cursive;
 }
 
 .welcome {
   position: relative;
-  top: 25%;
+  top: 45%;
   z-index: 15;
 /*   font-family: 'Raleway', cursive; */
   font-family: 'Shadows Into Light', cursive;
+  
 }
 
 #next {
@@ -46,13 +48,10 @@ body {
   z-index: 15;
   color: black;
   display: inline-block;
-  margin-left: 40%;
-  margin-top: 25%;
+  left: 30%;
+  margin-top: 30%;
 }
 
-.name {
-  font-family: 'Shadows Into Light', cursive;
-}
 
 .vertical {
     border-left: 5px solid;
