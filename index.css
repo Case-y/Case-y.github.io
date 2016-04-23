@@ -33,6 +33,10 @@ main {
 	display: block;
 }
 
+a {
+	color: #ffa64d;
+}
+
 .casey {
 	padding: 50px 40px 40px;
 	background-color: #ffffff;
