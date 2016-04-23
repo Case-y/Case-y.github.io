@@ -26,6 +26,12 @@ body {
   font-size: 500%;
 }
 
+.name {
+  position: relative;
+  z-index: 15;
+  top: -10%;
+}
+
 .welcome {
   position: relative;
   z-index: 15;
