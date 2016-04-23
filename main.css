@@ -6,12 +6,6 @@ body {
   background-color: #ffff99;
 }
 
-html {
-  -ms-text-size-adjust: 100%; /* 2 */
-  -webkit-text-size-adjust: 100%; /* 2 */
-}
-
-
 .rightside {
   position: fixed;
   width: 50%;
@@ -30,7 +24,7 @@ html {
   z-index: 10;
   left: 0;
   text-align: center;
-  font-size: 300%;
+  font-size: 400%;
 }
 
 .name {
@@ -42,7 +36,7 @@ html {
 
 .welcome {
   position: relative;
-  top: 55%;
+  top: 52%;
   z-index: 15;
   font-family: 'Shadows Into Light', cursive;
   
@@ -52,16 +46,15 @@ html {
   position: relative;
   z-index: 15;
   color: black;
+  left: 25%;
 }
 
 
 .vertical {
     border-left: 5px solid;
     color: black;
-    position: absolute;
+    position: fixed;
     z-index: 15;
     height: 100%;
     right: 50%;
 }
-
-
