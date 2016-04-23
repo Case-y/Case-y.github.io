@@ -1,6 +1,6 @@
 @import url(https://fonts.googleapis.com/css?family=Shadows+Into+Light);
-@import url(https://fonts.googleapis.com/css?family=Raleway);
 
+@import url(https://fonts.googleapis.com/css?family=Raleway);
 
 body {
   background-color: #ffff99;
@@ -35,18 +35,19 @@ body {
 
 .welcome {
   position: relative;
+  top: 25%;
   z-index: 15;
-  top: 50%;
-  height: 50%;
+/*   font-family: 'Raleway', cursive; */
   font-family: 'Shadows Into Light', cursive;
 }
 
 #next {
-  position: fixed;
+  position: relative;
   z-index: 15;
-  top: 70%;
-  left: 85%;
   color: black;
+  display: inline-block;
+  margin-left: 40%;
+  margin-top: 30%;
 }
 
 .name {
