@@ -8,9 +8,9 @@
 }
 
 .welcome {
-  position: absolute;
+  position: fixed;
   top: 50%;
-  right: 8%;
+
   font-size: 900%;
 }
 
