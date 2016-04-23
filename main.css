@@ -6,6 +6,12 @@ body {
   background-color: #ffff99;
 }
 
+html {
+  -ms-text-size-adjust: 100%; /* 2 */
+  -webkit-text-size-adjust: 100%; /* 2 */
+}
+
+
 .rightside {
   position: fixed;
   width: 50%;
@@ -36,7 +42,7 @@ body {
 
 .welcome {
   position: relative;
-  top: 45%;
+  top: 55%;
   z-index: 15;
   font-family: 'Shadows Into Light', cursive;
   
