@@ -36,7 +36,6 @@ body {
 
 .welcome {
   position: relative;
-  top: 52%;
   z-index: 15;
   font-family: 'Raleway', cursive;
   
@@ -61,7 +60,21 @@ ul {
   display: block;
 }
 
+li {
+  display: inline;
+}
+
 nav ul li {
   display: inline;
 }
 
+.container {
+  display: flex;
+  justify-content: space-around;
+  width: 80%;
+  margin: 0 auto;
+}
+
+.button {
+  color: black;
+}

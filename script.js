@@ -4,6 +4,7 @@ $(document).ready(function() {
         $(".rightside").css("color", "white");
         $(".vertical").css("color", "white");
         $("#next").css("color", "white");
+        $(".button").css("color", "white");
         $("html").animate({
         backgroundColor: "#ffa64d",
         color: "#ffa64d"
