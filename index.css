@@ -42,8 +42,36 @@ h1 {
 
 #portrait {
 	width: 250px;
+	height: auto;
 	border-radius: 100%;
 	border: 3 px solid #ffff99;
 	float: right;
 	margin: 0 px 20px 0px 35px;
+}
+
+h3 {
+	font-family: 'Raleway', cursive;
+	font-size: 1.4em;
+	line-height: 1.3em;
+	font-weight: 100;
+	color: black;
+}
+
+footer {
+	border-top: 1px solid #ffff99;
+	font-size: 0.8em;
+	margin-top: 30px;
+}
+
+footer ul {
+	font-family: 'Raleway', cursive;
+	padding: 0px;
+	list-style: none;
+	font-weight: lighter;
+}
+
+footer ul li {
+	display: inline;
+	margin-right: 20px;
+	align-items: center;
 }
