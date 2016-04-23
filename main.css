@@ -38,7 +38,7 @@ body {
   position: relative;
   z-index: 15;
   font-family: 'Raleway', cursive;
-  
+  bottom: 5%
 }
 
 #next {
