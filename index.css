@@ -33,6 +33,13 @@ main {
 	display: block;
 }
 
+.casey {
+	padding: 110px 40px 40px;
+	background-color: #ffffff;
+	max-width: 950px;
+	margin: 0 auto;
+}
+
 h1 {
 	font-family: 'Raleway', cursive;
 	text-align: right;
