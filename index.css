@@ -23,6 +23,10 @@ nav ul li {
   text-align: center;
 }
 
+.nav-item-active {
+	background-color: #ffcc00;
+}
+
 nav a {
   display: inline-block;
   color: black;
