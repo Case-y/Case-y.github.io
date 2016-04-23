@@ -33,7 +33,7 @@ main {
 	display: block;
 }
 
-h1.intro {
+h1 {
 	font-family: 'Raleway', cursive;
 	text-align: right;
 	font-size: 3em;
