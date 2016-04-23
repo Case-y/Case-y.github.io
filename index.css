@@ -33,6 +33,11 @@ main {
 	display: block;
 }
 
+body {
+	margin: 0;
+	background-color: rgba(235, 250, 230, 1);
+}
+
 a {
 	color: #ffa64d;
 }
@@ -62,7 +67,6 @@ h1 {
 
 .intro {
 	text-align: justify;
-    text-justify: inter-word;
 }
 
 .aboutcasey {
