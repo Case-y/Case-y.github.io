@@ -1,34 +1,4 @@
-.leftside {
-  position: fixed;
-  width: 50%;
-  height: 100%;
-  z-index: 10;
-  text-align: center;
-  left: 0;
-}
-
-.welcome {
-  position: fixed;
-  top: 50%;
-
-  font-size: 900%;
-}
-
-.hoverhere {
-  position: absolute;
-  top: 62.5%;
-  right: 83%;
-  opacity: 0.5;
-}
-
-
-.vertical {
-    border-left: 5px black solid;
-    position: absolute;
-    z-index: 15;
-    height: 100%;
-    right: 50%;
-}
+@import url(https://fonts.googleapis.com/css?family=Shadows+Into+Light);
 
 .rightside {
   position: fixed;
@@ -37,15 +7,48 @@
   z-index: 10;
   right: 0;
   text-align: center;
+  font-size: 58px;
+}
+
+
+.leftside {
+  position: fixed;
+  width: 50%;
+  height: 100%;
+  z-index: 10;
+  left: 0;
+  text-align: center;
+  font-size: 500%;
+}
+
+.welcome {
+  position: relative;
+  z-index: 15;
+  top: 50%;
+  height: 50%;
+  font-family: 'Shadows Into Light', cursive;
+}
+
+.name {
+  font-family: 'Shadows Into Light', cursive;
+}
+
+.vertical {
+    border-left: 5px solid;
+    color: black;
+    position: absolute;
+    z-index: 15;
+    height: 100%;
+    right: 50%;
 }
 
 #next {
    right: 0;
-   position: fixed;
-   top: 70%;
+   position: relative;
+   top: 75%;
    left: 80%;
    font-size: 10em;
-   color: white;
+   color: black;
    pointer-events: none;
    z-index: 10;
 }
