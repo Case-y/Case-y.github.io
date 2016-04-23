@@ -24,29 +24,27 @@ body {
   z-index: 10;
   left: 0;
   text-align: center;
-  font-size: 350%;
+  font-size: 400%;
 }
 
 .name {
   position: relative;
   z-index: 15;
-  top: -10%;
-  font-family: 'Shadows Into Light', cursive;
+  font-size: 100px;
+  font-family: 'Raleway', cursive;
 }
 
 .welcome {
   position: relative;
   top: 52%;
   z-index: 15;
-  font-family: 'Shadows Into Light', cursive;
+  font-family: 'Raleway', cursive;
   
 }
 
 #next {
-  position: relative;
   z-index: 15;
   color: black;
-  right: 25%;
 }
 
 
@@ -58,3 +56,12 @@ body {
     height: 100%;
     right: 50%;
 }
+
+ul {
+  display: block;
+}
+
+nav ul li {
+  display: inline;
+}
+
