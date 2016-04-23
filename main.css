@@ -38,7 +38,6 @@ body {
   position: relative;
   top: 45%;
   z-index: 15;
-/*   font-family: 'Raleway', cursive; */
   font-family: 'Shadows Into Light', cursive;
   
 }
@@ -47,9 +46,6 @@ body {
   position: relative;
   z-index: 15;
   color: black;
-  display: inline-block;
-  left: 30%;
-  margin-top: 25%;
 }
 
 
