@@ -6,6 +6,10 @@ body {
   background-color: #ffff99;
 }
 
+a {
+  font-family: 'Raleway', cursive;
+}
+
 .rightside {
   position: fixed;
   width: 50%;
