@@ -57,13 +57,20 @@ p {
 	line-height: 1.5em;
 }
 
-.content {
+.casey {
 	padding: 50px 40px 40px;
 	background-color: #ffffff;
 	max-width: 950px;
 	margin: 0 auto;
 	padding-bottom: 30px;
 	padding-top: 30px;
+}
+
+.content {
+	padding: 50px 40px 40px;
+	background-color: #ffffff;
+	max-width: 950px;
+	margin: 0 auto;
 }
 
 h1 {
