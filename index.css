@@ -96,25 +96,32 @@ h2 {
 	padding-top: 20px;
 }
 
+.scheme {
+	float: right;
+	margin: 0px 0px 10px 15px;
+	width: 320px;
+	border: 3px solid #ffcc99;
+}
+
 .editor {
 	float: right;
 	margin: 0px 0px 10px 15px;
 	width: 320px;
-	border: 3px solid #ff6799;
+	border: 3px solid #ffcc99;
 }
 
 .percolation {
 	float: right;
 	margin: 0px 0px 10px 15px;
 	width: 320px;
-	border: 3px solid #ff6799;
+	border: 3px solid #ffcc99;
 }
 
 .ants {
 	float: right;
 	margin: 0px 0px 10px 15px;
 	width: 320px;
-	border: 3px solid #ff6799;
+	border: 3px solid #ffcc99;
 }
 
 .bearmaps {
@@ -122,7 +129,7 @@ h2 {
 	margin: 0px 0px 10px 15px;
 	width: 320px;
 	height: 250px;
-	border: 3px solid #ff6799;
+	border: 3px solid #ffcc99;
 }
 
 
