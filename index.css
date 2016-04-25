@@ -84,6 +84,13 @@ h1 {
 	margin-top: 60px;
 }
 
+.berkeley_pics {
+	float: right;
+	margin: 0px 0px 10px 15px;
+	width: 320px;
+	border: 3px solid #ffcc99;
+}
+
 h2 {
 	font-family: 'Poiret One', cursive;
 	font-size: 1.8em;
@@ -95,44 +102,6 @@ h2 {
 .projectsberkeley {
 	padding-top: 20px;
 }
-
-.scheme {
-	float: right;
-	margin: 0px 0px 10px 15px;
-	width: 320px;
-	border: 3px solid #ffcc99;
-}
-
-.editor {
-	float: right;
-	margin: 0px 0px 10px 15px;
-	width: 320px;
-	border: 3px solid #ffcc99;
-}
-
-.percolation {
-	float: right;
-	margin: 0px 0px 10px 15px;
-	width: 320px;
-	border: 3px solid #ffcc99;
-}
-
-.ants {
-	float: right;
-	margin: 0px 0px 10px 15px;
-	width: 320px;
-	border: 3px solid #ffcc99;
-}
-
-.bearmaps {
-	float: right;
-	margin: 0px 0px 10px 15px;
-	width: 320px;
-	height: 250px;
-	border: 3px solid #ffcc99;
-}
-
-
 
 #portrait {
 	width: 250px;
