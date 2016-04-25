@@ -84,6 +84,13 @@ h1 {
 	margin-top: 60px;
 }
 
+.watsi {
+	float: right;
+	margin: -35px 0px 10px 15px;
+	width: 250px;
+	height: 250px;
+}
+
 .project_pics {
 	float: right;
 	margin: 0px 0px 10px 15px;
