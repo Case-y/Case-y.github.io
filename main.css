@@ -3,5 +3,5 @@
 @import url(https://fonts.googleapis.com/css?family=Raleway);
 
 body {
-  background: "intro/background.png";
+  background: url("intro/background.png");
 }
