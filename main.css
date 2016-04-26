@@ -11,6 +11,15 @@ body {
   background-position: center; 
 }
 
+.name {
+
+}
+
+.myname {
+  font-family: 'Advent Pro', sans-serif;
+  color: white;
+}
+
 .enter {
   top: 70%;
   left: 50%;
