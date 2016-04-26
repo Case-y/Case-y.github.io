@@ -17,6 +17,7 @@ body {
 
 .myname {
   font-family: 'Josefin Sans', sans-serif;
+  font-size: 5em;
   color: white;
 }
 
@@ -24,10 +25,6 @@ body {
   top: 70%;
   left: 50%;
   position: fixed;
-  height: 100px;
-  width: 300px;
-  margin-top: -60px;
-  margin-left: -130.4px;
 }
 
 a {
