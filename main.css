@@ -4,6 +4,8 @@
 
 @import url(https://fonts.googleapis.com/css?family=Amatic+SC:400,700|Lato:400,100|Advent+Pro:400,100|Londrina+Outline);
 
+@import url(https://fonts.googleapis.com/css?family=Nunito);
+
 body {
   background: url("intro/background.png");
   background-repeat: no-repeat;
@@ -16,7 +18,7 @@ body {
 }
 
 .myname {
-  font-family: 'Advent Pro', sans-serif;
+  font-family: 'Nunito', sans-serif;
   color: white;
 }
 
@@ -35,7 +37,7 @@ a {
 }
 
 .enterpic {
-  font-family: 'Advent Pro', sans-serif;
+  font-family: 'Nunito', sans-serif;
   color: rgb(197, 114, 93);
   font-size: 101px;
 }
