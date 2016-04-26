@@ -8,3 +8,9 @@ body {
   background-attachment: fixed;
   background-position: center; 
 }
+
+.enter {
+  float: middle;
+  margin: 0 auto;
+  position: fixed;
+}
