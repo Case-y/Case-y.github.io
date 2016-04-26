@@ -10,7 +10,6 @@ body {
 }
 
 .enter {
-  float: middle;
   top: 50%;
   left: 50%;
   position: fixed;
@@ -18,4 +17,9 @@ body {
   width: 300px;
   margin-top: -50px;
   margin-left: -150px;
+}
+
+.enterimg {
+  height: 100px;
+  width: 300px;
 }
