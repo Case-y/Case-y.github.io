@@ -4,7 +4,7 @@
 
 @import url(https://fonts.googleapis.com/css?family=Amatic+SC:400,700|Lato:400,100|Advent+Pro:400,100|Londrina+Outline);
 
-@import url(https://fonts.googleapis.com/css?familyJosefin+Sans);
+@import url(https://fonts.googleapis.com/css?family=Josefin+Sans:100);
 
 
 body {
@@ -14,16 +14,13 @@ body {
   background-position: center; 
 }
 
-.name {
-
-}
 
 .myname {
   font-family: 'Josefin Sans', sans-serif;
   color: white;
 }
 
-.enter {
+.name {
   top: 70%;
   left: 50%;
   position: fixed;
@@ -40,5 +37,5 @@ a {
 .enterpic {
   font-family: 'Josefin Sans', sans-serif;
   color: rgb(197, 114, 93);
-  font-size: 101px;
+  font-size: 65px;
 }
