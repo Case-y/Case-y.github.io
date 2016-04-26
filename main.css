@@ -17,11 +17,16 @@ body {
   position: fixed;
   height: 100px;
   width: 300px;
-  margin-top: -50.5px;
-  margin-left: -107.5px;
+  margin-top: -60px;
+  margin-left: -130.4px;
+}
+
+a {
+   text-decoration: none;
 }
 
 .enterpic {
   font-family: 'Advent Pro', sans-serif;
   color: rgb(197, 114, 93);
+  font-size: 101px;
 }
