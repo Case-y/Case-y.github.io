@@ -50,6 +50,7 @@ body {
 
 a {
 	color: rgb(197, 114, 93);
+	text-decoration: none;
 }
 
 p {
@@ -115,6 +116,10 @@ h2 {
 	margin-top: 10px;
 }
 
+h3 {
+	color: white;
+}
+
 .projectsme {
 	padding-top: 20px;
 }
@@ -149,6 +154,7 @@ footer {
 	font-size: 0.8em;
 	margin-top: 30px;
 	font-weight: bold;
+	color: white;
 }
 
 footer ul {
@@ -156,10 +162,12 @@ footer ul {
 	padding: 0px;
 	list-style: none;
 	font-weight: lighter;
+	color: white;
 }
 
 footer ul li {
 	display: inline;
 	margin-right: 20px;
 	align-items: center;
+	color: white;
 }
