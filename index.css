@@ -100,6 +100,14 @@ h1 {
 	border: 3px solid rgb(197, 114, 93);
 }
 
+.jscalc {
+	float: right;
+	margin: -35px 0px 10px 15px;
+	width: 250px;
+	height: 250px;
+	border: 3px solid rgb(197, 114, 93);
+}
+
 .project_pics {
 	float: right;
 	margin: 0px 0px 10px 15px;
