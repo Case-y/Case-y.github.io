@@ -157,10 +157,16 @@ h2, h5 {
 
 .projectsme {
 	padding-top: 20px;
+	text-align: start;
+}
+
+.caseyintro {
+	text-align: start;
 }
 
 .projectsberkeley {
 	padding-top: 20px;
+	text-align: start;
 }
 
 #portrait {
