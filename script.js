@@ -51,9 +51,5 @@ app.controller('MainCtrl', function($scope, $http, $timeout) {
       }
      
     });
-  }
-});
-
-$(document).ready(function() {
-    
+  } 
 });
