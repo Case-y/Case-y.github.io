@@ -94,6 +94,10 @@ h1 {
 	font-size: 1.5em;
 }
 
+.centerresults {
+	text-align: center;
+}
+
 
 .watsi {
 	float: right;
