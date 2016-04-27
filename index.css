@@ -1,6 +1,7 @@
 @import url(https://fonts.googleapis.com/css?family=Raleway);
 @import url(https://fonts.googleapis.com/css?family=Poiret+One|Quicksand);
 @import url(https://fonts.googleapis.com/css?family=Josefin+Sans:100);
+@import url(https://fonts.googleapis.com/css?family=Amatic+SC:400,700|Lato:400,100|Advent+Pro:400,100|Londrina+Outline);
 
 .navbar-top {
   position: fixed;
@@ -136,11 +137,11 @@ h2 {
 
 h3 {
 	color: white;
-	font-family: 'Josefin Sans', sans-serif;
+	font-family: 'Londrina Outline', cursive;
 }
 
 .aboutcasey {
-	font-family: 'Josefin Sans', sans-serif;
+	font-family: 'Londrina Outline', cursive;
 	font-size: 1.4em;
 	line-height: 1.3em;
 	font-weight: 100;
