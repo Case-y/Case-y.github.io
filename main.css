@@ -6,6 +6,7 @@
 
 @import url(https://fonts.googleapis.com/css?family=Josefin+Sans:100);
 
+@import "compass/css3";
 
 body {
   background: url("intro/background.png");
@@ -38,4 +39,13 @@ a {
   color: rgb(197, 114, 93);
   font-size: 65px;
   font-weight: 600;
+  transition: 250ms cubic-bezier(.42,0,.58,1);
+  padding-right: 0.5em;
+  padding-left: 0.5em;
+  padding-top: 1.5em;
+  padding-bottom: 1.5em;
+}
+
+.enterpic:hover {
+  border: 2px solid rgb(197, 114, 93);
 }
