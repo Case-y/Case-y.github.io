@@ -1,9 +1,10 @@
 @import url(https://fonts.googleapis.com/css?family=Raleway);
 @import url(https://fonts.googleapis.com/css?family=Poiret+One|Quicksand);
+@import url(https://fonts.googleapis.com/css?family=Josefin+Sans:100);
 
 .navbar-top {
   position: fixed;
-  font-family: 'Raleway', cursive;
+  font-family: 'Josefin Sans', sans-serif;
   z-index: 10;
   width: 100%;
   background-color: #ffe6e6;
@@ -140,10 +141,11 @@ h2 {
 
 h3 {
 	color: white;
+	font-family: 'Josefin Sans', sans-serif;
 }
 
 .aboutcasey {
-	font-family: 'Raleway', cursive;
+	font-family: 'Josefin Sans', sans-serif;
 	font-size: 1.4em;
 	line-height: 1.3em;
 	font-weight: 100;
