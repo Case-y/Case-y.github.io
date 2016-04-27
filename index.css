@@ -116,9 +116,6 @@ h2 {
 	margin-top: 10px;
 }
 
-h3 {
-	color: white;
-}
 
 .projectsme {
 	padding-top: 20px;
@@ -132,7 +129,7 @@ h3 {
 	width: 250px;
 	height: 250px;
 	border-radius: 100%;
-	border: 3px solid rgb(197, 114, 93);
+	border: 3px solid white;
 	float: right;
 	margin: 0px 20px 0px 35px;
 }
@@ -146,11 +143,11 @@ h3 {
 	font-size: 1.4em;
 	line-height: 1.3em;
 	font-weight: 100;
-	color: black;
+	color: white;
 }
 
 footer {
-	border-top: 2px inset #ffe6e6;
+	border-top: 2px inset white;
 	font-size: 0.8em;
 	margin-top: 30px;
 	font-weight: bold;
