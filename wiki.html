@@ -2,6 +2,7 @@
 <html>
 	<head>
 	<link rel="stylesheet" type="text/css" href ="index.css">
+	<link rel="stylesheet" type="text/css" href ="wiki.css">
 		<title> Have a Quote! </title>
 	</head>
 
@@ -15,5 +16,46 @@
 		<li> <a href="/other">OTHER</a></li>
 	 </ul>
 	</nav>
+
+	<main class = "content" ng-app = "WikiApp" ng-controller = "MainCtrl">
+	<div id = "search" class = "wrapper fullHeight white-text"> Click Here for Something Random from Wikipedia! 	<div class = "buttons">
+			<button class = "button btn">
+			<a href = "http://en.wikipedia.org/wiki/Special:Random" id = "random-wiki" title = "Random?" target = "_blank">
+			<i class = "fa fa-wikipedia-w"> </i>
+			</a>
+			</button>
+		</div>
+		<hr class = "division"> </hr>
+		<p id = "help" class = "white-text">
+		Find something you want to search?
+		</p>
+		<form ng-submit = "search()">
+			<input type = "text" id = "awesome" ng-model = "searchTxt"/>
+			<div class = "eks"></div>
+		</form>
+	</div>
+	<div class = "wrapper">
+	<ul> 
+		<a ng-href = "{{result.page}}" target = "_blank" ng-repeat = "result in results">
+		<li>
+			<h1>{{result.title}}</h1>
+			<p>{{result.body}}</p>
+		</li>
+		</a>
+	</ul>
+	</div>
+
+	<footer>
+	<ul>
+	<li> © 2016 Casey Takeda. All rights reserved. </li> 
+	</ul>
+
+	</footer>
+	</main>
+	
+<script text="text/javascript" src="//ajax.googleapis.com/ajax/libs/angularjs/1.3.2/angular.min.js"></script>
+<script text="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+<script text="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/angular.js/1.3.2/angular-animate.min.js"></script>
+<script text="text/javascript" src="script.js"></script>
 
 </html>
