@@ -136,6 +136,7 @@ form input {
   -ms-transform: translateY(-50%);
   -o-transform: translateY(-50%);
   transform: translateY(-50%);
+  box-sizing: border-box;
 }
 .eks:before, .eks:after {
   right: 5px;
@@ -145,6 +146,7 @@ form input {
   -webkit-transition: all 0.25s ease;
   -moz-transition: all 0.25s ease;
   transition: all 0.25s ease;
+  box-sizing: border-box;
 }
 .eks:before {
   top: 0px;
@@ -162,6 +164,7 @@ form input {
   -webkit-transition-delay: 0.1s;
   -moz-transition-delay: 0.1s;
   transition-delay: 0.1s;
+  box-sizing: border-box;
 }
 .eks:after {
   bottom: 0px;
@@ -179,6 +182,7 @@ form input {
   -webkit-transition-delay: 0s;
   -moz-transition-delay: 0s;
   transition-delay: 0s;
+  box-sizing: border-box;
 }
 
 form.open {
@@ -249,12 +253,14 @@ form.open .eks:after {
   width: 100%;
   height: 100%;
   background-color: transparent;
+  box-sizing: border-box;
 }
 
 .wikia {
   text-decoration: none;
   color: black;
   font-size: 18px;
+  box-sizing: border-box;
 }
 
 .wikili {
@@ -270,6 +276,7 @@ form.open .eks:after {
   -webkit-transition-timing-function: cubic-bezier(0.6, 0, 0.4, 1);
   -moz-transition-timing-function: cubic-bezier(0.6, 0, 0.4, 1);
   transition-timing-function: cubic-bezier(0.6, 0, 0.4, 1);
+  box-sizing: border-box;
 }
 
 h1 {
@@ -283,11 +290,13 @@ p {
 .ulchange:hover {
   border-left: 5px solid #D96F32;
   margin-left: -5px;
+  box-sizing: border-box;
 }
 
 .lichange:hover {
   border-left: 5px solid #D96F32;
   margin-left: -5px;
+  box-sizing: border-box;
 }
 
 .hide {
