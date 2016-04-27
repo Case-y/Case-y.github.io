@@ -44,8 +44,6 @@ main {
 body {
 	margin: 0;
 	background: url("intro/background.png");
-  	background-repeat: repeat-y;
-  	background-attachment: fixed;
   	background-position: center;
 }
 
