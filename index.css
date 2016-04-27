@@ -42,7 +42,10 @@ main {
 
 body {
 	margin: 0;
-	background-color: rgba(235, 250, 230, 1);
+	background: url("intro/background.png");
+  	background-repeat: no-repeat;
+  	background-attachment: fixed;
+  	background-position: center;
 }
 
 a {
