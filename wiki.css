@@ -1,7 +1,5 @@
 @import url(http://fonts.googleapis.com/css?family=Rokkitt:700);
-* {
-  box-sizing: border-box;
-}
+
 
 input[type='text'] {
   -webkit-appearance: none;
@@ -201,22 +199,13 @@ form.open .eks:after {
   transition-delay: 0.3s;
 }
 
-ul {
+.wikiul {
   margin-left: 0;
   padding-left: 0;
   width: 80%;
-}
-ul a {
+  font-size: 18px;
   text-decoration: none;
   color: black;
-}
-ul a h1 {
-  font-size: 18px;
-}
-ul a p {
-  font-size: 14px;
-}
-ul li {
   list-style-type: none;
   display: block;
   margin-bottom: 10px;
@@ -230,9 +219,44 @@ ul li {
   -moz-transition-timing-function: cubic-bezier(0.6, 0, 0.4, 1);
   transition-timing-function: cubic-bezier(0.6, 0, 0.4, 1);
 }
-ul li:hover {
+
+.wikia {
+  text-decoration: none;
+  color: black;
+  font-size: 18px;
+}
+
+.wikili {
+  list-style-type: none;
+  display: block;
+  margin-bottom: 10px;
+  padding: 15px 30px 5px 30px;
+  background-color: #E7E7E8;
+  opacity: 0;
+  -webkit-animation: new-item 1s ease-in-out forwards;
+  -moz-animation: new-item 1s ease-in-out forwards;
+  animation: new-item 1s ease-in-out forwards;
+  -webkit-transition-timing-function: cubic-bezier(0.6, 0, 0.4, 1);
+  -moz-transition-timing-function: cubic-bezier(0.6, 0, 0.4, 1);
+  transition-timing-function: cubic-bezier(0.6, 0, 0.4, 1);
+}
+
+h1 {
+  font-size: 18px;
+}
+
+p {
+  font-size: 14px;
+}
+
+.wikiul:hover {
   border-left: 5px solid #D96F32;
   margin-left: -5px;
+}
+
+.wikili:hover {
+  border-left: 5px solid #D96F32;
+  margin-left: -5px;v
 }
 
 .hide {
@@ -286,7 +310,7 @@ form:before, .eks:before, .eks:after {
 }
 
 
-ul {
+.wikiul {
   float: none;
   width: 655px;
   margin: 0 auto;
@@ -323,7 +347,7 @@ ul {
     height: 30px;
   }
 
-html, body, main {
+main {
   font-family: "Lucida Grande", "Lucida Sans Unicode", Tahoma, Sans-Serif;
   
   position: relative;

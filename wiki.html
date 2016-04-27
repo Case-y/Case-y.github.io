@@ -3,7 +3,7 @@
 	<head>
 	<link rel="stylesheet" type="text/css" href ="wiki.css">
 	<link rel="stylesheet" type="text/css" href ="index.css">
-		<title> Have a Quote! </title>
+		<title> Wiki Search! </title>
 	</head>
 
 	<nav class="navbar-top">
@@ -35,9 +35,9 @@
 		</form>
 	</div>
 	<div class = "wrapper">
-	<ul> 
-		<a ng-href = "{{result.page}}" target = "_blank" ng-repeat = "result in results">
-		<li>
+	<ul class = "wikiul"> 
+		<a class = "wikia" ng-href = "{{result.page}}" target = "_blank" ng-repeat = "result in results">
+		<li class = "wikili">
 			<h1>{{result.title}}</h1>
 			<p>{{result.body}}</p>
 		</li>
