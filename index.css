@@ -146,6 +146,10 @@ h2, h5 {
 	margin-top: 10px;
 }
 
+.aboutquote {
+	text-align: start;
+}
+
 .aboutauthor {
 	text-align: end;
 }
