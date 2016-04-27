@@ -41,7 +41,7 @@ app.controller('MainCtrl', function($scope, $http, $timeout) {
     $http.jsonp(api + title + cb)
     .success(function(data) {
       if (data.query == undefined) {
-        alert("System.out.printLNFUCK");
+        alert("No Results. Try Searching Again!");
         $scope.results.push({title: "No results.", body: "Please search again.", page: ""})
       } else {
       var results = data.query.pages;
