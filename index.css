@@ -137,14 +137,15 @@ h2 {
 
 h3 {
 	color: white;
-	font-family: 'Advent Pro', sans-serif;
+	font-family: 'Josefin Sans', sans-serif;
+	font-weight: 600;
 }
 
 .aboutcasey {
-	font-family: 'Advent Pro', sans-serif;
+	font-family: 'Josefin Sans', sans-serif;
 	font-size: 1.4em;
 	line-height: 1.3em;
-	font-weight: 100;
+	font-weight: 600;
 	color: white;
 }
 
