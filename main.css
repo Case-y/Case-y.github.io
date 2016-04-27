@@ -22,9 +22,11 @@ body {
 }
 
 .name {
-  top: 30%;
+  top: 50%;
   left: 50%;
   position: fixed;
+  text-align: center;
+  transform: translate(-50%, -50%);
 }
 
 a {
