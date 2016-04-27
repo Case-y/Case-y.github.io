@@ -14,7 +14,6 @@ div#search {
     padding-top: 10px;
     width: 100%;
     height: 100%;
-    background-color: #77B1A0;
     font-family: 'Josefin Sans', sans-serif;
     box-sizing: border-box;
 }
@@ -215,6 +214,13 @@ form.open .eks:after {
   -webkit-transition-delay: 0.3s;
   -moz-transition-delay: 0.3s;
   transition-delay: 0.3s;
+  position: relative;
+  margin: 0;
+  padding: 0;
+  padding-top: 10px;
+  width: 100%;
+  height: 100%;
+  background-color: transparent;
 }
 
 .wikiul {
@@ -236,6 +242,13 @@ form.open .eks:after {
   -webkit-transition-timing-function: cubic-bezier(0.6, 0, 0.4, 1);
   -moz-transition-timing-function: cubic-bezier(0.6, 0, 0.4, 1);
   transition-timing-function: cubic-bezier(0.6, 0, 0.4, 1);
+  position: relative;
+  margin: 0;
+  padding: 0;
+  padding-top: 10px;
+  width: 100%;
+  height: 100%;
+  background-color: transparent;
 }
 
 .wikia {
