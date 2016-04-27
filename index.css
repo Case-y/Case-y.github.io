@@ -49,20 +49,19 @@ body {
 }
 
 a {
-	color: #ffa64d;
+	color: rgb(197, 114, 93);
 }
 
 p {
 	font-family: 'Quicksand', sans-serif;
 	font-weight: lighter;
 	font-size: 1.2em;
-	color: #333333;
+	color: white;
 	line-height: 1.5em;
 }
 
 .casey {
 	padding: 50px 40px 40px;
-	background-color: #ffffff;
 	max-width: 950px;
 	margin: 0 auto;
 	padding-bottom: 30px;
@@ -71,7 +70,6 @@ p {
 
 .content {
 	padding: 50px 40px 40px;
-	background-color: #ffffff;
 	max-width: 950px;
 	margin: 0 auto;
 }
@@ -80,7 +78,7 @@ h1 {
 	font-family: 'Raleway', cursive;
 	text-align: right;
 	font-size: 3em;
-	color: #ffa64d;
+	color: rgb(197, 114, 93);
 }
 
 .berkeley {
@@ -99,21 +97,21 @@ h1 {
 	float: right;
 	margin: 0px 0px 10px 15px;
 	width: 320px;
-	border: 3px solid #ffe6e6;
+	border: 3px solid rgb(197, 114, 93);
 }
 
 .berkeley_pics {
 	float: right;
 	margin: 0px 0px 10px 15px;
 	width: 320px;
-	border: 3px solid #ffe6e6;
+	border: 3px solid rgb(197, 114, 93);
 }
 
 h2 {
 	font-family: 'Poiret One', cursive;
 	font-size: 1.8em;
 	line-height: 1.4em;
-	color: #ff6666;
+	color: rgb(197, 114, 93);
 	margin-top: 10px;
 }
 
@@ -129,7 +127,7 @@ h2 {
 	width: 250px;
 	height: 250px;
 	border-radius: 100%;
-	border: 3px solid #ffe6e6;
+	border: 3px solid rgb(197, 114, 93);
 	float: right;
 	margin: 0px 20px 0px 35px;
 }
