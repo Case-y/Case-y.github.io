@@ -8,9 +8,11 @@ $(document).ready(function() {
     $(window).on('resize', function() {
       var win = $(this); //this = window
       if (win.height() <= 400) {  
+        alert("Please don't use mobile or attempt word wrap :)");
         window.location.replace("/about");
       }
       if (win.width() <= 900) { 
+        alert("Please don't use mobile or attempt word wrap :)");
         window.location.replace("/about");
       }
     });
