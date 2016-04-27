@@ -131,6 +131,13 @@ h1 {
 	border: 3px solid rgb(197, 114, 93);
 }
 
+.friend_pics {
+	float: right;
+	margin: 0px 0px 10px 15px;
+	width: 320px;
+	border: 3px solid rgb(197, 114, 93);
+}
+
 .berkeley_pics {
 	float: right;
 	margin: 0px 0px 10px 15px;
