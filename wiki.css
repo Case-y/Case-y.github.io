@@ -1,9 +1,22 @@
 @import url(http://fonts.googleapis.com/css?family=Rokkitt:700);
+@import url(https://fonts.googleapis.com/css?family=Josefin+Sans:100);
 
 div#search {
     position: relative;
     margin-top: 100px;
     text-align: center;
+}
+
+.change {
+    position: relative;
+    margin: 0;
+    padding: 0;
+    padding-top: 10px;
+    width: 100%;
+    height: 100%;
+    background-color: #77B1A0;
+    font-family: 'Josefin Sans', sans-serif;
+    box-sizing: border-box;
 }
 
 input[type='text'] {
