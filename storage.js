@@ -1,19 +1,19 @@
 $(document).ready(function() {
     if (window.innerHeight <= 400) { 
-        window.location.replace("/about");
+        window.location.replace("/wiki");
     }
     if (window.innerWidth <= 900) {  
-        window.location.replace("/about");
+        window.location.replace("/wiki");
     }
     $(window).on('resize', function() {
       var win = $(this); //this = window
       if (win.height() <= 400) {  
         alert("Please don't use mobile or attempt word wrap :)");
-        window.location.replace("/about");
+        window.location.replace("/wiki");
       }
       if (win.width() <= 900) { 
         alert("Please don't use mobile or attempt word wrap :)");
-        window.location.replace("/about");
+        window.location.replace("/wiki");
       }
     });
     $(".welcome").hover(function() {
