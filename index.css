@@ -90,6 +90,11 @@ h1 {
 	height: 250px;
 }
 
+.pomodoro {
+	float: right;
+	width: 300px;
+	height: 300px;
+}
 
 .project_pics {
 	float: right;
