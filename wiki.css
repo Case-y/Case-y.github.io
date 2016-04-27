@@ -277,6 +277,10 @@ form.open .eks:after {
   -moz-transition-timing-function: cubic-bezier(0.6, 0, 0.4, 1);
   transition-timing-function: cubic-bezier(0.6, 0, 0.4, 1);
   box-sizing: border-box;
+  border-radius: 10px;
+  text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.2);
+  box-shadow: 3px 3px 3px rgba(0, 0, 0, 0.5);
+  letter-spacing: 2px;
 }
 
 h1 {
