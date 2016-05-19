@@ -2,7 +2,7 @@
 @import url(https://fonts.googleapis.com/css?family=Poiret+One|Quicksand);
 @import url(https://fonts.googleapis.com/css?family=Josefin+Sans:100);
 @import url(https://fonts.googleapis.com/css?family=Amatic+SC:400,700|Lato:400,100|Advent+Pro:400,100|Londrina+Outline);
-
+@import url(https://fonts.googleapis.com/css?family=Alegreya+Sans);
 
 .navbar-top {
   position: fixed;
@@ -84,7 +84,7 @@ p {
 }
 
 h1 {
-	font-family: 'Raleway', cursive;
+	font-family: 'Alegreya Sans', sans-serif;
 	text-align: right;
 	font-size: 3em;
 	color: rgb(197, 114, 93);
