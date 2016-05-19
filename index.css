@@ -9,10 +9,14 @@
   font-family: 'Josefin Sans', sans-serif;
   z-index: 10;
   width: 100%;
-  background-color: #ffe6e6;
+  background-color: #BDC0DE;
   display: inline-block;
   list-style-type: none;
   text-align: center;
+}
+
+.nav-item-active {
+	background-color: #DF916A;
 }
 
 .awesometext {
@@ -32,10 +36,6 @@ ul {
 nav ul li {
   display: inline;
   text-align: center;
-}
-
-.nav-item-active {
-	background-color: #ffb3b3;
 }
 
 nav a {
