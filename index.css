@@ -118,8 +118,6 @@ h1 {
 .websitepic {
 	float: right;
 	margin: -35px 0px 10px 15px;
-	width: 250px;
-	height: 250px;
 	border: 3px solid rgb(197, 114, 93);
 }
 
