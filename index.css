@@ -86,8 +86,10 @@ p {
 h1 {
 	font-family: 'Alegreya Sans', sans-serif;
 	text-align: right;
-	font-size: 3em;
+	font-size: 6em;
 	color: rgb(197, 114, 93);
+	height: 70px;
+	margin-top: 10px;
 }
 
 .clickwiki {
