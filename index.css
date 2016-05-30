@@ -61,6 +61,20 @@ a {
 	text-decoration: none;
 }
 
+.delay {
+  font-family: 'Josefin Sans', sans-serif;
+  font-size: 5em;
+  color: white;
+}
+
+.jcase {
+  top: 50%;
+  left: 50%;
+  position: fixed;
+  text-align: center;
+  transform: translate(-50%, -50%);
+}
+
 p {
 	font-family: 'Raleway', cursive;
 	font-weight: lighter;
