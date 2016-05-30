@@ -65,13 +65,14 @@ a {
   font-family: 'Josefin Sans', sans-serif;
   font-size: 5em;
   color: white;
+  text-align: center;
 }
 
 .jcase {
   top: 50%;
   left: 50%;
   position: fixed;
-  text-align: center;
+  
   transform: translate(-50%, -50%);
 }
 
