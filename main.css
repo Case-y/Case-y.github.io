@@ -10,7 +10,7 @@ body {
 }
 
 a {
-    info-decoration: none;
+    text-decoration: none;
     cursor: pointer;
 }
 
