@@ -88,9 +88,13 @@
 
 .wakeup {
     width: 370px;
-    margin-top: 70px;
+    margin-top: 90px;
     margin-right: 80px;
     margin-bottom: 100px;
+}
+
+.wakeupd {
+    margin-top: 20px;
 }
 
 @media (max-width: 1140px) {
@@ -195,8 +199,4 @@
 
 .pic2 {
     display: none;
-}
-
-.cushion {
-    padding-top: 200px;
 }
