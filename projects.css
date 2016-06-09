@@ -222,6 +222,7 @@
 
 .button:hover {
     background: #DDD;
+    font-weight: bold;
 }
 
 .pic2 {
