@@ -75,6 +75,11 @@
     height: 300px;
 }
 
+.wake {
+    width: 320px;
+    height: 320px;
+}
+
 .projpic > img {
     width: 100%;
     float: right;
