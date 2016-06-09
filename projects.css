@@ -86,6 +86,10 @@
     }
 }
 
+.wakeup {
+    width: 400px;
+}
+
 @media (max-width: 1140px) {
     .projpic {
         border: 1px solid #999;
