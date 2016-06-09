@@ -1,0 +1,88 @@
+@media (min-width: 875px) {
+    #pictureofme {
+        width: 600px;
+        position: fixed;
+        z-index: -10;
+        padding-left: 15%;
+        margin-left: -470px;
+        height: 100%;
+    }
+    #pictureofme > img {
+        height: 100%;
+    }
+    #aboutme {
+        margin: 0 auto;
+        padding-left: 60px;
+        padding-right: 60px;
+        padding-top: 23%;
+        max-width: 600px;
+    }
+    #whiteside {
+        background-color: white;
+        height: 100%;
+        margin-left: 40%;
+    }
+    #sidebar {
+        border-right: none;
+    }
+    #name {
+        font-size: 50px;
+        font-weight: 600;
+    }
+}
+@media (max-width: 875px) {
+    #sidebar {
+        border-right: 1px solid black;
+    }
+    #pictureofme {
+        height: 40%;
+        overflow: hidden;
+    }
+    #pictureofme > img {
+        width: 100%;
+        margin-top: -140px;
+    }
+    #aboutme {
+        margin: 0 auto;
+        padding: 20px 60px 30px 100px;
+    }
+    #name {
+        font-size: 50px;
+        font-weight: 600;
+    }
+}
+@media (max-width: 700px) {
+    #sidebar {
+        border-right: 1px solid black;
+    }
+    #pictureofme {
+        height: 25%;
+        overflow: hidden;
+    }
+    #pictureofme > img {
+        width: 100%;
+        margin-top: -100px;
+    }
+    #aboutme {
+        margin: 0 auto;
+        padding: 20px 30px 30px 70px;
+    }
+    #name {
+        font-size: 45px;
+        font-weight: 600;
+    }
+}
+#description {
+    font-style: italic;
+}
+.header {
+    font-size: 30px;
+    font-weight: 100;
+    margin: 20px 0px 0px;
+}
+.text {
+    font-size: 15;
+    font-weight: 300;
+    line-height: 25px;
+    margin-top: 10px;
+}
