@@ -130,6 +130,19 @@
         float: right;
         margin-top: 30px;
     }
+
+    .original {
+        margin-top: 105px;
+    }
+
+    .editor {
+        margin-top: 90px;
+    }
+
+    .bearmaps {
+        margin-top: 180px;
+        margin-bottom: 10px;
+    }
     .wakeup {
         margin-right: 50px;
         width: 370px;
