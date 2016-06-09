@@ -1,10 +1,10 @@
 @media (min-width: 875px) {
     #pictureofme {
-        width: 600px;
+        width: 1000px;
         position: fixed;
         z-index: -10;
-        padding-left: 15%;
-        margin-left: -470px;
+        padding-left: 50%;
+        margin-left: -575px;
         height: 100%;
     }
     #pictureofme > img {
@@ -38,7 +38,6 @@
     #pictureofme {
         height: 40%;
         overflow: hidden;
-        padding-top: 130px;
     }
     #pictureofme > img {
         width: 100%;
