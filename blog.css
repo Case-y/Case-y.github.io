@@ -1,0 +1,83 @@
+@media (min-width: 800px) {
+    #blogbar {
+        height: 100%;
+        position: fixed;
+        right: 0px;
+        border-left: 1px solid #777;
+        width: 160px;
+        padding: 20px;
+    }
+    #content {
+        margin-left: auto;
+        margin-right: auto;
+        padding: 0px 240px 40px 80px;
+    }
+}
+@media (max-width: 800px) {
+    #blogbar {
+        display: none;
+    }
+    #content {
+        margin-left: auto;
+        margin-right: auto;
+        padding: 0px 40px 40px 80px;
+    }
+}
+.bartitle {
+    font-weight: 700;
+    margin-top: 20px;
+    color: #444;
+}
+.bardescript {
+    font-size: 14px;
+    font-weight: 300;
+}
+.barpoint {
+    font-size: 14px;
+    font-weight: 300;
+    color: #999;
+    cursor: pointer;
+}
+.all {
+    color: #777;
+}
+#pagetitle {
+    padding: 30px 0px;
+    font-size: 55px;
+    font-weight: 700;
+    line-height: 55px;
+}
+.blogpost {
+    background-color: white;
+    padding: 25px;
+    border-radius: 2px;
+    margin-bottom: 20px;
+    color: black;
+}
+.posttitle {
+    font-size: 22px;
+    font-weight: 700;
+    margin-bottom: 2px;
+}
+.postdate {
+    font-size: 15px;
+    font-style: italic;
+    padding-bottom: 10px;
+    display: inline-block;
+}
+.postcategory {
+    display: inline-block;
+    background-color: #DDD;
+    font-size: 13px;
+    padding: 2px 10px;
+    border-radius: 10px;
+    margin-right: 5px;
+    float: right;
+}
+.postsnippet {
+    border-top: 1px solid #777;
+    padding-top: 10px;
+    font-size: 14px;
+    line-height: 24px;
+    font-weight: 300;
+}
