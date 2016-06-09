@@ -197,10 +197,6 @@
     }
 }
 
-a {
-    text-decoration: none;
-}
-
 .buttonbar {
     margin-top: 5px;
 }
@@ -216,6 +212,7 @@ a {
     transition: background 0.2s ease;
     -webkit-transition: background 0.2s ease;
     -moz-transition: background 0.2s ease;
+    color: #777;
 }
 
 .button > a {
