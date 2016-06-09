@@ -25,7 +25,7 @@
         margin-left: 40%;
     }
     #sidebar {
-        border-right: none;
+        border-right: 1px solid black;
     }
     #name {
         font-size: 50px;
