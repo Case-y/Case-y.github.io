@@ -1,12 +1,4 @@
 @media (min-width: 800px) {
-    #blogbar {
-        height: 100%;
-        position: fixed;
-        right: 0px;
-        border-left: 1px solid #777;
-        width: 160px;
-        padding: 20px;
-    }
     #content {
         margin-left: auto;
         margin-right: auto;
@@ -14,33 +6,13 @@
     }
 }
 @media (max-width: 800px) {
-    #blogbar {
-        display: none;
-    }
     #content {
         margin-left: auto;
         margin-right: auto;
         padding: 0px 40px 40px 80px;
     }
 }
-.bartitle {
-    font-weight: 700;
-    margin-top: 20px;
-    color: #444;
-}
-.bardescript {
-    font-size: 14px;
-    font-weight: 300;
-}
-.barpoint {
-    font-size: 14px;
-    font-weight: 300;
-    color: #999;
-    cursor: pointer;
-}
-.all {
-    color: #777;
-}
+
 #pagetitle {
     padding: 30px 0px;
     font-size: 55px;
