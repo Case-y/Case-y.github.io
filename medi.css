@@ -20,7 +20,8 @@
         margin-left: -60px;
     }
     #whiteside {
-        background-color: rgb(245, 255, 250);
+        /*background-color: rgb(245, 255, 250);*/
+        background-color: #F6F6F6;
         height: 100%;
         margin-left: 40%;
     }
