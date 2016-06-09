@@ -25,6 +25,9 @@
     border-radius: 2px;
     margin-bottom: 20px;
     color: black;
+    position: fixed;
+    left: 10%;
+    right: 10%;
 }
 .posttitle {
     font-size: 22px;
