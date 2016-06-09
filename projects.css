@@ -48,6 +48,11 @@
     border-radius: 10px;
 }
 
+a {
+    color: #777;
+    text-decoration: none;
+}
+
 .projectdescript {
     border-top: 1px solid #61B329;
     padding-top: 10px;
