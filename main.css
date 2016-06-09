@@ -90,6 +90,7 @@ a {
 
 .sidebar-item:hover {
     color: #336699;
+    font-weight: bold;
 }
 
 #menu {
