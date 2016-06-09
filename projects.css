@@ -72,6 +72,7 @@
 
 .projpic > img {
     width: 100%;
+    float: right;
 }
 
 @media (min-width: 1140px) {
@@ -79,6 +80,7 @@
         border: 1px solid #999;
         width: 550px;
         display: inline-block;
+        float: right;
     }
 }
 
@@ -87,13 +89,14 @@
         border: 1px solid #999;
         width: 480px;
         display: inline-block;
+        float: right;
     }
 }
 
 @media (min-width: 1140px) {
     .projinfo {
         display: inline-block;
-        float: right;
+        float: left;
         width: 410px;
     }
 }
@@ -101,7 +104,7 @@
 @media (max-width: 1140px) {
     .projinfo {
         display: inline-block;
-        float: right;
+        float: left;
         width: 360px;
     }
 }
