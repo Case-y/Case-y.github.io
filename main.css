@@ -24,7 +24,7 @@ a {
     clear: both;
 }
 
-#sidebar {
+#nav {
     position: fixed;
     width: 140px;
     height: 100%;
@@ -41,28 +41,28 @@ a {
     border-right: 1px solid black;
 }
 
-#sidebar:hover {
+#nav:hover {
     left: 0px;
     background: rgba(255, 255, 250, 0.9);
     border-right: none;
 }
 
-#sidebar:hover #menu > img {
+#nav:hover #menu > img {
     opacity: 0;
 }
 
-#sidebar-content {
+#nav-content {
     height: 100%;
 }
 
-.sidebar-name {
+.nav-name {
     font-size: 22px;
     color: black;
     line-height: 24px;
     font-weight: 600;
 }
 
-.sidebar-category {
+.nav-category {
     margin-top: 20px;
     line-height: 25px;
     color: #555;
@@ -70,7 +70,7 @@ a {
     font-size: 14px;
 }
 
-.sidebar-item {
+.nav-item {
     color: #777;
     font-weight: 300;
     line-height: 25px;
@@ -79,7 +79,7 @@ a {
     -moz-transition: left 0.5s ease;
 }
 
-.sidebar-item:hover {
+.nav-item:hover {
     font-weight: bold;
 }
 
