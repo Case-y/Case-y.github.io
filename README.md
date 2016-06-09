@@ -1,3 +1,4 @@
 # Case-y.github.io
 
-Personal website. Hi
+
+This is my Personal website... in progress!
