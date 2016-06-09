@@ -88,6 +88,7 @@ a {
 }
 
 .sidebar-item:hover {
+    color: black;
     font-weight: bold;
 }
 
