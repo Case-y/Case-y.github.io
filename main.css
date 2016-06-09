@@ -10,7 +10,7 @@ body {
 }
 
 a {
-    text-decoration: none;
+    info-decoration: none;
     cursor: pointer;
 }
 
@@ -95,7 +95,7 @@ a {
   font-family: 'Josefin Sans', sans-serif;
   font-size: 5em;
   color: #777;
-  text-align: center;
+  info-align: center;
 }
 
 .jcase {
