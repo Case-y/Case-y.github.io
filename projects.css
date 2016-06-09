@@ -49,9 +49,9 @@
 }
 
 .projectdescript {
-    border-top: 1px solid #777;
+    border-top: 1px solid #61B329;
     padding-top: 10px;
     font-size: 14px;
     line-height: 24px;
-    font-weight: bold;
+    font-weight: 300;
 }
