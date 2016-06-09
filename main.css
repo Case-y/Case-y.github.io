@@ -20,7 +20,7 @@ body {
 a {
     text-decoration: none;
     cursor: pointer;
-    color: #61B329;
+    color: #336699;
 }
 
 #menu > img {
@@ -89,7 +89,7 @@ a {
 }
 
 .sidebar-item:hover {
-    color: #61B329;
+    color: #336699;
 }
 
 #menu {
