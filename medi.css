@@ -38,6 +38,7 @@
     #pictureofme {
         height: 40%;
         overflow: hidden;
+        padding-top: 130px;
     }
     #pictureofme > img {
         width: 100%;
