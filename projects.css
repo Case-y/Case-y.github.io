@@ -197,6 +197,10 @@
     }
 }
 
+a {
+    text-decoration: none;
+}
+
 .buttonbar {
     margin-top: 5px;
 }
