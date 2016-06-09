@@ -194,3 +194,7 @@
 .pic2 {
     display: none;
 }
+
+.cushion {
+    padding-top: 200px;
+}
