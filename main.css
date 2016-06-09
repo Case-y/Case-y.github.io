@@ -1,6 +1,6 @@
 
 body {
-  background: rbg(245, 255, 250);
+  background: rgb(245, 255, 250);
   background-repeat: no-repeat;
   background-attachment: fixed;
   background-position: center; 
@@ -32,7 +32,7 @@ a {
     overflow: hidden;
     z-index: 10;
     /*background: #F6F6F6;*/
-    background: rbg(245, 255, 250);
+    background: rgb(245, 255, 250);
     border-right: 1px solid #CCC;
     padding: 20px;
     transition: left 0.5s ease, background 0.75s, border-right 1s;
