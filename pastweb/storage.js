@@ -1,17 +1,17 @@
 $(document).ready(function() {
     if (window.innerHeight <= 400) { 
-        window.location.replace("/wiki");
+        window.location.replace("/pastweb/wiki");
     }
     if (window.innerWidth <= 900) {  
-        window.location.replace("/wiki");
+        window.location.replace("/pastweb/wiki");
     }
     $(window).on('resize', function() {
       var win = $(this); //this = window
       if (win.height() <= 400) {  
-        window.location.replace("/wiki");
+        window.location.replace("/pastweb/wiki");
       }
       if (win.width() <= 900) { 
-        window.location.replace("/wiki");
+        window.location.replace("/pastweb/wiki");
       }
     });
     $(".welcome").hover(function() {

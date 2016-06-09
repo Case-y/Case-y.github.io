@@ -9,43 +9,103 @@
 @import "compass/css3";
 
 body {
-  background: url("intro/background.png");
+  background: rgba(245, 255, 250, 1);
   background-repeat: no-repeat;
   background-attachment: fixed;
   background-position: center; 
-}
-
-
-.myname {
+  margin: 0px;
   font-family: 'Josefin Sans', sans-serif;
-  font-size: 5em;
-  color: white;
 }
 
-.name {
-  top: 50%;
-  left: 50%;
+#sidebar {
+  border-left: 1px solid black;
   position: fixed;
-  text-align: center;
-  transform: translate(-50%, -50%);
+  width: 140px;
+  height: 100%;
+  right: -140px;
+  overflow: hidden;
+  z-index: 5;
+  background: rgba(245, 255, 250, 1);
+  padding: 20px;
+  -webkit-transition: left 0.5s ease, background 0.75s, border-right 1s;
+}
+
+#sidebar-content {
+  height: 100%;
+}
+
+.sidebar-name {
+  font-size: 22px;
+  color: black;
+  line-height: 24px;
+  font-wieght: 700;
+}
+
+.sidebar-category {
+  margin-top: 20px;
+  line-height: 25px;
+  color: #555;
+  font-weight: 600;
+  font-size: 14px;
 }
 
 a {
-   text-decoration: none;
+  text-decoration: none;
+  cursor: pointer;
+  color: black;
 }
 
-.enterpic {
-  font-family: 'Josefin Sans', sans-serif;
-  color: rgb(197, 114, 93);
-  font-size: 65px;
+.sidebar-item {
+  color: #777;
+  font-weight: 300;
+  line-height: 25px;
+  -webkit-transition: left 0.5s ease;
+}
+
+div {
+  display: block;
+}
+
+#more {
+  height: 25px;
+  position: fixed;
+  bottom: 15px;
+  right: 7px;
+}
+
+#pictureofme {
+  height: 25%;
+  overflow: hidden;
+}
+
+#pictureofme > img {
+  width: 100%;
+  margin-top: -100px;
+}
+
+#aboutme {
+  margin: 0 auto;
+  padding: 20px 30px 30px 70px;
+}
+
+#name {
+  font-size: 45px;
   font-weight: 600;
-  transition: padding 0.5s ease;
-  padding-right: 0.5em;
-  padding-left: 0.5em;
-  padding-top: 0.15em;
-  padding-bottom: 0.15em;
 }
 
-.enterpic:hover {
-  border: 2px solid rgb(197, 114, 93);
+#description {
+  font-style: italic;
+}
+
+.header {
+  font-size: 30px;
+  font-weight: 100;
+  margin: 20px 0px 0px;
+}
+
+.text {
+  font-size: 15;
+  font-weight: 300;
+  line-height: 25px;
+  margin-top: 10px;
 }
