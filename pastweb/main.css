@@ -1,0 +1,51 @@
+@import url(https://fonts.googleapis.com/css?family=Shadows+Into+Light);
+
+@import url(https://fonts.googleapis.com/css?family=Raleway);
+
+@import url(https://fonts.googleapis.com/css?family=Amatic+SC:400,700|Lato:400,100|Advent+Pro:400,100|Londrina+Outline);
+
+@import url(https://fonts.googleapis.com/css?family=Josefin+Sans:100);
+
+@import "compass/css3";
+
+body {
+  background: url("intro/background.png");
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: center; 
+}
+
+
+.myname {
+  font-family: 'Josefin Sans', sans-serif;
+  font-size: 5em;
+  color: white;
+}
+
+.name {
+  top: 50%;
+  left: 50%;
+  position: fixed;
+  text-align: center;
+  transform: translate(-50%, -50%);
+}
+
+a {
+   text-decoration: none;
+}
+
+.enterpic {
+  font-family: 'Josefin Sans', sans-serif;
+  color: rgb(197, 114, 93);
+  font-size: 65px;
+  font-weight: 600;
+  transition: padding 0.5s ease;
+  padding-right: 0.5em;
+  padding-left: 0.5em;
+  padding-top: 0.15em;
+  padding-bottom: 0.15em;
+}
+
+.enterpic:hover {
+  border: 2px solid rgb(197, 114, 93);
+}
