@@ -55,7 +55,7 @@ a {
     border-right: none;
 }
 
-#sidebar:hover #more > img {
+#sidebar:hover #menu > img {
     opacity: 0;
 }
 
