@@ -57,7 +57,8 @@
         border-right: 1px solid black;
     }
     #pictureofme {
-        height: 25%;
+        height: 300px;
+        padding-top: 60px;
         overflow: hidden;
     }
     #pictureofme > img {
