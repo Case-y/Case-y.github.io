@@ -17,6 +17,7 @@
         padding-top: 15%;
         padding-bottom: 25%;
         max-width: 600px;
+        margin-left: -60px;
     }
     #whiteside {
         background-color: rgba(245, 255, 250, 1);
