@@ -1,5 +1,5 @@
 @media (min-width: 875px) {
-    #pictureofme {
+    #uglyme {
         width: 1000px;
         position: fixed;
         z-index: -10;
@@ -7,7 +7,7 @@
         margin-left: -575px;
         height: 100%;
     }
-    #pictureofme > img {
+    #uglyme > img {
         height: 100%;
     }
     #aboutme {
@@ -36,12 +36,12 @@
     #sidebar {
         border-right: 1px solid black;
     }
-    #pictureofme {
+    #uglyme {
         height: 350px;
         overflow: hidden;
         padding-top: 80px;
     }
-    #pictureofme > img {
+    #uglyme > img {
         width: 100%;
         margin-top: -140px;
     }
@@ -58,12 +58,12 @@
     #sidebar {
         border-right: 1px solid black;
     }
-    #pictureofme {
+    #uglyme {
         height: 300px;
         padding-top: 60px;
         overflow: hidden;
     }
-    #pictureofme > img {
+    #uglyme > img {
         width: 100%;
         margin-top: -100px;
     }
