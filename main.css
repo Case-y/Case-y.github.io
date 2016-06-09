@@ -90,3 +90,18 @@ a {
     bottom: 15px;
     left: 7px;
 }
+
+.delay {
+  font-family: 'Josefin Sans', sans-serif;
+  font-size: 5em;
+  color: white;
+  text-align: center;
+}
+
+.jcase {
+  top: 40%;
+  left: 50%;
+  position: fixed;
+  
+  transform: translate(-50%, -50%);
+}
