@@ -41,7 +41,7 @@ a {
     left: -140px;
     overflow: hidden;
     z-index: 10;
-    background: rgb(232, 255, 250);
+    background: #F6F6F6;
     border-right: 1px solid #CCC;
     padding: 20px;
     transition: left 0.5s ease, background 0.75s, border-right 1s;
@@ -52,7 +52,7 @@ a {
 
 #sidebar:hover {
     left: 0px;
-    background: rgba(232, 255, 250, 0.9);
+    background: rgba(245, 255, 250, 0.9);
     border-right: none;
 }
 
