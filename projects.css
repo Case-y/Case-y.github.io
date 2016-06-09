@@ -1,67 +1,180 @@
-#content {
-    max-width: 900px;
-    margin-left: auto;
-    margin-right: auto;
-    padding: 0px 40px 20px 80px;
+@media (min-width: 1140px) {
+    #content {
+        width: 1000px;
+        margin-left: auto;
+        margin-right: auto;
+        padding: 0px 40px 40px 80px;
+    }
+}
+
+@media (max-width: 1140px) {
+    #content {
+        width: 880px;
+        margin-left: auto;
+        margin-right: auto;
+        padding: 0px 40px 40px 80px;
+    }
 }
 
 #pagetitle {
-    padding: 30px 0px;
+    padding-top: 30px;
     font-size: 55px;
     font-weight: 700;
     line-height: 55px;
 }
 
+#categories {
+    margin-top: 30px;
+    border-bottom: 1px solid black;
+}
+
+.categorytab {
+    display: inline-block;
+    padding: 10px 20px;
+    width: 80px;
+    border-top: 1px solid black;
+    text-align: center;
+    margin-left: 10px;
+    border-left: 1px solid black;
+    border-right: 1px solid black;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+    margin-bottom: -1px;
+    font-size: 14px;
+    background-color: #DDD;
+    cursor: pointer;
+}
+
+.selectedtab {
+    border-bottom: 1px solid #F6F6F6;
+    background-color: #F6F6F6;
+}
+
+@media (min-width: 1140px) {
+    .project {
+        padding-top: 30px;
+    }
+}
+
+@media (max-width: 1140px) {
+    .project {
+        padding-top: 60px;
+    }
+}
+
 .project {
-    background-color: white;
-    padding: 25px;
-    border-radius: 2px;
-    margin-bottom: 20px;
+    display: none;
 }
 
-.projecttitle {
-    font-size: 22px;
-    font-weight: 700;
-    margin-bottom: 2px;
+.featured {
+    display: block;
 }
 
-.projectemployer {
-    margin-bottom: 2px;
-    font-weight: 100;
+.projpic > img {
+    width: 100%;
 }
 
-.projecttime {
+@media (min-width: 1140px) {
+    .projpic {
+        border: 1px solid #999;
+        width: 550px;
+        display: inline-block;
+    }
+}
+
+@media (max-width: 1140px) {
+    .projpic {
+        border: 1px solid #999;
+        width: 480px;
+        display: inline-block;
+    }
+}
+
+@media (min-width: 1140px) {
+    .projinfo {
+        display: inline-block;
+        float: right;
+        width: 410px;
+    }
+}
+
+@media (max-width: 1140px) {
+    .projinfo {
+        display: inline-block;
+        float: right;
+        width: 360px;
+    }
+}
+
+@media (min-width: 1140px) {
+    .projtitle {
+        margin: 10px 0px 3px;
+        font-size: 30px;
+        font-weight: 700;
+    }
+}
+
+@media (max-width: 1140px) {
+    .projtitle {
+        margin: 0px 0px 3px;
+        font-size: 30px;
+        font-weight: 700;
+        line-height: 35px;
+    }
+}
+
+.projtime {
     font-size: 15px;
     font-style: italic;
-    padding-bottom: 10px;
+    line-height: 15px;
+    padding-bottom: 15px;
+    border-bottom: 1px solid black;
+}
+
+@media (min-width: 1140px) {
+    .projdescript {
+        margin: 15px 0px;
+        font-size: 15px;
+        font-weight: 100;
+        line-height: 24px;
+    }
+}
+
+@media (max-width: 1140px) {
+    .projdescript {
+        margin: 13px 0px;
+        font-size: 15px;
+        font-weight: 100;
+        line-height: 23px;
+    }
+}
+
+.buttonbar {
+    margin-top: 5px;
+}
+
+.button {
     display: inline-block;
+    margin-right: 10px;
+    padding: 7px;
+    width: 80px;
+    text-align: center;
+    background: #D0D0D0;
+    border-radius: 2px;
+    transition: background 0.2s ease;
+    -webkit-transition: background 0.2s ease;
+    -moz-transition: background 0.2s ease;
 }
 
-.projectlocation {
-    display: inline-block;
-    float: right;
-    margin-right: 5px;
-    margin-bottom: 10px;
-    background-color: #DDD;
-    font-size: 13px;
-    padding: 2px 10px;
-    border-radius: 10px;
-}
-
-a {
-    color: #777;
-    font-weight: 400;
-    text-decoration: none;
-}
-
-.link:hover {
-    font-weight: bold;
-}
-
-.projectdescript {
-    border-top: 1px solid #777;
-    padding-top: 10px;
+.button > a {
+    color: black;
     font-size: 14px;
-    line-height: 24px;
-    font-weight: 300;
+}
+
+.button:hover {
+    background: #DDD;
+}
+
+.pic2 {
+    display: none;
 }
