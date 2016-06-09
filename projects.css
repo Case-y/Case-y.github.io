@@ -12,32 +12,32 @@
     line-height: 55px;
 }
 
-.job {
+.project {
     background-color: white;
     padding: 25px;
     border-radius: 2px;
     margin-bottom: 20px;
 }
 
-.jobtitle {
+.projecttitle {
     font-size: 22px;
     font-weight: 700;
     margin-bottom: 2px;
 }
 
-.jobemployer {
+.projectemployer {
     margin-bottom: 2px;
     font-weight: 100;
 }
 
-.jobtime {
+.projecttime {
     font-size: 15px;
     font-style: italic;
     padding-bottom: 10px;
     display: inline-block;
 }
 
-.joblocation {
+.projectlocation {
     display: inline-block;
     float: right;
     margin-right: 5px;
@@ -48,7 +48,7 @@
     border-radius: 10px;
 }
 
-.jobdescript {
+.projectdescript {
     border-top: 1px solid #777;
     padding-top: 10px;
     font-size: 14px;
