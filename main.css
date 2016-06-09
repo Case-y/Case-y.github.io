@@ -14,7 +14,7 @@ body {
   background-attachment: fixed;
   background-position: center; 
   margin: 0px;
-  font-family: 'Josefin Sans', sans-serif;
+  font-family: "Open Sans", "Helvetica", "Arial", sans serif;
 }
 
 a {
@@ -52,7 +52,7 @@ a {
 
 #sidebar:hover {
     left: 0px;
-    background: rgba(245, 255, 250, 0.9);
+    background: rgba(255, 255, 250, 0.9);
     border-right: none;
 }
 
