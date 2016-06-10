@@ -3,7 +3,7 @@ canvas {
     position: fixed;
     z-index: -1;
     background-color: #F6F6F6;
-    margin-top: -350px;
+    margin-top: -325px;
 }
 
 @media (min-width: 1140px) {
