@@ -1,5 +1,9 @@
 canvas {
     display: block;
+    position: fixed;
+    z-index: -1;
+    background-color: #F6F6F6;
+    margin-top: -425px;
 }
 
 @media (min-width: 1140px) {
