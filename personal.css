@@ -29,14 +29,14 @@ body {
     border-radius: 2px;
     margin-bottom: 20px;
     color: black;
-    position: fixed;
+ /*   position: fixed;
     left: 10%;
-    right: 10%;
+    right: 10%;*/
 }
 
-.threelessons {
+/*.threelessons {
     top: 45%;
-}
+}*/
 
 .posttitle {
     font-size: 22px;
