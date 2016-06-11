@@ -23,6 +23,11 @@ body {
     font-weight: 700;
     line-height: 55px;
 }
+
+.blogpost:hover {
+    border: 1px black solid;
+}
+
 .blogpost {
     background-color: white;
     padding: 25px;
