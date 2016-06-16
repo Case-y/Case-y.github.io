@@ -3,8 +3,8 @@
         width: 1000px;
         position: fixed;
         z-index: -10;
-        padding-left: 47%;
-        margin-left: -575px;
+        /*padding-left: 47%;*/
+        /*margin-left: -575px;*/
         height: 110%;
     }
     #uglyme > img {
