@@ -28,84 +28,160 @@ a {
 
 #nav {
     position: fixed;
-    width: 140px;
-    height: 100%;
-    left: -140px;
-    overflow: hidden;
-    z-index: 10;
-    opacity: 0;
-    background: #F6F6F6;
-    /*background: rgb(245, 255, 250);*/
-    border-right: 1px solid #CCC;
-    transition: left 0.5s ease, background 0.75s, border-right 1s;
-    -webkit-transition: left 0.5s ease, background 0.75s, border-right 1s;
-    -moz-transition: left 0.5s ease, background 0.75s, border-right 1s;
-    border-right: 1px solid black;
+    width: 100%;
+    z-index: 1;
+    vertical-align: baseline;
 }
 
-#nav:hover {
-    left: 0px;
-    width: 140px;
-    padding: 20px;
-    background: rgba(255, 255, 250, 0.9);
-    border-right: none;
-    opacity: 1;
-}
-
-#nav:hover #menu > img {
-    opacity: 0;
-}
-
-#nav-content {
-    height: 100%;
-}
-
-.nav-name {
-    font-size: 22px;
-    color: black;
-    line-height: 24px;
-    font-weight: 600;
-}
-
-.nav-category {
-    margin-top: 20px;
-    line-height: 25px;
-    color: #555;
-    font-weight: 600;
-    font-size: 14px;
-}
-
-.nav-item {
-    color: #777;
-    font-weight: 300;
-    line-height: 25px;
-    transition: color 0.5s ease;
-    -webkit-transition: left 0.5s ease;
-    -moz-transition: left 0.5s ease;
-}
-
-.nav-item:hover {
-    font-weight: bold;
-}
-
-#menu {
-    height: 25px;
-    position: fixed;
-    bottom: 15px;
-    left: 7px;
-}
-
-.delay {
-  font-family: 'Josefin Sans', sans-serif;
-  font-size: 5em;
-  color: #777;
-  text-align: center;
-}
-
-.jcase {
-  top: 50%;
-  left: 50%;
+nav .nav-content {
   position: fixed;
-  
-  transform: translate(-50%, -50%);
+  overflow: hidden;
+  right: 0;
+  height: 100%;
+  width: 300px;
+  -moz-transition: all 0.5s;
+  -o-transition: all 0.5s;
+  -ms-transition: all 0.5s;
+  -webkit-transition: all 0.5s;
+  transition: all 0.5s;
+  -webkit-backface-visibility: hidden;
+  -moz-backface-visibility: hidden;
+  -ms-backface-visibility: hidden;
+  backface-visibility: hidden;
+  -webkit-perspective: 1000;
+  -moz-perspective: 1000;
+  -ms-perspective: 1000;
+  perspective: 1000;
+  -webkit-transofmr: translate3d(0, 0, 0);
+  -moz-transform: translate3d(0, 0, 0);
+  -ms-transform: translate3d(0, 0, 0);
+  transform: translate3d(0, 0, 0);
+  visibility: hidden;
+  font-size: 22px;
+}
+
+nav nav.content:before {
+  z-index: -1;
+  width: 50px;
+  height: 50px;
+  absolute;
+  top: 12.5px;
+  right: 12.5px;
+  background: #F6F6F6;
+  content: "";
+  border-radius: 50%;
+  -moz-transition: all 600ms cubic-bezier(0.215, 0.61, 0.355, 1);
+  -o-transition: all 600ms cubic-bezier(0.215, 0.61, 0.355, 1);
+  -ms-transition: all 600ms cubic-bezier(0.215, 0.61, 0.355, 1);
+  -webkit-transition: all 600ms cubic-bezier(0.215, 0.61, 0.355, 1);
+  transition: all 600ms cubic-bezier(0.215, 0.61, 0.355, 1);
+  -webkit-backface-visibility: hidden;
+  -moz-backface-visibility: hidden;
+  -ms-backface-visibility: hidden;
+  backface-visibility: hidden;
+  -webkit-perspective: 1000;
+  -moz-perspective: 1000;
+  -ms-perspective: 1000;
+  perspective: 1000;
+  -webkit-transform: translate3d(0, 0, 0);
+  -moz-transform: translate3d(0, 0, 0);
+  -ms-transform: translate3d(0, 0, 0);
+  transform: translate3d(0, 0, 0);
+}
+
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+
+nav .nav-container .fade-in {
+      position: relative;
+    -moz-transition: all 0.25s;
+    -o-transition: all 0.25s;
+    -ms-transition: all 0.25s;
+    -webkit-transition: all 0.25s;
+    transition: all 0.25s;
+    -webkit-backface-visibility: hidden;
+    -moz-backface-visibility: hidden;
+    -ms-backface-visibility: hidden;
+    backface-visibility: hidden;
+    -webkit-perspective: 1000;
+    -moz-perspective: 1000;
+    -ms-perspective: 1000;
+    perspective: 1000;
+    -webkit-transform: translate3d(0, 0, 0);
+    -moz-transform: translate3d(0, 0, 0);
+    -ms-transform: translate3d(0, 0, 0);
+    transform: translate3d(0, 0, 0);
+    opacity: 0;
+}
+
+nav .nav-container .menu {
+  position: relative;
+  top: 13.5px;
+  left: 40px;
+}
+
+nav .nav-button {
+  width: 100%;
+}
+
+nav .nav-button .nav-button-div {
+  background: #70b2a0;
+    width: 50px;
+    height: 50px;
+    position: absolute;
+    top: 12.5px;
+    right: 12.5px;
+    border-radius: 50%;
+    display: table;
+}
+
+#nav-toggle:checked + nav .nav-button .nav-button-div .button {
+  -moz-transition: all 0.5s;
+    -o-transition: all 0.5s;
+    -ms-transition: all 0.5s;
+    -webkit-transition: all 0.5s;
+    transition: all 0.5s;
+    -webkit-backface-visibility: hidden;
+    -moz-backface-visibility: hidden;
+    -ms-backface-visibility: hidden;
+    backface-visibility: hidden;
+    -webkit-perspective: 1000;
+    -moz-perspective: 1000;
+    -ms-perspective: 1000;
+    perspective: 1000;
+    -webkit-transform: translate3d(0, 0, 0);
+    -moz-transform: translate3d(0, 0, 0);
+    -ms-transform: translate3d(0, 0, 0);
+    transform: translate3d(0, 0, 0);
+}
+
+nav .nav-button .nav-button-div .button {
+  display: table-cell;
+    vertical-align: middle;
+    font-size: 28px;
+    position: relative;
+    -webkit-touch-callout: none;
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    -moz-transition: all 0.25s;
+    -o-transition: all 0.25s;
+    -ms-transition: all 0.25s;
+    -webkit-transition: all 0.25s;
+    transition: all 0.25s;
+    -webkit-backface-visibility: hidden;
+    -moz-backface-visibility: hidden;
+    -ms-backface-visibility: hidden;
+    backface-visibility: hidden;
+    -webkit-perspective: 1000;
+    -moz-perspective: 1000;
+    -ms-perspective: 1000;
+    perspective: 1000;
+    -webkit-transform: translate3d(0, 0, 0);
+    -moz-transform: translate3d(0, 0, 0);
+    -ms-transform: translate3d(0, 0, 0);
+    transform: translate3d(0, 0, 0);
 }
