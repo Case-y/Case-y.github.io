@@ -227,3 +227,31 @@ nav .nav-button .nav-button-div .button {
     -ms-transform: translate3d(0, 0, 0);
     transform: translate3d(0, 0, 0);
 }
+
+.nav-name {
+    font-size: 22px;
+    color: black;
+    line-height: 24px;
+    font-weight: 600;
+}
+
+.nav-category {
+    margin-top: 20px;
+    line-height: 25px;
+    color: #555;
+    font-weight: 600;
+    font-size: 14px;
+}
+
+.nav-item {
+    color: #777;
+    font-weight: 300;
+    line-height: 25px;
+    transition: color 0.5s ease;
+    -webkit-transition: left 0.5s ease;
+    -moz-transition: left 0.5s ease;
+}
+
+.nav-item:hover {
+    font-weight: bold;
+}
