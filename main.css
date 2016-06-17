@@ -26,7 +26,7 @@ a {
     clear: both;
 }
 
-#nav {
+/*#nav {
     position: fixed;
     width: 140px;
     height: 100%;
@@ -41,12 +41,32 @@ a {
     -webkit-transition: left 0.5s ease, background 0.75s, border-right 1s;
     -moz-transition: left 0.5s ease, background 0.75s, border-right 1s;
     border-right: 1px solid black;
+}*/
+
+#nav {
+    position: fixed;
+    width: 140px;
+    height: 100%;
+    left: -140px;
+    overflow: hidden;
+    z-index: 10;
+    opacity: 0;
+    background: #F6F6F6;
+    /*background: rgb(245, 255, 250);*/
+    border-right: 1px solid #CCC;
+    transition: left 0.5s ease, background 0.75s, border-right 1s;
+    -webkit-transition: left 0.5s ease, background 0.75s, border-right 1s;
+    -moz-transition: left 0.5s ease, background 0.75s, border-right 1s;
+    border-right: 1px solid black;
 }
 
 #nav:hover {
     left: 0px;
+    width: 140px;
+    padding: 20px;
     background: rgba(255, 255, 250, 0.9);
     border-right: none;
+    opacity: 1;
 }
 
 #nav:hover #menu > img {
