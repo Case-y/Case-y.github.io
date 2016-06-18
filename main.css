@@ -97,7 +97,7 @@ nav .nav-content {
 nav .nav-content .name {
   position: relative;
   top: 75.5px;
-  left: 30px;
+  left: 23px;
   font-size: 21px;
   border: aliceblue 10px solid;
   padding: 5px;
@@ -331,12 +331,6 @@ input[type="radio" i], input[type="checkbox" i] {
     height: 100%;
 }
 
-nav .nav-content .nav-list {
-    margin-left: 40px;
-    margin-top: 75px;
-    line-height: 3;
-}
-
 nav .nav-content a {
   color: black;
   text-decoration: none;
@@ -355,13 +349,14 @@ nav .nav-content a {
     line-height: 25px;
     color: #555;
     font-weight: 600;
-    font-size: 14px;
+    font-size: 23px;
 }
 
 .nav-item {
     color: #777;
     font-weight: 300;
     line-height: 25px;
+    font-size: 20px;
     transition: color 0.5s ease;
     -webkit-transition: left 0.5s ease;
     -moz-transition: left 0.5s ease;
