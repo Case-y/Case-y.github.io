@@ -120,7 +120,7 @@ nav .nav-button {
 }
 
 nav .nav-button .nav-button-div {
-  background: rgba(211,211,211, 1);
+  background: rgba(211,211,211, 0.8);
     width: 70px;
     height: 70px;
     position: absolute;
