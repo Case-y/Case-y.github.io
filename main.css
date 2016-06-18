@@ -312,6 +312,10 @@ input[type="radio" i], input[type="checkbox" i] {
     border: initial;
 }
 
+.menu {
+    height: 100%;
+}
+
 nav .nav-content .nav-list {
     margin-left: 40px;
     margin-top: 75px;
