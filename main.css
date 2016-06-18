@@ -11,13 +11,6 @@ a {
     cursor: pointer;
 }
 
-#menu > img {
-    height: 100%;
-    opacity: 0.5;
-    transition: opacity 0.5s;
-    -webkit-transition: opacity 0.5s;
-    -moz-transition: opacity 0.5s;
-}
 .clear {
     clear: both;
 }
@@ -125,12 +118,6 @@ nav .nav-content .fade-in {
     -ms-transform: translate3d(0, 0, 0);
     transform: translate3d(0, 0, 0);
     opacity: 0;
-}
-
-nav .nav-content .menu {
-  position: relative;
-  top: 13.5px;
-  left: 40px;
 }
 
 nav .nav-button {
@@ -323,19 +310,6 @@ input[type="radio" i], input[type="checkbox" i] {
     margin: 3px 0.5ex;
     padding: initial;
     border: initial;
-}
-
-nav .nav-content .menu {
-  position: relative;
-  top: 13.5px;
-  left: 40px;
-}
-
-nav .nav-content .menu > a {
-  font-size: 28px;
-    letter-spacing: 1px;
-    text-transform: uppercase;
-    color: white;
 }
 
 nav .nav-content .nav-list {
