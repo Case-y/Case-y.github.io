@@ -28,13 +28,13 @@ a {
 
 #nav-toggle {
     z-index: 2;
-    width: 50px;
-    height: 50px;
+    width: 70px;
+    height: 80px;
     position: fixed;
     top: 12.5px;
     right: 12.5px;
     cursor: pointer;
-    border-radius: 50%;
+    border-radius: 70%;
     margin: 0;
     padding: 0;
     opacity: 0;
@@ -117,18 +117,18 @@ nav .nav-button {
 
 .logo {
   position: relative;
-  width: 50px;
-  height: 50px;
+  width: 70px;
+  height: 70px;
 }
 
 nav .nav-button .nav-button-div {
-  background: rgba(0, 0, 0, 0.4);
-    width: 50px;
-    height: 50px;
+  background: #F0FFFF;
+    width: 70px;
+    height: 70px;
     position: absolute;
     top: 12.5px;
     right: 12.5px;
-    border-radius: 50%;
+    border-radius: 30%;
     display: table;
 }
 
