@@ -287,14 +287,17 @@ nav .nav-button .nav-button-div .button {
     transform: translate3d(0, 0, 0);
 }
 
+nav .nav-content .menu {
+  position: relative;
+  top: 13.5px;
+  left: 40px;
+}
+
 .nav-name {
     font-size: 22px;
     color: black;
     line-height: 24px;
     font-weight: 600;
-    position: relative; 
-    top: 13.5px;
-    left: 40px;
 }
 
 .nav-category {
