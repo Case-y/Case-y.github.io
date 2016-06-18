@@ -97,9 +97,9 @@ nav .nav-content {
 nav .nav-content .name {
   position: relative;
   top: 75.5px;
-  left: 23px;
+  left: 18px;
   font-size: 21px;
-  border: aliceblue 10px solid;
+  border: FloralWhite 10px solid;
   padding: 5px;
 }
 
@@ -148,7 +148,7 @@ nav .nav-button {
 }
 
 nav .nav-button .nav-button-div {
-  background: rgb(211,211,211);
+  background: wheat;
     width: 70px;
     height: 70px;
     position: absolute;
@@ -188,7 +188,7 @@ nav .nav-content:before {
     position: absolute;
     top: 50.5px;
     right: 30.5px;
-    background: rgb(211,211,211);
+    background: wheat;
     content: "";
     border-radius: 30%;
     -moz-transition: all 600ms cubic-bezier(0.215, 0.61, 0.355, 1);
@@ -334,7 +334,8 @@ input[type="radio" i], input[type="checkbox" i] {
 nav .nav-content a {
   color: black;
   text-decoration: none;
-  color: white;
+  color: Gray;
+  font-weight: bold;
 }
 
 .nav-name {
@@ -347,13 +348,13 @@ nav .nav-content a {
 .nav-category {
     margin-top: 20px;
     line-height: 25px;
-    color: #555;
+    color: Floralwhite;
     font-weight: 600;
     font-size: 23px;
 }
 
 .nav-item {
-    color: #777;
+    color: Gray;
     font-weight: 300;
     line-height: 25px;
     font-size: 20px;
