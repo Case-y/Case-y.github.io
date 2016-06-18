@@ -314,6 +314,19 @@ input {
     border-width: 2px;
     border-style: inset;
     border-color: initial;
+    -webkit-writing-mode: horizontal-tb;
+}
+
+input[type="checkbox" i] {
+    -webkit-appearance: checkbox;
+    box-sizing: border-box;
+}
+
+input[type="radio" i], input[type="checkbox" i] {
+    background-color: initial;
+    margin: 3px 0.5ex;
+    padding: initial;
+    border: initial;
 }
 
 nav .nav-content .menu {
