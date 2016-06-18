@@ -98,7 +98,7 @@ nav .nav-content {
   box-sizing: inherit;
 }
 
-nav .nav-content .fade-in {
+/*nav .nav-content .fade-in {
     position: relative;
     -moz-transition: all 0.25s;
     -o-transition: all 0.25s;
@@ -119,7 +119,7 @@ nav .nav-content .fade-in {
     transform: translate3d(0, 0, 0);
     opacity: 0;
 }
-
+*/
 nav .nav-button {
   width: 100%;
   z-index: 10;
