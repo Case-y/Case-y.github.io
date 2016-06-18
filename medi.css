@@ -86,6 +86,13 @@
     font-weight: 100;
     margin: 20px 0px 0px;
 }
+
+.miniheader {
+    font-size: 20px;
+    font-weight: 100;
+    margin: 20px 0px 0px;
+}
+
 .info {
     font-size: 15;
     font-weight: 300;
