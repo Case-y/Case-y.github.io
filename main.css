@@ -191,7 +191,7 @@ nav .nav-content:before {
     position: absolute;
     top: 12.5px;
     right: 12.5px;
-    background: rgba(0, 0, 0, 0.4);
+    background: #F0FFFF;
     content: "";
     border-radius: 50%;
     -moz-transition: all 600ms cubic-bezier(0.215, 0.61, 0.355, 1);
