@@ -287,13 +287,42 @@ nav .nav-button .nav-button-div .button {
     transform: translate3d(0, 0, 0);
 }
 
+input {
+  text-rendering: auto;
+    color: initial;
+    letter-spacing: normal;
+    word-spacing: normal;
+    text-transform: none;
+    text-indent: 0px;
+    text-shadow: none;
+    display: inline-block;
+    text-align: start;
+    margin: 0em 0em 0em 0em;
+    font: 11px BlinkMacSystemFont;
+    -webkit-writing-mode: horizontal-tb;
+        -webkit-appearance: textfield;
+    background-color: white;
+    border-image-source: initial;
+    border-image-slice: initial;
+    border-image-width: initial;
+    border-image-outset: initial;
+    border-image-repeat: initial;
+    -webkit-rtl-ordering: logical;
+    -webkit-user-select: text;
+    cursor: auto;
+    padding: 1px;
+    border-width: 2px;
+    border-style: inset;
+    border-color: initial;
+}
+
 nav .nav-content .menu {
   position: relative;
   top: 13.5px;
   left: 40px;
 }
 
-.nav-name {
+nav .nav-content .menu > .nav-name {
     font-size: 22px;
     color: black;
     line-height: 24px;
