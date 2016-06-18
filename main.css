@@ -292,6 +292,9 @@ nav .nav-button .nav-button-div .button {
     color: black;
     line-height: 24px;
     font-weight: 600;
+    position: relative; 
+    top: 13.5px;
+    left: 40px;
 }
 
 .nav-category {
