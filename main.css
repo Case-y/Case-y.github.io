@@ -124,7 +124,7 @@ nav .nav-button {
 }
 
 nav .nav-button .nav-button-div {
-  background: #F0FFFF;
+  background: black;
     width: 70px;
     height: 70px;
     position: absolute;
