@@ -79,7 +79,7 @@
         font-weight: 600;
     }
 
-    .current {
+    #current {
         width: 393px;
     }
 }
@@ -113,7 +113,7 @@
     margin-top: 20px;
 }
 
-.current {
+#current {
     border: 10px wheat solid;
     width: 500px;
     height: auto;
