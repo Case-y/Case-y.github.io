@@ -49,6 +49,7 @@
     #aboutme {
         margin: 0 auto;
         padding: 20px 60px 30px 100px;
+        height: 145vh;
     }
     #name {
         font-size: 50px;
