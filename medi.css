@@ -56,6 +56,7 @@
         font-weight: 600;
     }
 }
+
 @media (max-width: 700px) {
     #nav {
         border-right: 1px solid black;
@@ -79,9 +80,6 @@
         font-weight: 600;
     }
 
-    #current {
-        width: 393px;
-    }
 }
 #detail {
     font-style: italic;
@@ -115,7 +113,7 @@
 
 #current {
     border: 10px wheat solid;
-    width: 500px;
+    width: 300px;
     height: auto;
 }
 
