@@ -94,6 +94,18 @@ nav .nav-content {
   box-sizing: inherit;
 }
 
+nav .nav-content .name {
+  position: relative;
+  top: 13.5px;
+  left: 40px;
+}
+
+nav .nav-content .menu {
+  margin-left: 40px;
+  margin-top: 75px;
+  line-height: 3;
+}
+
 .fade-in {
   box-sizing: inherit;
 }
