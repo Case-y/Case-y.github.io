@@ -74,7 +74,7 @@ nav .nav-content {
   font-size: 22px;
 }
 
-nav nav.content:before {
+nav .nav-content:before {
   z-index: -1;
   width: 50px;
   height: 50px;
@@ -183,7 +183,7 @@ nav .nav-button .nav-button-div {
 }
 
 
-nav .nav-container:before {
+nav .nav-content:before {
     z-index: -1;
     width: 50px;
     height: 50px;
