@@ -106,7 +106,12 @@
     position: relative;
     text-align: center;
     margin-top: 20px;
+}
+
+.current {
     border: 10px wheat solid;
+    width: 500px;
+    height: auto;
 }
 
 .content {
