@@ -97,13 +97,15 @@ nav .nav-content {
 nav .nav-content .name {
   position: relative;
   top: 75.5px;
-  left: 40px;
-  text-decoration: underline;
+  left: 30px;
+  font-size: 21px;
+  border: aliceblue 10px solid;
+  padding: 5px;
 }
 
 nav .nav-content .menu {
   text-align: center;
-  margin-top: 75px;
+  margin-top: 125px;
   line-height: 3;
 }
 
