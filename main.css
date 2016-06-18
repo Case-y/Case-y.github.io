@@ -235,7 +235,7 @@ nav .nav-content:before {
     transform: translate3d(0, 0, 0);
 }
 
-#nav-toggle:checked + nav .nav-button .nav-button-div .button {
+#nav-toggle:checked + nav .nav-button .nav-button-div .nav-button-press {
   -moz-transition: all 0.5s;
     -o-transition: all 0.5s;
     -ms-transition: all 0.5s;
@@ -255,7 +255,7 @@ nav .nav-content:before {
     transform: translate3d(0, 0, 0);
 }
 
-nav .nav-button .nav-button-div .button {
+nav .nav-button .nav-button-div .nav-button-press {
   display: table-cell;
     vertical-align: middle;
     font-size: 28px;
