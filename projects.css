@@ -231,7 +231,7 @@ canvas {
     padding: 7px;
     width: 80px;
     text-align: center;
-    background: #D0D0D0;
+    background: wheat;
     border-radius: 2px;
     transition: background 0.2s ease;
     -webkit-transition: background 0.2s ease;
