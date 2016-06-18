@@ -34,7 +34,7 @@ a {
     top: 50.5px;
     right: 20.5px;
     cursor: pointer;
-    border-radius: 70%;
+    border-radius: 30%;
     margin: 0;
     padding: 0;
     opacity: 0;
@@ -189,11 +189,11 @@ nav .nav-content:before {
     width: 50px;
     height: 50px;
     position: absolute;
-    top: 12.5px;
-    right: 12.5px;
+    top: 50.5px;
+    right: 30.5px;
     background: #F0FFFF;
     content: "";
-    border-radius: 50%;
+    border-radius: 30%;
     -moz-transition: all 600ms cubic-bezier(0.215, 0.61, 0.355, 1);
     -o-transition: all 600ms cubic-bezier(0.215, 0.61, 0.355, 1);
     -ms-transition: all 600ms cubic-bezier(0.215, 0.61, 0.355, 1);
@@ -216,7 +216,7 @@ nav .nav-content:before {
 #nav-toggle:checked + nav .nav-content:before {
     height: 4000px;
     width: 4000px;
-    border-radius: 50%;
+    border-radius: 30%;
     margin-right: -2000px;
     margin-top: -2000px;
     -moz-transition: all 1.2s cubic-bezier(0.215, 0.61, 0.355, 1);
