@@ -7,9 +7,15 @@
     <link rel="stylesheet" type="text/css" href="main.css"/>
     <link rel="icon" type="image/x-icon" href="assets/favicon.ico"/>
     <meta name="viewport" content="width=device-width, user-scalable=no">
+    <meta charset="utf-8">
+     <style type="text/css" media="screen">
+        canvas, img { display:block; margin:1em auto; border:1px solid black; }
+        canvas { background: blue}
+    </style>
     <script src="index.js"></script>
 </head>
 <body>
+    <canvas width="auto" height="auto"></canvas>
 	<input id="nav-toggle" type="checkbox" value="selected">
     <nav>
         <div class="nav-content">
@@ -184,5 +190,16 @@
         <script src="custom.js"></script>
         <script src="birds.js"></script>
 
+        <img>
+        <script type="text/javascript" charset="utf-8">
+            var can = document.getElementsByTagName('canvas')[0];
+            var ctx = can.getContext('2d');
+            ctx.strokeStyle = '#f00';
+            ctx.lineWidth   = 6;
+            ctx.lineJoin    = 'round';
+            ctx.strokeRect(140,60,40,40);
+            var img = document.getElementsByTagName('img')[0];
+            img.src = can.toDataURL();
+</script>
 </body>
 </html>
