@@ -96,12 +96,13 @@ nav .nav-content {
 
 nav .nav-content .name {
   position: relative;
-  top: 13.5px;
+  top: 75.5px;
   left: 40px;
+  text-decoration: underline;
 }
 
 nav .nav-content .menu {
-  margin-left: 40px;
+  text-align: center;
   margin-top: 75px;
   line-height: 3;
 }
@@ -337,6 +338,7 @@ nav .nav-content .nav-list {
 nav .nav-content a {
   color: black;
   text-decoration: none;
+  color: white;
 }
 
 .nav-name {
