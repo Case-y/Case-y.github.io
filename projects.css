@@ -160,6 +160,7 @@ canvas {
         width: 480px;
         display: inline-block;
         float: right;
+        margin-top: -140px;
         margin-top: 30px;
     }
 
