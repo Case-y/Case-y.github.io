@@ -82,6 +82,7 @@ a:hover, a:active {
 @media (min-width: 550px) {
   .section {
     padding: 12rem 0 11rem;
+    padding-top: 10px;
   }
 }
 
