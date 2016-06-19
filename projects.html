@@ -11,9 +11,11 @@
     <meta name="viewport" content="width=device-width, user-scalable=no">
     
 </head>
-<audio autoplay loop>
-      <source src="music/GalacticFunk.mp3">
+<audio preload="auto" autobuffer> 
+  <source src="8bit.mp3" />
+  <source src="8bit.wav" /> <!-- fallback if no mp3 support in browser -->
 </audio>
+
 <body>
 	<input id="nav-toggle" type="checkbox" value="selected">
     <nav>
