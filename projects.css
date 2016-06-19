@@ -1,3 +1,7 @@
+canvas {
+    margin-top: -100px;
+}
+
 .img-circle {
     border-radius:100%;
 }
