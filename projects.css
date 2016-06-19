@@ -106,7 +106,7 @@ canvas {
         display: inline-block;
         float: right;
         margin-top: -140px;
-        transform: scale(0.4);
+        transform: scale(0.6);
     }
 }
 
@@ -162,7 +162,7 @@ canvas {
         display: inline-block;
         float: right;
         margin-top: -140px;
-        transform: scale(0.4);
+        transform: scale(0.6);
     }
 
     .original {
