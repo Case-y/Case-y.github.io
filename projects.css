@@ -2,13 +2,14 @@ canvas {
     margin-top: -1400px;
 }
 
+
+body {
+    background-color: wheat;
+}
 .img-circle {
     border-radius:100%;
 }
 
-body {
-    background-color: wheat;
-}â€‹
 
 .center {
   width: 200px;
@@ -60,14 +61,11 @@ a:hover, a:active {
 }
 .value-heading {
   margin-bottom: .3rem;
-  font-weight: bold;
-  color: wheat;
 }
 .value-description {
   padding-top: 3rem;
   font-size: 1.6rem;
   font-weight: 100;
-  color: gray;
 }
 
 .highlight {
@@ -82,7 +80,6 @@ a:hover, a:active {
 @media (min-width: 550px) {
   .section {
     padding: 12rem 0 11rem;
-
   }
 }
 
@@ -102,10 +99,6 @@ a:hover, a:active {
 @media (min-width: 1000px) {
   .section {
     padding: 15rem 0 2rem;
-    padding-top: 10px;
   }
 }
 
-.row {
-
-}
