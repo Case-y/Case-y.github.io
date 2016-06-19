@@ -87,6 +87,11 @@ canvas {
     float: right;
 }
 
+.tap > img {
+    width: 100%;
+    float: right;
+}
+
 @media (min-width: 1140px) {
     .projpic {
         border: 1px solid #999;
@@ -95,7 +100,16 @@ canvas {
         float: right;
         margin-top: 30px;
     }
+
+    .tap {
+        width: 550px;
+        display: inline-block;
+        float: right;
+        margin-top: 30px;
+    }
 }
+
+
 
 .originald {
     margin-top: 40px;
@@ -136,6 +150,13 @@ canvas {
 @media (max-width: 1140px) {
     .projpic {
         border: 1px solid #999;
+        width: 480px;
+        display: inline-block;
+        float: right;
+        margin-top: 30px;
+    }
+
+    .tap {
         width: 480px;
         display: inline-block;
         float: right;
