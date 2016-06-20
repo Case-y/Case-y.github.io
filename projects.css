@@ -111,6 +111,8 @@ a:hover, a:active {
   .section {
     padding: 15rem 0 2rem;
     padding-top: 60px;
+    transition: all 0.7s 0.3s cubic-bezier(0.645, 0.045, 0.355, 1.000);
+    transition: all 0.3s 1s ease-out;
   }
 }
 
