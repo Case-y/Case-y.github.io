@@ -81,6 +81,7 @@ a:hover, a:active {
     border: 5px wheat solid;
     padding-top: 10px;
     padding-bottom: 25px;
+    transition: all 0.3s cubic-bezier(0.645, 0.045, 0.355, 1.000);
 }
 
 .teaser {
