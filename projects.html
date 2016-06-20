@@ -10,8 +10,39 @@
     <link rel="icon" type="image/x-icon" href="assets/favicon.ico"/>
     <meta name="viewport" content="width=device-width, user-scalable=no">
     
+    <style>
+        div#load_screen {
+            background: wheat;
+            opacity: 0.5;
+            position: fixed;
+            z-index: 10;
+            top: 0px;
+            width: 100%;
+            height: 100%;
+        }
+        div#load_screen > div#loading {
+            color: black;
+            width: 120px;
+            height: 24px;
+            margin: 300px auto;
+        }
+    </style>
+
+    <script>
+    window.addEventListener("load", function() {
+        var load_screen = document.getElementById("load_screen");
+        document.body.removeChild(load_screen);
+    })
+    </script>
 </head>
 
+
+
+<div id = "load_screen">
+    <div id = "loading">
+        LOADING...
+    </div>
+</div>
 
 <!-- <audio id = "audiome" preload="auto" autoplay="autoplay" loop="loop"> 
   <source src="8bit.mp3" />
