@@ -161,15 +161,17 @@
 }
 
 .quotes {
-
+    margin-top: -80px;
+    transform: scale(0.9);
 }
 
 .quotesd {
-
+    margin-top: -70px;
 }
 
 .pomodoro {
-
+    transform: scale(0.8);
+    margin-top: -30px;
 }
 
 .pomodorod {
@@ -177,11 +179,12 @@
 }
 
 .jscalc {
-
+    transform: scale(0.7);
+    margin-top: -90px;
 }
 
 .jscalcd {
-    
+
 }
 
 @media (max-width: 1140px) {
