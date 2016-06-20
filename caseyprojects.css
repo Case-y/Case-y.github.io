@@ -151,13 +151,37 @@
 
 .wakeup {
     width: 370px;
-    margin-top: 90px;
+    margin-top: 140px;
     margin-right: 80px;
     margin-bottom: 100px;
 }
 
 .wakeupd {
     margin-top: 70px;
+}
+
+.quotes {
+
+}
+
+.quotesd {
+
+}
+
+.pomodoro {
+
+}
+
+.pomodorod {
+
+}
+
+.jscalc {
+
+}
+
+.jscalcd {
+    
 }
 
 @media (max-width: 1140px) {
