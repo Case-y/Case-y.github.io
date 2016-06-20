@@ -78,7 +78,7 @@ a:hover, a:active {
 }
 
 .highlight:hover {
-    color: red;
+    text-decoration: underline;
     transition: all 0.3s cubic-bezier(0.645, 0.045, 0.355, 1.000);
 }
 
@@ -94,7 +94,7 @@ a:hover, a:active {
 }
 
 .teaser {
-    margin-top: 12rem;
+    margin-top: 15rem;
 }
 
 /* Bigger than 550 */
@@ -129,4 +129,11 @@ a:hover, a:active {
 
 .row {
     padding-top: 25px;
+}
+
+#pagetitle {
+    padding: 30px 0px;
+    font-size: 55px;
+    font-weight: 700;
+    line-height: 55px;
 }
