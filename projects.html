@@ -10,6 +10,13 @@
     <link rel="icon" type="image/x-icon" href="assets/favicon.ico"/>
     <meta name="viewport" content="width=device-width, user-scalable=no">
     
+    <script>
+        window.addEventListener("load", function() {
+            var load_screen = document.getElementById("loaded");
+            document.body.removeChild(load_screen);
+        })
+    </script>
+
 </head>
 
 
@@ -19,7 +26,16 @@
 </audio> -->
 
 
-<body>
+<body class = "loaded">
+    <div id = "loader-wrapper">
+        <div id = "loader">
+            <div class = "loader-section section-left">
+            </div>
+            <div class = "loader-section section-right">
+            </div>
+        </div>
+    </div>
+
 	<input id="nav-toggle" type="checkbox" value="selected">
     <nav>
         <div class="nav-content">
