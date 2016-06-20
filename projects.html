@@ -7,10 +7,11 @@
     <link rel="stylesheet" type="text/css" href="normalize.css">
     <link rel="stylesheet" type="text/css" href="skeleton.css">
     <link rel="stylesheet" type="text/css" href="projects.css">
-    <link rel="stylesheet" type="text/css" href="load.css">
     <link rel="icon" type="image/x-icon" href="assets/favicon.ico"/>
     <meta name="viewport" content="width=device-width, user-scalable=no">
+    
 </head>
+
 
 <!-- <audio id = "audiome" preload="auto" autoplay="autoplay" loop="loop"> 
   <source src="8bit.mp3" />
@@ -18,17 +19,7 @@
 </audio> -->
 
 
-<body class = "loaded">
-
-    <div id = "load_screen">
-    <div id = "loading">
-        <div class = "load left">
-        </div>
-        <div class = "load right">
-        </div>
-    </div>
-   </div>
-
+<body>
 	<input id="nav-toggle" type="checkbox" value="selected">
     <nav>
         <div class="nav-content">
@@ -64,10 +55,7 @@
                 </div>
             </div>
         </div>
-   </nav>
-
-
-   
+    </nav>
 
     <div class="section values">
     <div class="container">
@@ -95,7 +83,11 @@
         
       </div>
     </div>
-
+    
+<!--     <script>
+        var audio = document.getElementById("audiome");
+        audio.volume = 0.05;
+    </script> -->
         <script src="http://threejs.org/build/three.min.js"></script>
         <script src="http://threejs.org/examples/js/renderers/Projector.js"></script>
         <script src="http://threejs.org/examples/js/renderers/CanvasRenderer.js"></script>
@@ -103,7 +95,6 @@
         <script src="http://threejs.org/examples/obj/Bird.js"></script>
         <script src="custom.js"></script>
         <script src="birds.js"></script>
-        <script src="load.js"></script>
 
 </body>
 </html>
