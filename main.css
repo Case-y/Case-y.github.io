@@ -366,3 +366,13 @@ nav .nav-content a {
 .nav-item:hover {
     font-weight: bold;
 }
+
+.jcase {
+    text-align: center;
+}
+
+.delay {
+    font-weight: bold;
+    color: gray;
+    font-size: 40px;
+}
