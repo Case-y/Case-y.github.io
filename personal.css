@@ -34,7 +34,8 @@ body {
     padding: 25px;
     border-radius: 2px;
     margin-bottom: 30px;
-    color: wheat;
+    color: black;
+    border-color: wheat;
     position: relative;
     left: 10%;
     right: 10%;
