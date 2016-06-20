@@ -114,6 +114,13 @@
     margin-top: 40px;
 } 
 
+.percolate {
+    margin-top: -10px;
+}
+.percolated {
+    margin-top: -10px;
+}
+
 .bearmaps {
     margin-top: 110px;
     margin-bottom: 10px;
