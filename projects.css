@@ -1,10 +1,14 @@
-#load_screen {
+.loaded #load_screen {
   visibility: hidden;
   -webkit-transform: translateY(-100%);
   -ms-transform: translateY(-100%);
   transform: translateY(-100%);
   -webkit-transition: all 0.3s 1s ease-out;
   transition: all 0.3s 1s ease-out;
+  
+}
+
+#load_screen {
   position: fixed;
   top: 0;
   left: 0;
@@ -12,14 +16,18 @@
   height: 100%;
   opacity: 0.5;
   background: wheat;
-  z-index: 1000;
+  z-index: 1000; 
 }
 
-#loading {
+.loaded #loading {
   opacity: 0;
     -webkit-transition: all 0.3s ease-out;
     transition: all 0.3s ease-out;
-    display: block;
+    
+}
+
+#loading {
+  display: block;
     position: relative;
     left: 50%;
     top: 50%;
@@ -34,22 +42,57 @@
     z-index: 1001;
 }
 
-#load_screen .load.right {
+#loading:before {
+      content: "";
+    position: absolute;
+    top: 5px;
+    left: 5px;
+    right: 5px;
+    bottom: 5px;
+    border-radius: 50%;
+    border: 3px solid transparent;
+    border-top-color: #e74c3c;
+    -webkit-animation: spin 3s linear infinite;
+    animation: spin 3s linear infinite;
+}
+
+#loading:after {
+  content: "";
+    position: absolute;
+    top: 15px;
+    left: 15px;
+    right: 15px;
+    bottom: 15px;
+    border-radius: 50%;
+    border: 3px solid transparent;
+    border-top-color: #f9c922;
+    -webkit-animation: spin 1.5s linear infinite;
+    animation: spin 1.5s linear infinite;
+}
+
+.loaded #load_screen .load.right {
   -webkit-transform: translateX(100%);
     -ms-transform: translateX(100%);
     transform: translateX(100%);
     -webkit-transition: all 0.7s 0.3s cubic-bezier(0.645, 0.045, 0.355, 1.000);
     transition: all 0.7s 0.3s cubic-bezier(0.645, 0.045, 0.355, 1.000);
-    right: 0;
 }
 
-#load_screen .load.left {
+.loaded #load_screen .load.left {
   -webkit-transform: translateX(-100%);
     -ms-transform: translateX(-100%);
     transform: translateX(-100%);
     -webkit-transition: all 0.7s 0.3s cubic-bezier(0.645, 0.045, 0.355, 1.000);
     transition: all 0.7s 0.3s cubic-bezier(0.645, 0.045, 0.355, 1.000);
+  
+}
+
+#load_screen .load.left {
     left: 0;
+}
+
+#load_screen .load.right {
+  right: 0;
 }
 
 #load_screen .load {

@@ -24,7 +24,16 @@
 </audio> -->
 
 
-<body>
+<body class = "loaded">
+
+    <div id = "load_screen">
+    <div id = "loading">
+        <div class = "load left">
+        </div>
+        <div class = "load right">
+        </div>
+    </div>
+   </div>
 
 	<input id="nav-toggle" type="checkbox" value="selected">
     <nav>
@@ -64,14 +73,7 @@
    </nav>
 
 
-   <div id = "load_screen">
-    <div id = "loading">
-        <div class = "load left">
-        </div>
-        <div class = "load right">
-        </div>
-    </div>
-   </div>
+   
 
     <div class="section values">
     <div class="container">
@@ -111,6 +113,7 @@
         <script src="http://threejs.org/examples/obj/Bird.js"></script>
         <script src="custom.js"></script>
         <script src="birds.js"></script>
+        <script src="load.js"></script>
 
 </body>
 </html>
