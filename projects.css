@@ -130,12 +130,3 @@ a:hover, a:active {
 .row {
     padding-top: 25px;
 }
-
-#pagetitle {
-    font-size: 55px;
-    font-weight: 700;
-    line-height: 55px;
-    color: gray;
-    font-weight: bold;
-    text-align: center;
-}
