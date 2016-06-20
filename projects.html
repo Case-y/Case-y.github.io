@@ -17,25 +17,6 @@
         })
     </script>
 
-    <div class = "loaded">
-        <div id = "loader-wrapper">
-            <div id = "loader">
-                <div class = "loader-section section-left">
-                </div>
-                <div class = "loader-section section-right">
-                </div>
-            </div>
-        </div>
-        <div id = "loader-wrapper">
-            <div id = "loader">
-                <div class = "loader-section section-left">
-                </div>
-                <div class = "loader-section section-right">
-                </div>
-            </div>
-        </div>
-    </div>
-
 </head>
 
 
@@ -45,8 +26,24 @@
 </audio> -->
 
 
-<body>
-    
+<body class = "loaded">
+    <div id = "loader-wrapper">
+        <div id = "loader">
+            <div class = "loader-section section-left">
+            </div>
+            <div class = "loader-section section-right">
+            </div>
+        </div>
+    </div>
+    <div id = "loader-wrapper">
+        <div id = "loader">
+            <div class = "loader-section section-left">
+            </div>
+            <div class = "loader-section section-right">
+            </div>
+        </div>
+    </div>
+
 
 	<input id="nav-toggle" type="checkbox" value="selected">
     <nav>
@@ -116,6 +113,7 @@
         var audio = document.getElementById("audiome");
         audio.volume = 0.05;
     </script> -->
+        <script src="http://threejs.org/build/three.min.js"></script>
         <script src="http://threejs.org/examples/js/renderers/Projector.js"></script>
         <script src="http://threejs.org/examples/js/renderers/CanvasRenderer.js"></script>
         <script src="http://threejs.org/examples/js/libs/stats.min.js"></script>
