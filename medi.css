@@ -4,20 +4,6 @@
 #97B2BB
 */
 
-#current {
-    border: 10px wheat solid;
-    width: 480px;
-    height: auto;
-}
-
-
-@media (max-width: 450px) {
-    #current {
-        width: 250px;
-        height: auto;
-        
-    }
-}
 
 @media (min-width: 875px) {
     #uglyme {
@@ -149,6 +135,22 @@
     font-weight: 300;
     line-height: 25px;
     margin-top: 10px;
+}
+
+
+#current {
+    border: 10px wheat solid;
+    width: 480px;
+    height: auto;
+}
+
+
+@media (max-width: 450px) {
+    #current {
+        width: 250px;
+        height: auto;
+        
+    }
 }
 
 .photo {
