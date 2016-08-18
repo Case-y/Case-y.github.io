@@ -4,9 +4,18 @@
 #97B2BB
 */
 
-@media (min-width: 450px) {
-    #photo > img {
-        width: 200px;
+#current {
+    border: 10px wheat solid;
+    width: 480px;
+    height: auto;
+}
+
+
+@media (max-width: 450px) {
+    #current {
+        width: 250px;
+        height: auto;
+        
     }
 }
 
@@ -146,10 +155,4 @@
     position: relative;
     text-align: center;
     margin-top: 20px;
-}
-
-#current {
-    border: 10px wheat solid;
-    width: 480px;
-    height: auto;
 }
