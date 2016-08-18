@@ -3,6 +3,13 @@
 #B5BCC0
 #97B2BB
 */
+
+@media (min-width: 450px) {
+    #photo > img {
+        width: 200px;
+    }
+}
+
 @media (min-width: 875px) {
     #uglyme {
         width: 1000px;
