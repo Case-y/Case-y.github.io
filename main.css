@@ -1,4 +1,6 @@
-
+* {
+    border: 1px dotted black;
+}
 
 body {
   /*background: rgb(245, 255, 250);*/
