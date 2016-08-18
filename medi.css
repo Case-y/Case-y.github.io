@@ -13,8 +13,33 @@
         height: 110%;
     }
     #uglyme > img {
-        height: 110%;
+        height: 130%;
+        position: fixed;
     }
+
+    @media (min-width: 1200px) and (max-width: 1300px) and
+        (max-height: 600px) {
+        #uglyme > img {
+            height: 250%;
+            margin-top: -50px;
+        }
+    }
+
+    @media (min-width: 1200px) and (max-width: 1300px) and
+        (max-height: 350px) {
+        #uglyme > img {
+            height: 350%;
+        }
+    }
+
+    @media (min-width: 1200px) and (max-width: 1300px) and
+        (max-height: 235px) {
+        #uglyme > img {
+            height: 450%;
+        }
+    }
+
+
     #aboutme {
         margin: 0 auto;
         padding-left: 120px;
