@@ -103,17 +103,20 @@ https://www.ucdavis.edu/news/worlds-first-1000-processor-chip
                             <div class="stripb"></div>
                         <script language="javascript">
                             function sa_contactform(){
-                                window.alert("hi");
                                 var sa_frm=document.sa_htmlform;
                                 for(i=0; i<sa_frm.elements.length; i++){
                                         var sa_el=sa_frm.elements[i];if(sa_frm.elements[i].name){sa_params+='&'+sa_frm.elements[i].name+'='+encodeURIComponent(sa_frm.elements[i].value);}
                                         if(!sa_el.value && sa_el.getAttribute('required')=='true'){
                                             alert('Please complete all required fields');
                                             sa_el.focus();
-
                                             return false;
                                         }
                                 }
+
+            
+                                window.alert = null;
+                                alert('test'); // fail
+                                delete window.alert; // true
 
                                 alert("Hey... So I actually won't receive this message (I need to work on some PHP things haha), but thanks so much for navigating my website! If you actually want to shoot me a message, just email me at kaze@berkeley.edu");
                                 // var s = document.createElement('script');
