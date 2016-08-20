@@ -132,9 +132,6 @@ a:hover, a:active {
 }
 
 canvas {
-    display: block;
-    margin: -1500px;
-    position: fixed;
     overflow: hidden;
     width: 1276px !important;
     height: 680px !important;
