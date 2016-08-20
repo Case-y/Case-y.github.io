@@ -274,7 +274,10 @@ textarea {
 }
 
 @media (max-width: 450px) {
-        textarea {
+        input, textarea {
         width: 260px !important;
+    }
+    #emailbtn {
+        transform: translateX(80px)
     }
 }
