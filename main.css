@@ -153,9 +153,11 @@ nav .nav-button .nav-button-div {
   background: wheat;
     width: 70px;
     height: 70px;
-    position: absolute;
+    /*position: absolute;*/
+    position: relative;
     top: 50.5px;
-    right: 20.5px;
+    /*right: 20.5px;*/
+    left: 1180.5px;
     border-radius: 30%;
     display: table;
 }
