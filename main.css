@@ -58,7 +58,7 @@ a {
 }
 
 nav {
-    position: fixed;
+    position: relative;
     width: 100%;
     z-index: 1;
     vertical-align: baseline;
