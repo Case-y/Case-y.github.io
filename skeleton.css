@@ -48,9 +48,13 @@
     padding: 0; 
   }
 
-  .pad {
+
+}
+
+@media (max-width: 460px) {
+    .pad {
     margin-top: 100px;
-  }
+  } 
 }
 
 /* For devices larger than 550px */
