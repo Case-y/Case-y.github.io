@@ -265,6 +265,8 @@ input, textarea {
 
 textarea {
   height:153px;
+  max-width: 100%;
+  max-height: 100%;
 }
 #submit {
   height: 45px;
