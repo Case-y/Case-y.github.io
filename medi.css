@@ -275,6 +275,6 @@ textarea {
 
 @media (max-width: 450px) {
         textarea {
-        width: 260px;
+        width: 260px !important;
     }
 }
