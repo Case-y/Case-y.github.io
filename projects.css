@@ -134,7 +134,7 @@ a:hover, a:active {
 
 
 
-@media (min-width: 300px) and (max-width: 450px) {
+@media (max-width: 555px) {
     body {
       background-color: white;
   }
