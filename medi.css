@@ -272,3 +272,9 @@ textarea {
   font-size: 18px;
   margin-top: 20px;
 }
+
+@media (max-width: 450px) {
+        textarea {
+        width: 260px;
+    }
+}
