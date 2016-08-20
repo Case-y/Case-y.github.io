@@ -61,7 +61,7 @@ nav {
     position: fixed;
     width: 100%;
     z-index: 1;
-    vertical-align: baseline;
+    /*vertical-align: baseline;*/
 }
 
 nav .nav-content {
@@ -139,7 +139,7 @@ nav .nav-content .fade-in {
 
 nav .nav-button {
   width: 100%;
-  z-index: 10;
+  /*z-index: 10;*/
 }
 
 .logo {
