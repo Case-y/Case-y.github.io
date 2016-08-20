@@ -280,7 +280,7 @@ textarea {
     textarea {
         width: 270px !important;
     }
-    #submit{
+    #emailbtn{
         transform: translateX(50px) !important;
         width: 150px !important;
     }
