@@ -130,3 +130,15 @@ a:hover, a:active {
 .row {
     padding-top: 5px;
 }
+
+
+
+
+@media (min-width: 300px) and (max-width: 450px) {
+    body {
+      background-color: white;
+  }
+  canvas {
+    margin-top: -5000px;
+}
+}
