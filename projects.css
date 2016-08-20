@@ -140,5 +140,6 @@ a:hover, a:active {
   }
   canvas {
     margin-top: -5000px;
-}
+    height: 1500px;
+  }
 }
