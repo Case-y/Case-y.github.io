@@ -131,7 +131,14 @@ a:hover, a:active {
     padding-top: 5px;
 }
 
-
+canvas {
+    display: block;
+    margin: 0 auto;
+    position: fixed;
+    overflow: hidden;
+    width: 400px !important;
+    height: 400px !important;
+}
 
 
 @media (max-width: 555px) {
