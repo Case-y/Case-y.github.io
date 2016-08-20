@@ -130,7 +130,7 @@ a:hover, a:active {
 .row {
     padding-top: 5px;
 }
-
+/*
 canvas {
     display: block;
     margin: 0 auto;
@@ -139,7 +139,7 @@ canvas {
     width: 400px !important;
     height: 400px !important;
 }
-
+*/
 
 @media (max-width: 555px) {
     body {
