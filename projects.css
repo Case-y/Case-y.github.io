@@ -140,11 +140,11 @@ canvas {
 
 
 @media (max-width: 555px) {
-    body {
+  body {
       background-color: white;
   }
   canvas {
     margin-top: -5000px;
-    height: 1500px;
+    height: 1500px !important;
   }
 }
