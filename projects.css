@@ -148,3 +148,7 @@ canvas {
     height: 1500px !important;
   }
 }
+
+body {
+  font-family: "Open Sans", "Helvetica", "Arial", sans serif;
+  }

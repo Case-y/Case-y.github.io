@@ -2954,3 +2954,7 @@ nav {
 #nav-toggle {
   z-index: 22;
 }
+
+body {
+  font-family: "Open Sans", "Helvetica", "Arial", sans serif;
+}
