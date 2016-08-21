@@ -7,6 +7,11 @@
     <link rel="stylesheet" type="text/css" href="main.css"/>
     <link rel="icon" type="image/x-icon" href="assets/favicon.ico"/>
 
+    <link rel="stylesheet" type="text/css" href="work.css"/>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width,initial-scale=1" />
+
 </head>
 <body>
 	<input id="nav-toggle" type="checkbox" value="selected">
@@ -46,143 +51,79 @@
         </div>
     </nav>
 
-    <div id="content">
-        <div id="pagetitle">School Projects
+
+    <div id="wrapper">
+
+        <!-- Menu -->
+        <!-- Header -->
+<header id="header">
+    <div class="inner">
+
+        <!-- Logo -->
+        <a href="/" class="logo">
+            <span class="symbol"><img src="projimages/dice.png" alt="" /></span><span class="title">Casey Takeda </span>
+        </a>
+
+    </div>
+</header>
+
+    <div id="main">
+            <div class="inner">
+
+                <!-- Main Content -->
+    <header>
+        <h1>School Projects</h1>
+        <p></p>
+    </header>
+
+<section class="tiles">
+    
+        
+
+<article class="style1">
+    <span class="image">
+        <img src="projimages/bearmaps.png" alt="" />
+    </span>
+    <a href="http://datastructur.es/sp16/materials/proj/proj3/proj3.html">
+        <h2>Bear Maps</h2>
+        <div class="content">
+            <p>The project was inspired by Google Maps: I wrote the back end and made graphics to the front end of the project. There are two major components to the project: rastering, the process of converting query requests into bit-mapped, pixel-by-pixel images, and routing, drawing the distance between two locations.</p>
         </div>
+    </a>
+</article>
+        
 
-        	<!-- Bear Maps -->
-        	<div class="project personalproj featured">
-            	<div class="projpic bearmaps">
-                	<img src="projimages/bearmaps.png">
-            	</div>
-            	<div class="projinfo bearmapsd">
-                	<div class="projtitle">Bear Maps</div>
-                	<div class="projtime">CS61B</div>
-                	<div class="projdescript">
-                    	The project was inspired by Google Maps: I wrote the back end and made graphics to the front end of the project. There are two major components to the project: rastering, the process of converting query requests into bit-mapped, pixel-by-pixel images, and routing, drawing the distance between two locations.
-						</br>
-						I used an A* algorithm to compute the shortests paths from one specific location to another. I've also done the gold points for this project, which were autocompletion and search. I learned how to modularize my data and to effectively apply my data structures!
-                	</div>
-            	</div>
-        	</div>
+<article class="style2">
+    <span class="image">
+        <img src="projimages/editor.png" alt="" />
+    </span>
+    <a href="https://github.com/Case-y/Text-Editor" target="_blank">
+        <h2>Text Editor</h2>
+        <div class="content">
+            <p>For this project, I implemented a basic text editor that can be used to open, edit, and save my text files.
+                        My favorite part of this project was learning how to implement selection. I also learned from this project that even something simple to use can be quite a challenge!</p>
+        </div>
+    </a>
+</article>
+    
 
-        	<!-- Text Editor -->
-        	<div class="project personalproj featured">
-            	<div class="projpic editor">
-                	<img src="projimages/editor.png">
-            	</div>
-            	<div class="projinfo editord">
-                	<div class="projtitle">Text Editor</div>
-                	<div class="projtime">CS61B</div>
-                	<div class="projdescript">
-                    	You're probably familiar with different text editors: some of them allow you to edit un-styled text (e.g., Notepad and TextEdit), and others have amazing features that allows for a perfect user friendly experience (e.g., Microsoft Word and Google Docs). 
-                    	</br>
-                        </br>
-                    	For this project, I implemented a basic text editor that can be used to open, edit, and save my text files.
-						My favorite part of this project was learning how to implement selection. I also learned from this project that even something simple to use can be quite a challenge!
-						</br>
-						Some of the various features also include:
-						</br>
-							- Changing background colors
-						</br>
-							- Changing font size 
-						</br>
-							- Printing cursor positions.
-                	</div>
-                	<div class="buttonbar">
-                		<a href="https://github.com/Case-y/Text-Editor" target="_blank">
-                	 		<div class="button"> GitHub </div>
-                	 	</a>
-                        <a href="http://devpost.com/software/text-editor" target="_blank">
-                            <div class="button"> Devpost </div>
-                        </a>
-                	</div>
-            	</div>
-        	</div>
+<article class="style3">
+    <span class="image">
+        <img src="projimages/percolation.png" alt="" />
+    </span>
+    <a href="http://datastructur.es/sp16/materials/hw/hw2/hw2.html" target="_blank">
+        <h2>Percolation</h2>
+        <div class="content">
+            <p>Percolation is a very interesting theory and I suggest to you that you should take a look at this project to find out more about it!</p>
+        </div>
+    </a>
+</article>
 
-            <!-- Percolation --> 
-            <div class="project personalproj featured">
-                <div class="projpic percolate">
-                    <img src="projimages/percolation.png">
-                </div>
-                <div class="projinfo percolated">
-                    <div class="projtitle">Percolation</div>
-                    <div class="projtime">CS61B</div>
-                    <div class="projdescript">
-                        Now let's say you're a clever scientist... Answer this! Given a complex system made up of randomly distributed materials, what fraction of the materials need to be metallic so that the system is an electrical conducotr? Wait here's another question! Given a permeable landscape with water on the surface, under what conditions will the water be able to drain through the bottom and gush through to the surface?
-                        <br>
-                        <br>
-                        Stuck? Well these questions help defined an abstract process known as percolation. Percolation is a very interesting theory and I suggest to you that you should take a look at this project to find out more about it! 
-                        <br>
-                        <br>
-                        Key concepts in implementing Percolation include Weighted Quick Unions and Dynamic Programming.
-                    </div>
-                    <div class="buttonbar">
-                        <a href="https://www.vocabulary.com/dictionary/percolation" target="_blank">
-                            <div class="button"> Vocab </div>
-                        </a>
-                        <a href="https://en.wikipedia.org/wiki/Percolation_theory" target="_blank">
-                            <div class="button"> Wikipedia </div>
-                        </a>
-                    </div>
-                </div>
+
+</section>
+
             </div>
-
-            <!-- Scheme Interpreter -->
-            <div class="project personalproj featured">
-                <div class="projpic scheme">
-                    <img src="projimages/scheme.png">
-                </div>
-                <div class="projinfo schemed">
-                    <div class="projtitle">Scheme Interpreter</div>
-                    <div class="projtime">CS61A</div>
-                    <div class="projdescript">
-                        Many languages are the byproducts in implementation decisions in interpreters and compilers. Here, I developed an interpreter for most of features you can find for the Scheme language. I used much of what I know about Python and how that can cleanly transer into Scheme.
-                        </br>
-                        </br>
-                        One interesting thing about Scheme that Python doesn't support is Tail Recursion Optimization. With this optimization, environmental frames under recursion allow for an unbounded number of active tail calls in constant space!
-                    </div>
-                    <div class="buttonbar">
-                        <a href="https://github.com/Case-y/Scheme-Interpreter" target="_blank">
-                            <div class="button"> Github </div>
-                        </a>
-                        <a href="hhttp://devpost.com/software/scheme-interpreter" target="_blank">
-                            <div class="button"> Devpost </div>
-                        </a>
-                        <a href="https://en.wikipedia.org/wiki/Scheme_(programming_language)" target="_blank">
-                            <div class="button"> Wikipedia </div>
-                        </a>
-                    </div>
-                </div>
-            </div>
-
-            <!-- Ants -->
-            <div class="project personalproj featured">
-                <div class="projpic ants">
-                    <img src="projimages/ants.png">
-                </div>
-                <div class="projinfo antsd">
-                    <div class="projtitle">Ants Vs. SomeBees</div>
-                    <div class="projtime">CS61A</div>
-                    <div class="projdescript">
-                        The project was inspired by PopCap Games' Plants vs. Zombies. I created a tower defense as I populate my colony with the bravest ants I can ever create... My ants are able to throw leaves at the bees until they are all vanquished.
-                        </br>
-                        </br>
-                        The project was heavily functional and object-oriented: it required a lot of understanding, computating, and testing of a large scale project. This was a great introduction for further projects in my computer science career! 
-                    </div>
-                    <div class="buttonbar">
-                        <a href="https://github.com/Case-y/Ants-Vs-Some-Bees---Python---Project" target="_blank">
-                            <div class="button"> Github </div>
-                        </a>
-                        <a href="http://devpost.com/software/ants-vs-some-bees-python-project" target="_blank">
-                            <div class="button"> Devpost </div>
-                        </a>
-                    </div>
-                </div>
-            </div>
-
-    </div>
-    </div>
+        </div>
 
 </body>
 </html>
