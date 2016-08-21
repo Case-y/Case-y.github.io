@@ -7,6 +7,13 @@
     <link rel="stylesheet" type="text/css" href="main.css"/>
     <link rel="icon" type="image/x-icon" href="assets/favicon.ico"/>
 
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width,initial-scale=1" />
+    <link href="http://fonts.googleapis.com/css?family=Roboto:500,400italic,100,300,700,100italic,300italic,400" rel="stylesheet" type="text/css">
+
+    <link rel="stylesheet" href="work.css">
+
 </head>
 <body>
 	<input id="nav-toggle" type="checkbox" value="selected">
@@ -46,42 +53,523 @@
         </div>
     </nav>
 
-    <div id="content">
-        <div id="pagetitle">Work Projects
+
+    <!-- Portfolio -->
+    <section id="portfolio" class="full-section parallax-window" data-parallax="scroll" data-image-src="img/bg.png">
+        <div class="container">
+            <h2 class="title-main">Portfolio.</h2>
+            <h3 class="filter-heading">Languages and Frameworks</h3>
+            <div id="filter-language">
+                <button id="all-languages" class="filter-language btn   ">
+                    <h3 class="filter-title">All</h3>
+                </button>
+            </div>
+            <h3 class="filter-heading">Fields</h3>
+            <div id="filter-field">
+                <button id="all-fields" class="filter-field btn">
+                    <h3 class="filter-title">All</h3>
+                </button>
+            </div>
+            <ul class="row portfolio">
+
+        <li id="calculall" class='col-md-6'>
+                    <div class="panel">
+                        <div class="panel-heading">
+                            <h4 class="project-title">Calculall</h4>
+                            <a href="https://github.com/AlstonLin/Calculall">
+                                <input type="image" alt="Github Link" src="img/github_logo.png" class="btn btn-default project-icon"></input>
+                            </a>
+                            <a href="https://play.google.com/store/apps/details?id=com.trutechinnovations.calculall">
+                                <img alt="Get it on Google Play" src="https://play.google.com/intl/en_us/badges/images/generic/en-play-badge.png" height="40" class="pull-right"/></a>
+                            <h5 class="project-description">An Android calculator that can display fractions, compute indefinite integrals, diagonalize matrices, and more!</h5>
+                            <h5 class="contribution"><i>Created the high-level framework, algebraic simplification algorithm, and the Custom View to display mathematical expressions naturally</i></h5>
+                        </div>
+                        <div class="panel-body">
+                            <div class="owl-carousel-portrait">
+                                <div class="item">
+                                    <a class="fancybox-media" href="https://www.youtube.com/v/AGO83mh7ftI?fs=1&autoplay=1">
+                                        <img class="gallery" src="img/calculall-trailer.png" alt="calculall-trailer"/>
+                                    </a>
+                                </div>
+                                <div class="item">
+                                    <a href="img/calculall1.png" class="fancybox-thumbs" data-fancybox-group="calculall">
+                                        <img class="gallery" src="img/calculall1.png" alt="calculall1"/>
+                                    </a>
+                                </div>
+                                <div class="item">
+                                    <a href="img/calculall1.png" class="fancybox-thumbs" data-fancybox-group="calculall">
+                                        <img class="gallery" src="img/calculall1.png" alt="calculall1"/>
+                                    </a>
+                                </div>
+                                <div class="item">
+                                    <a href="img/calculall2.png" class="fancybox-thumbs" data-fancybox-group="calculall">
+                                        <img class="gallery" src="img/calculall2.png" alt="calculall2"/>
+                                    </a>
+                                </div>
+                                <div class="item">
+                                    <a href="img/calculall3.png" class="fancybox-thumbs" data-fancybox-group="calculall">
+                                        <img class="gallery" src="img/calculall3.png" alt="calculall3"/>
+                                    </a>
+                                </div>
+                                <div class="item">
+                                    <a href="img/calculall4.png" class="fancybox-thumbs" data-fancybox-group="calculall">
+                                        <img class="gallery" src="img/calculall4.png" alt="calculall4"/>
+                                    </a>
+                                </div>
+                                <div class="item">
+                                    <a href="img/calculall5.png" class="fancybox-thumbs" data-fancybox-group="calculall">
+                                        <img class="gallery" src="img/calculall5.png" alt="calculall5"/>
+                                    </a>
+                                </div>
+                                <div class="item">
+                                    <a href="img/calculall6.png" class="fancybox-thumbs" data-fancybox-group="calculall">
+                                        <img class="gallery" src="img/calculall6.png" alt="calculall6"/>
+                                    </a>
+                                </div>
+                            </div>
+
+                            <div id="calculall-tags-languages" class="tags">
+                            </div>
+                            <div id="calculall-tags-fields" class="tags">
+                            </div>
+                        </div>
+                    </div>
+        </li>
+
+                <li id="muriqui" class='col-md-6'>
+                    <div class="panel">
+                        <div class="panel-heading">
+                            <h4 class="project-title">Muriqui</h4>
+                            <a href="https://github.com/AlstonLin/Muriqui">
+                                <input type="image" alt="Github Link" src="img/github_logo.png" class="btn btn-default project-icon"></input>
+                            </a>
+                            <a href="http://muriqui.xyz">
+                                <button class="btn btn-info project-icon"><b>Website</b></button>
+                            </a>
+                            <h5 class="project-description">An web app that allows students to share their test cases for assignments, and have the unit testing source code automatically generated for them.</h5>
+                            <h5 class="contribution"><i>Created everything, except for some of the design</i></h5>
+                        </div>
+                        <div class="panel-body">
+                            <div class="owl-carousel-landscape">
+                                <div class="item">
+                                    <a href="img/muriqui1.png" class="fancybox-thumbs" data-fancybox-group="muriqui">
+                                        <img class="gallery" src="img/muriqui1.png" alt="muriqui"/>
+                                    </a>
+                                </div>
+                                <div class="item">
+                                    <a href="img/muriqui2.png" class="fancybox-thumbs" data-fancybox-group="muriqui">
+                                        <img class="gallery" src="img/muriqui2.png" alt="muriqui"/>
+                                    </a>
+                                </div>
+                                <div class="item">
+                                    <a href="img/muriqui3.png" class="fancybox-thumbs" data-fancybox-group="muriqui">
+                                        <img class="gallery" src="img/muriqui3.png" alt="muriqui"/>
+                                    </a>
+                                </div>
+                                <div class="item">
+                                    <a href="img/muriqui4.png" class="fancybox-thumbs" data-fancybox-group="muriqui">
+                                        <img class="gallery" src="img/muriqui4.png" alt="muriqui"/>
+                                    </a>
+                                </div>
+                                <div class="item">
+                                    <a href="img/muriqui5.png" class="fancybox-thumbs" data-fancybox-group="muriqui">
+                                        <img class="gallery" src="img/muriqui5.png" alt="muriqui"/>
+                                    </a>
+                                </div>
+                            </div>
+                            <div id="muriqui-tags-languages" class="tags">
+                            </div>
+                            <div id="muriqui-tags-fields" class="tags">
+                            </div>
+                        </div>
+                    </div>
+                </li>
+
+                <li id="polarfeed" class='col-md-6'>
+                    <div class="panel">
+                        <div class="panel-heading">
+                            <h4 class="project-title">PolarFeed</h4>
+                            <a href="https://github.com/AlstonLin/PolarFeed">
+                                <input type="image" alt="Github Link" src="img/github_logo.png" class="btn btn-default project-icon"></input>
+                            </a>
+                            <a href="http://devpost.com/software/polarfeed">
+                                <input type="image" alt="Devpost Link" src="img/devpost.svg" class="btn btn-default project-icon"></input>
+                            </a>
+                            <h5 class="project-description">An Android app where attendees of an event can upload and share their pictures live with everyone else.</h5>
+                            <h5 class="contribution"><i>Created most of the Android app and handled some of the RESTful actions on the Node server</i></h5>
+                        </div>
+                        <div class="panel-body">
+                            <div class="owl-carousel-landscape">
+                                <div class="item">
+                                    <a href="img/polarfeed1.png" class="fancybox-thumbs" data-fancybox-group="polarfeed">
+                                        <img class="gallery" src="img/polarfeed1.png" alt="polarfeed"/>
+                                    </a>
+                                </div>
+                                <div class="item">
+                                    <a href="img/polarfeed2.png" class="fancybox-thumbs" data-fancybox-group="polarfeed">
+                                        <img class="gallery" src="img/polarfeed2.png" alt="polarfeed"/>
+                                    </a>
+                                </div>
+                                <div class="item">
+                                    <a href="img/polarfeed3.png" class="fancybox-thumbs" data-fancybox-group="polarfeed">
+                                        <img class="gallery" src="img/polarfeed3.png" alt="polarfeed"/>
+                                    </a>
+                                </div>
+                            </div>
+                            <div id="polarfeed-tags-languages" class="tags">
+                            </div>
+                            <div id="polarfeed-tags-fields" class="tags">
+                            </div>
+                        </div>
+                    </div>
+                </li>
+
+                <li id="war" class='col-md-6'>
+                    <div class="panel">
+                        <div class="panel-heading">
+                            <h4 class="project-title">War of the Ages</h4>
+                            <a href="https://github.com/AlstonLin/War-of-the-Ages">
+                                <input type="image" alt="Github Link" src="img/github_logo.png" class="btn btn-default project-icon"></input>
+                            </a>
+                            <a href="assets/war-ages.zip">
+                                <button class="btn btn-success project-icon">Download</button>
+                            </a>
+                            <h5 class="project-description">A Real Time Strategy game where players control settlements, building their economy and army to defeat other players or an AI.</h5>
+                            <h5 class="contribution"><i>Created the high level framework, most of the core algorithms, and networking.</i></h5>
+                        </div>
+                        <div class="panel-body">
+                            <div class="owl-carousel-landscape">
+                                <div class="item">
+                                    <a href="img/war1.png" class="fancybox-thumbs" data-fancybox-group="war">
+                                        <img class="gallery" src="img/war1.png" alt="war1"/>
+                                    </a>
+                                </div>
+                                <div class="item">
+                                    <a href="img/war2.png" class="fancybox-thumbs" data-fancybox-group="war">
+                                        <img class="gallery" src="img/war2.png" alt="war2"/>
+                                    </a>
+                                </div>
+                                <div class="item">
+                                    <a href="img/war3.png" class="fancybox-thumbs" data-fancybox-group="war">
+                                        <img class="gallery" src="img/war3.png" alt="war3"/>
+                                    </a>
+                                </div>
+                                <div class="item">
+                                    <a href="img/war4.png" class="fancybox-thumbs" data-fancybox-group="war">
+                                        <img class="gallery" src="img/war3.png" alt="war3"/>
+                                    </a>
+                                </div>
+                                <div class="item">
+                                    <a href="img/war5.png" class="fancybox-thumbs" data-fancybox-group="war">
+                                        <img class="gallery" src="img/war3.png" alt="war3"/>
+                                    </a>
+                                </div>
+                            </div>
+                            <div id="war-tags-languages" class="tags">
+                            </div>
+                            <div id="war-tags-fields" class="tags">
+                            </div>
+                        </div>
+                    </div>
+                </li>
+
+                <li id="block-survival" class='col-md-6'>
+                    <div class="panel">
+                        <div class="panel-heading">
+                            <h4 class="project-title">Block Survival</h4>
+                            <a href="https://github.com/AlstonLin/Block-Survival">
+                                <input type="image" alt="Github Link" src="img/github_logo.png" class="btn btn-default project-icon"></input>
+                            </a>
+                            <a href="assets/block-survival.zip">
+                                <button class="btn btn-success project-icon">Download</button>
+                            </a>
+                            <h5 class="project-description">A Minecraft clone, created with JMonkeyEngine(OpenGL).</h5>
+                            <h5 class="contribution"><i>Created by myself</i></h5>
+                        </div>
+                        <div class="panel-body">
+                            <div class="owl-carousel-landscape">
+                                <div class="item">
+                                    <a class="fancybox-media" href='http://www.youtube.com/v/Y7VO62_o-ZI?fs=1&autoplay=1'>
+                                        <img class="gallery" src="img/survival-trailer.png" alt="blocksurvival"/>
+                                    </a>
+                                </div>
+                                <div class="item">
+                                    <a href="img/blocksurvival1.png" class="fancybox-thumbs" data-fancybox-group="blocksurvival">
+                                        <img class="gallery" src="img/blocksurvival1.png" alt="blocksurvival1"/>
+                                    </a>
+                                </div>
+                                <div class="item">
+                                    <a href="img/blocksurvival2.png" class="fancybox-thumbs" data-fancybox-group="blocksurvival">
+                                        <img class="gallery" src="img/blocksurvival2.png" alt="blocksurvival2"/>
+                                    </a>
+                                </div>
+                                <div class="item">
+                                    <a href="img/blocksurvival3.png" class="fancybox-thumbs" data-fancybox-group="blocksurvival">
+                                        <img class="gallery" src="img/blocksurvival3.png" alt="blocksurvival3"/>
+                                    </a>
+                                </div>
+                            </div>
+                            <div id="block-survival-tags-languages" class="tags">
+                            </div>
+                            <div id="block-survival-tags-fields" class="tags">
+                            </div>
+                        </div>
+                    </div>
+                </li>
+
+                <li id="3draw" class='col-md-6'>
+                    <div class="panel">
+                        <div class="panel-heading">
+                            <h4 class="project-title">3Draw</h4>
+                            <a href="https://github.com/AlstonLin/3Draw">
+                                <input type="image" alt="Github Link" src="img/github_logo.png" class="btn btn-default project-icon"></input>
+                            </a>
+                            <a href="http://devpost.com/software/bostonhacksapp">
+                                <input type="image" alt="Devpost Link" src="img/devpost.svg" class="btn btn-default project-icon"></input>
+                            </a>
+                            <h5 class="project-description">A web app where users can collaborate in creating 3D models in real time.</h5>
+                            <h5 class="contribution"><i>Created the high level framework and responsible for input handling, 3D rendering, and server configuration</i></h5>
+                        </div>
+                        <div class="panel-body">
+                            <div class="owl-carousel-landscape">
+                                <div class="item">
+                                    <a href="img/3draw1.png" class="fancybox-thumbs" data-fancybox-group="3draw">
+                                        <img class="gallery" src="img/3draw1.png" alt="3draw"/>
+                                    </a>
+                                </div>
+                                <div class="item">
+                                    <a href="img/3draw2.png" class="fancybox-thumbs" data-fancybox-group="3draw">
+                                        <img class="gallery" src="img/3draw2.png" alt="3draw"/>
+                                    </a>
+                                </div>
+                                <div class="item">
+                                    <a href="img/3draw3.png" class="fancybox-thumbs" data-fancybox-group="3draw">
+                                        <img class="gallery" src="img/3draw3.png" alt="3draw"/>
+                                    </a>
+                                </div>
+                                <div class="item">
+                                    <a href="img/3draw4.png" class="fancybox-thumbs" data-fancybox-group="3draw">
+                                        <img class="gallery" src="img/3draw4.png" alt="3draw"/>
+                                    </a>
+                                </div>
+                            </div>
+                            <div id="3draw-tags-languages" class="tags">
+                            </div>
+                            <div id="3draw-tags-fields" class="tags">
+                            </div>
+                        </div>
+                    </div>
+                </li>
+
+                <li id="fuser" class='col-md-6'>
+                    <div class="panel">
+                        <div class="panel-heading">
+                            <h4 class="project-title">Fuser</h4>
+                            <a href="https://github.com/AlstonLin/HackWestern-Fuser">
+                                <input type="image" alt="Github Link" src="img/github_logo.png" class="btn btn-default project-icon"></input>
+                            </a>
+                            <a href="http://devpost.com/software/fuser">
+                                <input type="image" alt="Devpost Link" src="img/devpost.svg" class="btn btn-default project-icon"></input>
+                            </a>
+                            <h5 class="project-description">An Android app that users can use to host their own radio station on the internet.</h5>
+                            <h5 class="contribution"><i>Created the entire Android app, except for the design</i></h5>
+                        </div>
+                        <div class="panel-body">
+                            <div class="owl-carousel-portrait">
+                                <div class="item">
+                                    <a href="img/fuser1.png" class="fancybox-thumbs" data-fancybox-group="fuser">
+                                        <img class="gallery" src="img/fuser1.png" alt="fuser1"/>
+                                    </a>
+                                </div>
+                                <div class="item">
+                                    <a href="img/fuser2.png" class="fancybox-thumbs" data-fancybox-group="fuser">
+                                        <img class="gallery" src="img/fuser2.png" alt="fuser2"/>
+                                    </a>
+                                </div>
+                                <div class="item">
+                                    <a href="img/fuser3.png" class="fancybox-thumbs" data-fancybox-group="fuser">
+                                        <img class="gallery" src="img/fuser3.png" alt="fuser3"/>
+                                    </a>
+                                </div>
+                            </div>
+                            <div id="fuser-tags-languages" class="tags">
+                            </div>
+                            <div id="fuser-tags-fields" class="tags">
+                            </div>
+                        </div>
+                    </div>
+                </li>
+
+                <li id="organizer" class='col-md-6'>
+                    <div class="panel">
+                        <div class="panel-heading">
+                            <h4 class="project-title">SE2020 Organizer</h4>
+                            <a href="https://github.com/JamesHageman/SE2020-Organizer">
+                                <input type="image" alt="Github Link" src="img/github_logo.png" class="btn btn-default project-icon"></input>
+                            </a>
+                            <h5 class="project-description">An web app that assists other students in reminding them of deadlines, and allowing them to easily share lecture notes.</h5>
+                            <h5 class="contribution"><i>Created most of the back-end and templates</i></h5>
+                        </div>
+                        <div class="panel-body">
+                            <div class="owl-carousel-landscape">
+                                <div class="item">
+                                    <a href="img/organizer1.png" class="fancybox-thumbs" data-fancybox-group="organizer">
+                                        <img class="gallery" src="img/organizer1.png" alt="organizer"/>
+                                    </a>
+                                </div>
+                                <div class="item">
+                                    <a href="img/organizer2.png" class="fancybox-thumbs" data-fancybox-group="organizer">
+                                        <img class="gallery" src="img/organizer2.png" alt="organizer"/>
+                                    </a>
+                                </div>
+                                <div class="item">
+                                    <a href="img/organizer3.png" class="fancybox-thumbs" data-fancybox-group="organizer">
+                                        <img class="gallery" src="img/organizer3.png" alt="organizer"/>
+                                    </a>
+                                </div>
+                            </div>
+                            <div id="organizer-tags-languages" class="tags">
+                            </div>
+                            <div id="organizer-tags-fields" class="tags">
+                            </div>
+                        </div>
+                    </div>
+                </li>
+
+                <li id="lost" class='col-md-6'>
+                    <div class="panel">
+                        <div class="panel-heading">
+                            <h4 class="project-title">WatIsLost <i>(Prototype)</i></h4>
+                            <a href="https://github.com/AlstonLin/WatIsLost">
+                                <input type="image" alt="Github Link" src="img/github_logo.png" class="btn btn-default project-icon"></input>
+                            </a>
+                            <h5 class="project-description">An Android app that helps students navigate uWaterloo by showing them how to navigate
+                                inside and outside of building. The data used for pathfinding is generated by applying a Computer Vision algorithm to blueprints.</h5>
+                            <h5 class="contribution"><i>Created the core algorithms that will be shared by all platforms, and the Android prototype to showcase it</i></h5>
+                        </div>
+                        <div class="panel-body">
+                            <div class="owl-carousel-landscape">
+                                <div class="item">
+                                    <a href="img/lost1.png" class="fancybox-thumbs" data-fancybox-group="lost">
+                                        <img class="gallery" src="img/lost1.png" alt="lost"/>
+                                    </a>
+                                </div>
+                                <div class="item">
+                                    <a href="img/lost2.png" class="fancybox-thumbs" data-fancybox-group="lost">
+                                        <img class="gallery" src="img/lost2.png" alt="lost"/>
+                                    </a>
+                                </div>
+                                <div class="item">
+                                    <a href="img/lost3.png" class="fancybox-thumbs" data-fancybox-group="lost">
+                                        <img class="gallery" src="img/lost3.png" alt="lost"/>
+                                    </a>
+                                </div>
+                                <div class="item">
+                                    <a href="img/lost4.png" class="fancybox-thumbs" data-fancybox-group="lost">
+                                        <img class="gallery" src="img/lost4.png" alt="lost"/>
+                                    </a>
+                                </div>
+                            </div>
+                            <div id="lost-tags-languages" class="tags">
+                            </div>
+                            <div id="lost-tags-fields" class="tags">
+                            </div>
+                        </div>
+                    </div>
+                </li>
+
+        <li id="troll" class='col-md-6'>
+                    <div class="panel">
+                        <div class="panel-heading">
+                            <h4 class="project-title">Anonygoose</h4>
+                            <a href="https://github.com/AlstonLin/anonygoose-Android">
+                                <input type="image" alt="Github Link" src="img/github_logo.png" class="btn btn-default project-icon"></input>
+                            </a>
+                            <a href="http://devpost.com/software/anonygoose-loisrf">
+                                <input type="image" alt="Devpost Link" src="img/devpost.svg" class="btn btn-default project-icon"></input>
+                            </a>
+                            <h5 class="attention"><i>This app was created for TerribleHacks. It is supposed to be a joke and meant to be bad.
+                                This app was intentionally designed to have a terrible UI and even worse security.</i></h5>
+                            <h5 class="project-description">A messaging app where geese can anonymously message each other. Available in Android, iOS, and as a Web app.</h5>
+                            <h5 class="contribution"><i>Created the entire Android app and part of the Node server</i></h5>
+                        </div>
+                        <div class="panel-body">
+                            <div class="owl-carousel-landscape">
+                                <div class="item">
+                                    <a class="fancybox-media" href="https://www.youtube.com/watch?v=fqiR-saP6Hw&autoplay=1">
+                                        <img class="gallery" src="img/troll-trailer.png" alt="troll-trailer"/>
+                                    </a>
+                                </div>
+                                <div class="item">
+                                    <a href="img/troll.png" class="fancybox-thumbs" data-fancybox-group="troll">
+                                        <img class="gallery" src="img/troll.png" alt="troll"/>
+                                    </a>
+                                </div>
+                            </div>
+                            <div id="troll-tags-languages" class="tags">
+                            </div>
+                            <div id="troll-tags-fields" class="tags">
+                            </div>
+                        </div>
+                    </div>
+          </li>
+
+            </ul>
         </div>
+    </section>
+    <!-- // Portfolio -->
 
-        	<!-- ShapeMash -->
-        	<div class="project personalproj featured">
-            	<div class="projpic shape">
-                	<img src="projimages/shapemash.png">
-            	</div>
-            	<div class="projinfo">
-                	<div class="projtitle">ShapeMash</div>
-                	<div class="projtime">JCase Studios</div>
-                	<div class="projdescript">
-                    	Shapemash is a simple, innovative and fun arcade game aimed to test a player's reaction as well as problem-solving skills.
-                    	The game was written in Swift with Spritekit, and currently only has an iOS version.
-                    	</br>
-                    	JCase Studios intend to develop an OSX version and an Android version in the future.
-                        </br>
-                        <b>Coming Soon: Version 1.1</b>
-                	</div>
-                	<div class="buttonbar">
-                		<a href="https://itunes.apple.com/us/app/shapemash/id1118220778?ls=1&mt=8" target="_blank">
-                	 		<div class="button"> iTunes App Store </div>
-                	 	</a>
-                	 	<a href="https://www.youtube.com/watch?v=X-JCBLin9IY" target="_blank">
-                	 		<div class="button"> Youtube Video </div>
-                	 	</a>
-                	 	<a href="https://www.facebook.com/ShapeMash/?fref=ts" target="_blank">
-                	 		<div class="button"> Facebook Page </div>
-                	 	</a>
-                	</div>
-            	</div>
-        	</div>
+    <script>
+        $(document).ready(function(){
+            
+        $('.fancybox-thumbs').fancybox({
+            prevEffect : 'none',
+            nextEffect : 'none',
+            closeBtn  : false,
+            arrows    : false,
+            nextClick : true,
+            helpers : {
+                thumbs : {
+                    width  : 50,
+                    height : 50
+                }
+            }
+        });
 
-    </div>
-    </div>
+        $('.fancybox-media').click(function(){
+            $.fancybox({
+                'padding'   : 0,
+                'autoScale': false,
+                'transitionIn': 'none',
+                'transitionOut': 'none',
+                'title': this.title,
+                'width': 640,
+                'height': 385,
+                'href': this.href.replace(new RegExp("watch\\?v=", "i"), 'v/'),
+                'type': 'swf',
+                'swf': {
+                    'wmode': 'transparent',
+                    'allowfullscreen': 'true'
+                }
+            });
+            return false;
+        });
+
+        $('.owl-carousel-portrait').owlCarousel({
+            items:3
+        });
+
+        $('.owl-carousel-landscape').owlCarousel({
+            items:3
+        });
+
+        $(window).resize(function(){
+            window.setTimeout(function(){
+                $(window).trigger('resize.px.parallax');
+            }, 250);
+        });
+    });
+    </script>
 
 </body>
 </html>
