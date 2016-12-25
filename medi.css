@@ -208,11 +208,11 @@ margin-right:0;
 }
 .inputlabel{
   font-size: 16px;
-  color: wheat;
+  color: black;
   margin-bottom: 5px;
   letter-spacing: 0.5px;
   margin-top: 16px;
-  font-weight: 900;
+  font-weight: 400;
 }
 .fieldbreak{
   padding: 20px 300px;
