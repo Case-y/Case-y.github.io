@@ -1,5 +1,6 @@
 * {
     /*border: 1px dotted black;*/
+    cursor: url(images/cursorbun.gif), auto;
 }
 
 body {
@@ -10,7 +11,6 @@ body {
 
 a {
     text-decoration: none;
-    cursor: pointer;
 }
 
 .clear {
