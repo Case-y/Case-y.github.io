@@ -22,7 +22,7 @@
 @media (min-width: 875px) {
     #uglyme {
         width: 1000px;
-        position: fixed;
+        position: relative;
         z-index: -10;
         /*padding-left: 47%;*/
         /*margin-left: -575px;*/
