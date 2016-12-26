@@ -63,8 +63,15 @@ https://www.ucdavis.edu/news/worlds-first-1000-processor-chip
     </nav>
     <div class="content" style="height: 100%;">
         <div id="uglyme">
-             <img src="/images/happy.jpeg">
-
+            <div>
+                <img src="/images/happy.jpeg">
+            </div>
+            <div>
+                <img src="/images/IMG_5800.JPG">
+            </div>
+            <div>
+                <img src="/images/nice.jpg">
+            </div>
         </div>
         <div id="page">
             <div id="aboutme">
@@ -171,5 +178,17 @@ https://www.ucdavis.edu/news/worlds-first-1000-processor-chip
     </div>
 
 </body>
+<script type="text/javascript">
+    $("#uglyme > div:gt(0)").hide();
 
+    setInterval(function() {
+      $('#uglyme > div:first')
+        .fadeOut(1000)
+        .next()
+        .fadeIn(1000)
+        .end()
+        .appendTo('#uglyme');
+    }, 3000);
+
+</script>
 </html>
