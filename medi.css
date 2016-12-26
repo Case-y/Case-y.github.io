@@ -19,11 +19,16 @@
     }
 }
 
+#uglyme {
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.4);
+}
+
 @media (min-width: 875px) {
     #uglyme {
         width: 1000px;
         position: relative;
         z-index: -10;
+        transform: translateX(-30px);
         /*padding-left: 47%;*/
         /*margin-left: -575px;*/
         height: 110%;
@@ -67,7 +72,7 @@
     }
     #page {
         /*background-color: rgb(245, 255, 250);*/
-        background-color: papayawhip;
+        background-color: seashell;
         height: 100%;
         margin-left: 40%;
     }
