@@ -63,30 +63,30 @@ h2 {letter-spacing:0; font-weight:400 }
 
     @media(max-width: 767px) {
     	.bio_c {
-    		height: 1150px !important;
+    		height: 1050px !important;
     	}
     	.photography {
-        	top: 1192px !important;
+        	top: 1092px !important;
         	left: 0px !important;
     	}
     	.projects_c {
-        	top: 1512px !important;
+        	top: 1412px !important;
         	left: 0px !important;
     	}
     	.profile_c {
     		left: 0px !important;
-    		top: 1832px !important;
+    		top: 1732px !important;
     	}
     	.contact_c {
     		left: 0px !important;
-    		top: 2152px !important;
+    		top: 2052px !important;
     	}
     	.resume_c {
     		left: 0px !important;
-    		top: 2472px !important;
+    		top: 2372px !important;
     	}
     	#container {
-    		height: 2520px !important; 
+    		height: 2420px !important; 
     	}
     }
 }
