@@ -3,10 +3,10 @@
 <head>
     <title>Casey | Projects</title>
     <link href="http://fonts.googleapis.com/css?family=Open+Sans:400,300,700,600" rel="stylesheet" type="text/css"/>
-    <link rel="stylesheet" type="text/css" href="main.css"/>
-    <link rel="stylesheet" type="text/css" href="normalize.css">
-    <link rel="stylesheet" type="text/css" href="skeleton.css">
-    <link rel="stylesheet" type="text/css" href="projects.css">
+    <link rel="stylesheet" type="text/css" href="css/main.css"/>
+    <link rel="stylesheet" type="text/css" href="css/normalize.css">
+    <link rel="stylesheet" type="text/css" href="css/skeleton.css">
+    <link rel="stylesheet" type="text/css" href="css/projects.css">
     <link rel="icon" type="image/x-icon" href="assets/favicon.ico"/>
     <meta name="viewport" content="width=device-width, initial-scale=0.95">
     
@@ -18,9 +18,10 @@
   <source src="8bit.wav" />
 </audio> -->
 
-
 <body>
-	<input id="nav-toggle" type="checkbox" value="selected">
+
+<!-- NAV --> 
+<input id="nav-toggle" type="checkbox" value="selected">
     <nav>
         <div class="nav-content">
             <div class = "fade-in"> 
@@ -32,15 +33,12 @@
                     <a href="/"><div class="nav-item">About</div></a>
                     <a href="/projects"><div class="nav-item">Projects</div></a>
 
-                    <div class="nav-category"><u>ENTERTAINMENT</u></div>
+                     <div class="nav-category"><u>PERSONAL</u></div>
                     <a href="/imgur" target = "_blank"><div class = "nav-item">Imgur</div> </a>
-                    <a href="https://caseytakeda.wordpress.com" target = "_blank"><div class="nav-item">Personal</div></a> 
                     <a href="/quotes" target = "_blank"><div class = "nav-item">QuoteMachine</div> </a>
-                    <a href="/pomodoro" target = "_blank"><div class = "nav-item">Pomodoro Clock</div> </a>
-                    <a href="shapemash.pdf" target = "_blank"><div class = "nav-item"> ShapeMash </div> </a>
 
                     <div class="nav-category"><u>CONTACT</u></div>
-                    <a href="CaseyResume.pdf" target = "_blank"><div class="nav-item">Resume</div></a>
+                    <a href="files/CaseyResume.pdf" target = "_blank"><div class="nav-item">Resume</div></a>
                     <a href="https://github.com/Case-y" target = "_blank"><div class="nav-item">GitHub</div></a>
                     <a href="http://devpost.com/CaseyIsACookie" target = "_blank"><div class="nav-item">Devpost</div></a>
                     <a href="https://www.linkedin.com/in/caseytakeda" target = "_blank"><div class="nav-item">LinkedIn</div></a>
@@ -51,28 +49,31 @@
         <div class = "nav-button">
             <div class = "nav-button-div">
                 <div class = "nav-button-press">
-                        <img class = "logo" src="homelogo.png">
+                        <img class = "logo" src="assets/homelogo.png">
                 </div>
             </div>
         </div>
     </nav>
+</input>
 
-    <div class="section values">
+<!-- Frame -->
+
+<div class="section values">
     <div class="container">
       <div class="teaser">
         <div class="row">
           <div class="one-third column value">
-            <a href="/caseyprojects"><img class="img-circle" src="projimages/appLogo120.png" alt="" width="60%">
+            <a href="caseyprojects.html"><img class="img-circle" src="assets/projimages/appLogo120.png" alt="" width="60%">
             <h2 class="value-multiplier"><u>Personal</u></h2>
             <h5 class="value-heading">Here are some of my developed iOS Apps and Websites</h5> </a>
           </div>
           <div class="one-third column value pad">
-            <a href="/work"><img class="img-circle" src="assets/jcase.png" alt="" width="60%">
+            <a href="work.html"><img class="img-circle" src="assets/jcase.png" alt="" width="60%">
             <h2 class="value-multiplier"><u>Work</u></h2>
             <h5 class="value-heading">Here are some of the projects I've done while working</h5> </a>
           </div>
           <div class="one-third column value pad">
-            <a href = "/school"><img class="img-circle" src="projimages/editor.png" alt="" width="60%">
+            <a href = "school.html"><img class="img-circle" src="assets/projimages/editor.png" alt="" width="60%">
             <h2 class="value-multiplier"><u>School</u></h2>
             <h5 class="value-heading">Here are some of the class projects I've done at UC Berkeley</h5> </a>
           </div>
@@ -83,18 +84,23 @@
             Have an <one class="highlight"> idea</one> about something? </h5>
         <h5 class = "talk">Let's talk and make a project together!</h5>
         
-      </div>
+     </div>
     </div>
+</div>
 
+<!--         
 
+IF YOU WANT BIRDS LMFAO
 
-<!--         <script src="http://threejs.org/build/three.min.js"></script>
+<script src="http://threejs.org/build/three.min.js"></script>
         <script src="http://threejs.org/examples/js/renderers/Projector.js"></script>
         <script src="http://threejs.org/examples/js/renderers/CanvasRenderer.js"></script>
         <script src="http://threejs.org/examples/js/libs/stats.min.js"></script>
         <script src="http://threejs.org/examples/obj/Bird.js"></script>
-        <script src="custom.js"></script>
-        <script src="birds.js"></script> -->
+        <script src="/js/custom.js"></script>
+        <script src="/js/birds.js"></script>
+
+ -->
 
 </body>
 </html>
