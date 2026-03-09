@@ -1,206 +1,178 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="utf-8">
+    <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Casey Takeda | Portfolio</title>
-    
-    <!-- Modern Fonts -->
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <title>Casey Takeda | Backend Developer</title>
+    <!-- Modern Font: Inter -->
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
-    
-    <!-- Modern Icons -->
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/remixicon@3.5.0/fonts/remixicon.css">
-    
-    <!-- AOS Animation Library -->
-    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
-    
-    <!-- Custom CSS -->
-    <link rel="stylesheet" href="css/main.css">
-    
-    <!-- Favicon -->
-    <link rel="icon" type="image/x-icon" href="assets/favicon.ico">
+    <!-- FontAwesome for Icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <!-- Tailwind CSS (No installation required) -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    fontFamily: { sans: ['Inter', 'sans-serif'] },
+                    colors: { primary: '#2563eb' } // The royal blue from your original site
+                }
+            }
+        }
+    </script>
+    <style>
+        /* Smooth scrolling for navigation links */
+        html { scroll-behavior: smooth; }
+    </style>
 </head>
-<body>
-    <div class="container">
-        <!-- Hero Section -->
-        <header class="hero" data-aos="fade-up">
-            <div class="hero-content">
-                <h1 class="name">Casey Takeda</h1>
-                <p class="tagline">Developer & Creator</p>
+<body class="bg-slate-50 text-slate-800 antialiased selection:bg-primary selection:text-white">
+
+    <!-- Navigation -->
+    <nav class="fixed top-0 w-full bg-white/80 backdrop-blur-md border-b border-slate-200 z-50">
+        <div class="max-w-5xl mx-auto px-6 py-4 flex justify-between items-center">
+            <a href="#" class="text-xl font-bold text-slate-900 tracking-tight">Casey Takeda</a>
+            <div class="hidden md:flex space-x-8 text-sm font-medium text-slate-600">
+                <a href="#about" class="hover:text-primary transition-colors">About</a>
+                <a href="#projects" class="hover:text-primary transition-colors">Projects</a>
+                <a href="#experience" class="hover:text-primary transition-colors">Experience</a>
+                <!-- Optional Resume Link -->
+                <!-- <a href="resume.pdf" target="_blank" class="hover:text-primary transition-colors">Resume</a> -->
             </div>
-            <div id="particles-js"></div>
-        </header>
+        </div>
+    </nav>
 
-        <!-- About Section -->
-        <section class="about-section" data-aos="fade-up" data-aos-delay="100">
-            <div class="about-content">
-                <h2>About Me</h2>
-                <div class="about-text">
-                    <p>Hey there! 👋 </br>
-                    I'm Casey Takeda, a passionate developer who loves learning and creating meaningful products.</p>
-                    
-                    <div class="interests">
-                        <div class="interest-item">
-                            <i class="ri-code-s-slash-line"></i>
-                            <span>Programming</span>
-                        </div>
-                        <div class="interest-item">
-                            <i class="ri-music-2-line"></i>
-                            <span>Music</span>
-                        </div>
-                        <div class="interest-item">
-                            <i class="ri-restaurant-2-line"></i>
-                            <span>Cooking</span>
-                        </div>
-                        <div class="interest-item">
-                            <i class="ri-walk-line"></i>
-                            <span>Hiking</span>
-                        </div>
+    <!-- Hero Section -->
+    <main class="max-w-5xl mx-auto px-6 pt-32 pb-20 md:pt-48 md:pb-32">
+        <div class="max-w-3xl">
+            <h1 class="text-5xl md:text-7xl font-bold text-slate-900 tracking-tight mb-6">
+                Hey there! 👋 <br> I'm <span class="text-primary">Casey.</span>
+            </h1>
+            <p class="text-xl md:text-2xl text-slate-600 mb-8 leading-relaxed">
+                I'm a <span class="font-semibold text-slate-800">Backend Developer</span> passionate about building robust, scalable systems. My mission is to create products that positively impact people's lives and make the world a better place through technology.
+            </p>
+            <div class="flex space-x-4">
+                <a href="https://github.com/Case-y" target="_blank" class="p-3 bg-slate-900 text-white rounded-lg hover:bg-slate-800 transition-colors">
+                    <i class="fab fa-github text-xl"></i>
+                </a>
+                <a href="https://linkedin.com/in/YOUR_LINKEDIN" target="_blank" class="p-3 bg-slate-900 text-white rounded-lg hover:bg-slate-800 transition-colors">
+                    <i class="fab fa-linkedin-in text-xl"></i>
+                </a>
+                <a href="mailto:your.email@example.com" class="px-6 py-3 bg-white border border-slate-300 text-slate-700 font-medium rounded-lg hover:bg-slate-50 transition-colors">
+                    Get in touch
+                </a>
+            </div>
+        </div>
+    </main>
+
+    <!-- Projects Section -->
+    <section id="projects" class="py-20 bg-white">
+        <div class="max-w-5xl mx-auto px-6">
+            <h2 class="text-3xl font-bold text-slate-900 mb-10">Featured Projects</h2>
+            
+            <div class="grid grid-cols-1 md:grid-cols-2 gap-8">
+                <!-- PersonifyIt Project Card -->
+                <div class="border border-slate-200 rounded-2xl p-8 hover:shadow-lg transition-shadow duration-300 flex flex-col h-full">
+                    <div class="flex justify-between items-start mb-4">
+                        <h3 class="text-2xl font-bold text-slate-900">PersonifyIt</h3>
+                        <a href="https://personifyit.com" target="_blank" class="text-slate-400 hover:text-primary">
+                            <i class="fas fa-external-link-alt text-xl"></i>
+                        </a>
                     </div>
+                    <!-- Update this description to focus on the backend work you did! -->
+                    <p class="text-slate-600 mb-6 flex-grow">
+                        A full-stack application with a heavy focus on backend architecture. Designed the database schema, built secure REST APIs, and managed data flow to ensure a seamless and performant user experience.
+                    </p>
+                    <div class="flex flex-wrap gap-2 mb-6">
+                        <!-- Update these tags with the actual tech stack you used -->
+                        <span class="px-3 py-1 bg-blue-50 text-blue-700 text-xs font-semibold rounded-full">Node.js</span>
+                        <span class="px-3 py-1 bg-blue-50 text-blue-700 text-xs font-semibold rounded-full">PostgreSQL</span>
+                        <span class="px-3 py-1 bg-blue-50 text-blue-700 text-xs font-semibold rounded-full">REST APIs</span>
+                        <span class="px-3 py-1 bg-blue-50 text-blue-700 text-xs font-semibold rounded-full">AWS</span>
+                    </div>
+                </div>
 
-                    <p class="mission">My mission is to create products that positively impact people's lives and make the world a better place through technology.</p>
+                <!-- Placeholder for a Second Project -->
+                <div class="border border-slate-200 rounded-2xl p-8 hover:shadow-lg transition-shadow duration-300 flex flex-col h-full bg-slate-50 border-dashed">
+                    <div class="flex flex-col items-center justify-center h-full text-slate-400">
+                        <i class="fas fa-code text-4xl mb-4"></i>
+                        <h3 class="text-lg font-medium">Next Project Coming Soon</h3>
+                        <p class="text-sm mt-2 text-center">Building something awesome behind the scenes.</p>
+                    </div>
                 </div>
             </div>
-        </section>
+        </div>
+    </section>
 
-        <!-- Social Links -->
-        <footer class="social-links" data-aos="fade-up" data-aos-delay="200">
-            <a href="https://github.com/Case-y" target="_blank" rel="noopener noreferrer">
-                <i class="ri-github-fill"></i>
-            </a>
-            <a href="https://www.linkedin.com/in/case-y/" target="_blank" rel="noopener noreferrer">
-                <i class="ri-linkedin-fill"></i>
-            </a>
-        </footer>
-    </div>
+    <!-- Experience / About Section -->
+    <section id="experience" class="py-20 bg-slate-50">
+        <div class="max-w-5xl mx-auto px-6 grid grid-cols-1 md:grid-cols-2 gap-16">
+            
+            <!-- Work/School Timeline (Replacing your old separate files) -->
+            <div>
+                <h2 class="text-3xl font-bold text-slate-900 mb-8">Experience & Education</h2>
+                <div class="space-y-8 border-l-2 border-slate-200 ml-3">
+                    
+                    <!-- Item 1 -->
+                    <div class="relative pl-8">
+                        <div class="absolute w-4 h-4 bg-primary rounded-full -left-[9px] top-1 border-4 border-slate-50"></div>
+                        <p class="text-sm font-semibold text-primary mb-1">2023 - Present</p>
+                        <h3 class="text-lg font-bold text-slate-900">Backend Developer</h3>
+                        <p class="text-slate-600 font-medium mb-2">Company Name</p>
+                        <p class="text-slate-600 text-sm">Worked on designing microservices, optimizing database queries, and reducing API latency.</p>
+                    </div>
 
-    <!-- Scripts -->
-    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
-    <script src="https://cdn.jsdelivr.net/particles.js/2.0.0/particles.min.js"></script>
-    <script>
-        // Log to confirm the script is running
-        console.log("Script is running");
+                    <!-- Item 2 -->
+                    <div class="relative pl-8">
+                        <div class="absolute w-4 h-4 bg-slate-300 rounded-full -left-[9px] top-1 border-4 border-slate-50"></div>
+                        <p class="text-sm font-semibold text-slate-500 mb-1">2019 - 2023</p>
+                        <h3 class="text-lg font-bold text-slate-900">B.S. Computer Science</h3>
+                        <p class="text-slate-600 font-medium mb-2">University Name</p>
+                        <p class="text-slate-600 text-sm">Relevant Coursework: Data Structures, Algorithms, Database Systems, Operating Systems.</p>
+                    </div>
 
-        // Initialize AOS
-        AOS.init({
-            duration: 800,
-            easing: 'ease-in-out',
-            once: true
-        });
+                </div>
+            </div>
 
-        particlesJS("particles-js", {
-            "particles": {
-                "number": {
-                    "value": 80,
-                    "density": {
-                        "enable": true,
-                        "value_area": 800
-                    }
-                },
-                "color": {
-                    "value": "#000000"
-                },
-                "shape": {
-                    "type": "circle",
-                    "stroke": {
-                        "width": 0,
-                        "color": "#000000"
-                    },
-                    "polygon": {
-                        "nb_sides": 5
-                    },
-                    "image": {
-                        "src": "img/github.svg",
-                        "width": 100,
-                        "height": 100
-                    }
-                },
-                "opacity": {
-                    "value": 0.5,
-                    "random": false,
-                    "anim": {
-                        "enable": false,
-                        "speed": 1,
-                        "opacity_min": 0.1,
-                        "sync": false
-                    }
-                },
-                "size": {
-                    "value": 3,
-                    "random": true,
-                    "anim": {
-                        "enable": false,
-                        "speed": 40,
-                        "size_min": 0.1,
-                        "sync": false
-                    }
-                },
-                "line_linked": {
-                    "enable": true,
-                    "distance": 150,
-                    "color": "#ffffff",
-                    "opacity": 0.4,
-                    "width": 1
-                },
-                "move": {
-                    "enable": true,
-                    "speed": 6,
-                    "direction": "none",
-                    "random": false,
-                    "straight": false,
-                    "out_mode": "out",
-                    "bounce": false,
-                    "attract": {
-                        "enable": false,
-                        "rotateX": 600,
-                        "rotateY": 1200
-                    }
-                }
-            },
-            "interactivity": {
-                "detect_on": "canvas",
-                "events": {
-                    "onhover": {
-                        "enable": true,
-                        "mode": "repulse"
-                    },
-                    "onclick": {
-                        "enable": true,
-                        "mode": "push"
-                    },
-                    "resize": true
-                },
-                "modes": {
-                    "grab": {
-                        "distance": 400,
-                        "line_linked": {
-                            "opacity": 1
-                        }
-                    },
-                    "bubble": {
-                        "distance": 400,
-                        "size": 40,
-                        "duration": 2,
-                        "opacity": 8,
-                        "speed": 3
-                    },
-                    "repulse": {
-                        "distance": 200,
-                        "duration": 0.4
-                    },
-                    "push": {
-                        "particles_nb": 4
-                    },
-                    "remove": {
-                        "particles_nb": 2
-                    }
-                }
-            },
-            "retina_detect": true
-        });
-        console.log("Script is finished");
-    </script>
+            <!-- More About Me -->
+            <div id="about">
+                <h2 class="text-3xl font-bold text-slate-900 mb-8">Behind the Code</h2>
+                <p class="text-slate-600 mb-6 leading-relaxed">
+                    While I have experience across the full stack, I thrive in the backend. I love tackling complex logic, architecting databases, and optimizing performance. 
+                </p>
+                <h3 class="font-bold text-slate-900 mb-4">Tech Arsenal</h3>
+                <div class="flex flex-wrap gap-2 mb-8">
+                    <!-- Update with your backend skills! -->
+                    <span class="px-4 py-2 bg-white border border-slate-200 text-slate-700 text-sm rounded-lg shadow-sm">Python</span>
+                    <span class="px-4 py-2 bg-white border border-slate-200 text-slate-700 text-sm rounded-lg shadow-sm">Go</span>
+                    <span class="px-4 py-2 bg-white border border-slate-200 text-slate-700 text-sm rounded-lg shadow-sm">Java</span>
+                    <span class="px-4 py-2 bg-white border border-slate-200 text-slate-700 text-sm rounded-lg shadow-sm">SQL / NoSQL</span>
+                    <span class="px-4 py-2 bg-white border border-slate-200 text-slate-700 text-sm rounded-lg shadow-sm">Docker</span>
+                    <span class="px-4 py-2 bg-white border border-slate-200 text-slate-700 text-sm rounded-lg shadow-sm">AWS</span>
+                </div>
+
+                <h3 class="font-bold text-slate-900 mb-4">When I'm off the clock</h3>
+                <div class="flex space-x-6 text-slate-600">
+                    <div class="flex items-center space-x-2">
+                        <i class="fas fa-music text-primary"></i> <span>Music</span>
+                    </div>
+                    <div class="flex items-center space-x-2">
+                        <i class="fas fa-utensils text-primary"></i> <span>Cooking</span>
+                    </div>
+                    <div class="flex items-center space-x-2">
+                        <i class="fas fa-hiking text-primary"></i> <span>Hiking</span>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="py-10 bg-white border-t border-slate-200 text-center">
+        <p class="text-slate-500 text-sm">
+            Designed & Built by Casey Takeda &copy; <script>document.write(new Date().getFullYear())</script>
+        </p>
+    </footer>
+
 </body>
 </html>
