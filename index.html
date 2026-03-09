@@ -5,8 +5,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Casey Takeda | Software Engineer</title>
     <!-- Modern Font: Inter -->
-    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
-    <!-- FontAwesome for Icons -->
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+    <!-- FontAwesome for standard icons -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
     <!-- Tailwind CSS via CDN -->
     <script src="https://cdn.tailwindcss.com"></script>
@@ -21,131 +21,103 @@
         }
     </script>
 </head>
-<body class="bg-slate-50 text-slate-800 antialiased selection:bg-primary selection:text-white flex flex-col min-h-screen">
+<body class="bg-white text-slate-800 antialiased selection:bg-blue-100 selection:text-blue-900">
 
-    <!-- Navigation -->
-    <nav class="w-full bg-slate-50 py-6 sticky top-0 z-50 bg-opacity-90 backdrop-blur-sm border-b border-slate-200/50">
-        <div class="max-w-4xl mx-auto px-6 flex justify-between items-center">
-            <a href="index.html" class="text-xl font-bold text-slate-900 tracking-tight">Casey Takeda</a>
-            <div class="flex space-x-6 text-sm font-medium text-slate-600">
-                <a href="work.html" class="hover:text-primary transition-colors duration-200">Work</a>
-                <a href="school.html" class="hover:text-primary transition-colors duration-200">School</a>
-                <a href="cs61a.html" class="hover:text-primary transition-colors duration-200">CS61A</a>
-            </div>
-        </div>
-    </nav>
-
-    <!-- Main Content -->
-    <main class="flex-grow max-w-4xl mx-auto px-6 py-12 md:py-20 w-full">
+    <main class="max-w-[700px] mx-auto px-6 py-20 md:py-32">
         
-        <!-- About Me Section -->
-        <section class="mb-20">
-            <h1 class="text-4xl md:text-5xl font-bold text-slate-900 tracking-tight mb-6 leading-tight">
-                Hey there! 👋 <br> I'm Casey and I love creating applications and systems that positively impact people's lives.
+        <!-- Hero Section -->
+        <section class="mb-24">
+            <h1 class="text-4xl md:text-[2.75rem] font-extrabold text-slate-900 tracking-tight leading-[1.1] mb-6">
+                Hey there! 👋<br>
+                I'm Casey and I love creating applications and systems that positively impact people's lives.
             </h1>
-            <p class="text-lg md:text-xl text-slate-600 leading-relaxed max-w-3xl">
-                I am a Senior Software Engineer with a passion for architecting APIs, migrating monolithic systems to microservices, and leading platform initiatives. My goal is to create performant products that positively impact people's lives through modern technology.
+            <p class="text-lg text-slate-600 leading-relaxed mb-8">
+                My goal is to create performant products that positively impact people's lives through modern technology.
             </p>
             
-            <div class="mt-8 flex space-x-4">
-                <a href="mailto:personifyitdevs@gmail.com" class="px-5 py-2.5 bg-primary text-white text-sm font-medium rounded-lg hover:bg-blue-700 transition-colors">
+            <div class="flex flex-wrap gap-3">
+                <a href="mailto:personifyitdevs@gmail.com" class="px-5 py-2 bg-primary text-white text-sm font-medium rounded-lg hover:bg-blue-700 transition-colors shadow-sm">
                     Get in touch
                 </a>
-                <a href="https://github.com/Case-y" target="_blank" class="px-5 py-2.5 bg-white border border-slate-300 text-slate-700 text-sm font-medium rounded-lg hover:bg-slate-50 transition-colors">
-                    <i class="fab fa-github mr-2"></i> GitHub
+                <a href="https://github.com/Case-y" target="_blank" class="px-5 py-2 bg-white border border-slate-200 text-slate-700 text-sm font-medium rounded-lg hover:bg-slate-50 transition-colors flex items-center shadow-sm">
+                    <i class="fab fa-github mr-2 text-slate-900"></i> GitHub
                 </a>
-                <a href="https://linkedin.com/in/caseytakeda" target="_blank" class="px-5 py-2.5 bg-white border border-slate-300 text-slate-700 text-sm font-medium rounded-lg hover:bg-slate-50 transition-colors">
-                    <i class="fab fa-linkedin text-blue-600 mr-2"></i> LinkedIn
+                <a href="https://linkedin.com/in/YOUR_LINKEDIN" target="_blank" class="px-5 py-2 bg-white border border-slate-200 text-slate-700 text-sm font-medium rounded-lg hover:bg-slate-50 transition-colors flex items-center shadow-sm">
+                    <i class="fab fa-linkedin text-[#0A66C2] mr-2"></i> LinkedIn
                 </a>
             </div>
         </section>
 
         <!-- Current Project Section -->
         <section class="mb-20">
-            <h2 class="text-sm font-bold text-slate-400 uppercase tracking-widest mb-6">What I'm building now</h2>
-            <div class="p-8 bg-white border border-slate-200 rounded-2xl shadow-sm hover:shadow-md transition-shadow">
+            <h2 class="text-[11px] font-bold text-slate-400 uppercase tracking-wider mb-6">What I'm building now</h2>
+            
+            <div class="p-6 md:p-8 bg-slate-50/50 border border-slate-200 rounded-2xl">
                 <div class="flex justify-between items-start mb-4">
-                    <h3 class="text-2xl font-bold text-slate-900">PersonifyIt</h3>
-                    <a href="https://personifyit.com" target="_blank" class="text-slate-400 hover:text-primary">
-                        <i class="fas fa-external-link-alt text-xl"></i>
+                    <h3 class="text-xl font-bold text-slate-900">PersonifyIt</h3>
+                    <a href="https://personifyit.com" target="_blank" class="text-slate-400 hover:text-slate-600 transition-colors">
+                        <svg class="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M10 6H6a2 2 0 00-2 2v10a2 2 0 002 2h10a2 2 0 002-2v-4M14 4h6m0 0v6m0-6L10 14"></path></svg>
                     </a>
                 </div>
-                <p class="text-slate-600 leading-relaxed mb-6 text-lg">
-                    In 2026, I created an application that designs personalized cards online. The architecture is focused heavily on clarity, speed, and ease of use, ensuring a seamless experience from end to end.
+                <p class="text-slate-600 leading-relaxed text-[15px]">
+                    In 2026, I created a simple application focused on creating online card designs.
                 </p>
             </div>
         </section>
 
-        <!-- Experience Snapshot (Madeline Style) -->
+        <!-- Experience Snapshot -->
         <section class="mb-20">
             <div class="flex justify-between items-baseline mb-8">
-                <h2 class="text-sm font-bold text-slate-400 uppercase tracking-widest">Experience Snapshot</h2>
-                <a href="work.html" class="text-sm font-medium text-primary hover:underline">View all work &rarr;</a>
+                <h2 class="text-[11px] font-bold text-slate-400 uppercase tracking-wider">Experience Snapshot</h2>
+                <a href="work.html" class="text-sm font-medium text-primary hover:text-blue-700 transition-colors">View all work &rarr;</a>
             </div>
 
-            <div class="space-y-10">
+            <div class="space-y-12">
                 <!-- Affirm -->
                 <div>
-                    <div class="flex flex-col md:flex-row md:justify-between md:items-baseline mb-2">
-                        <h3 class="text-xl font-bold text-slate-900">Affirm</h3>
-                        <span class="text-sm font-medium text-slate-500 mt-1 md:mt-0">Sep 2018 — Apr 2025</span>
+                    <div class="flex flex-col md:flex-row md:justify-between md:items-baseline mb-1">
+                        <h3 class="text-lg font-bold text-slate-900">Affirm</h3>
+                        <span class="text-[13px] font-medium text-slate-500 mt-1 md:mt-0">2019 — 2025</span>
                     </div>
-                    <div class="text-primary font-medium mb-4">Senior Software Engineer &middot; Platform Lead</div>
-                    <ul class="list-none space-y-3 text-slate-600">
-                        <li class="flex items-start"><i class="fas fa-check text-slate-300 mt-1.5 mr-3 text-xs"></i> <span>Migrated critical endpoints from a monolithic repository to microservices and upgraded packages for AI readiness.</span></li>
-                        <li class="flex items-start"><i class="fas fa-check text-slate-300 mt-1.5 mr-3 text-xs"></i> <span>Implemented a comprehensive RBAC system across customer operation tools, achieving strategic SOC2 certification.</span></li>
-                        <li class="flex items-start"><i class="fas fa-check text-slate-300 mt-1.5 mr-3 text-xs"></i> <span>Developed an overdue loan modal in the core checkout flow, driving an annual <strong>$74M increase in facilitated GMV</strong>.</span></li>
-                        <li class="flex items-start"><i class="fas fa-check text-slate-300 mt-1.5 mr-3 text-xs"></i> <span>Acted as Platform Lead for a generative AI-powered chatbot, successfully scaling it for advanced AI development.</span></li>
-                    </ul>
+                    <div class="text-[14px] text-primary font-medium mb-4">Senior Software Engineer </div>
                 </div>
 
                 <!-- AWS -->
-                <div class="pt-6 border-t border-slate-100">
-                    <div class="flex flex-col md:flex-row md:justify-between md:items-baseline mb-2">
-                        <h3 class="text-xl font-bold text-slate-900">Amazon Web Services (AWS)</h3>
-                        <span class="text-sm font-medium text-slate-500 mt-1 md:mt-0">May 2017 — Jul 2018</span>
+                <div>
+                    <div class="flex flex-col md:flex-row md:justify-between md:items-baseline mb-1">
+                        <h3 class="text-lg font-bold text-slate-900">Amazon Web Services (AWS)</h3>
                     </div>
-                    <div class="text-slate-700 font-medium mb-4">Software Engineer Intern (x2)</div>
-                    <p class="text-slate-600">
-                        Worked on Amazon Pinpoint and AWS CloudFormation. Provisioned infrastructure as code using Java, AWS S3, DynamoDB, SNS, SQS, and Lambda.
+                    <div class="text-[14px] text-slate-700 font-medium mb-3">Software Engineer Intern</div>
+                    <p class="text-[15px] text-slate-600 leading-relaxed">
+                        Worked on Amazon Pinpoint and AWS CloudFormation. Worked with Java, AWS S3, DynamoDB, SNS, SQS, and Lambda.
                     </p>
                 </div>
 
                 <!-- Wish -->
-                <div class="pt-6 border-t border-slate-100">
-                    <div class="flex flex-col md:flex-row md:justify-between md:items-baseline mb-2">
-                        <h3 class="text-xl font-bold text-slate-900">Wish</h3>
-                        <span class="text-sm font-medium text-slate-500 mt-1 md:mt-0">Jan 2019 — Apr 2019</span>
+                <div>
+                    <div class="flex flex-col md:flex-row md:justify-between md:items-baseline mb-1">
+                        <h3 class="text-lg font-bold text-slate-900">Wish</h3>
                     </div>
-                    <div class="text-slate-700 font-medium mb-4">Software Engineer Intern</div>
-                    <p class="text-slate-600">
-                        Utilized the SmartyStreets API to validate user addresses, reducing shipping errors by 7% and lowering operational costs by 4%. Supported the launch of Ayden in the payments workflow.
-                    </p>
+                    <div class="text-[14px] text-slate-700 font-medium mb-3">Software Engineer Intern</div>
                 </div>
             </div>
         </section>
 
         <!-- Education & Teaching -->
         <section>
-            <h2 class="text-sm font-bold text-slate-400 uppercase tracking-widest mb-6">Education & Teaching</h2>
-            <div class="bg-slate-100 rounded-2xl p-8">
-                <h3 class="text-xl font-bold text-slate-900 mb-2">University of California, Berkeley</h3>
-                <p class="text-slate-600 mb-6">B.S. in Computer Science</p>
+            <h2 class="text-[11px] font-bold text-slate-400 uppercase tracking-wider mb-6">Education & Teaching</h2>
+            
+            <div class="p-6 md:p-8 bg-slate-50 border border-slate-100 rounded-2xl">
+                <h3 class="text-lg font-bold text-slate-900 mb-1">University of California, Berkeley</h3>
+                <p class="text-[14px] text-slate-500 mb-4">B.S. in Computer Science</p>
                 
-                <p class="text-slate-700 leading-relaxed">
-                    During my time at Berkeley, I had the opportunity to work on various systems and software <a href="school.html" class="text-primary font-medium hover:underline">projects</a>. I also spent over a year as a Teaching Assistant and Tutor for <a href="cs61a.html" class="text-primary font-medium hover:underline">CS61A (Structure and Interpretation of Computer Programs)</a> and a Reader for CS161. Teaching intro to programming sparked my love for sharing knowledge and building strong engineering fundamentals.
+                <p class="text-[15px] text-slate-600 leading-relaxed">
+                    During my time at Berkeley, I had the opportunity to work on various systems and software <a href="school.html" class="text-primary hover:underline underline-offset-2">projects</a>. I also spent over a year as a Teaching Assistant for <a href="cs61a.html" class="text-primary hover:underline underline-offset-2">CS61A (Structure and Interpretation of Computer Programs)</a> and a Reader for CS161. Teaching programming sparks my love for sharing knowledge and building strong engineering fundamentals.
                 </p>
             </div>
         </section>
 
     </main>
-
-    <!-- Footer -->
-    <footer class="w-full border-t border-slate-200 py-8 mt-auto text-center">
-        <p class="text-slate-500 text-sm">
-            Designed & Built by Casey Takeda using VertexAI w/ Google :') &copy; <script>document.write(new Date().getFullYear())</script>
-        </p>
-    </footer>
 
 </body>
 </html>
