@@ -1,206 +1,206 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-    <title>Casey | CS61A</title>
-    <link rel="stylesheet" type="text/css" href="css/main.css"/>
-    <link href="http://fonts.googleapis.com/css?family=Inconsolata:400,300,700,600" rel="stylesheet" type="text/css"/>
-
-
-    <!-- icons -->
-    <script src="https://use.fontawesome.com/655275e763.js"></script>
-
-    <!--[if gt IE 8]><!-->
-    <link rel="stylesheet" type="text/css" href="css/change-res.css"/>
-    <!--<![endif]-->
-    <link rel="icon" type="image/x-icon" href="assets/favicon.ico"/>
-
-    <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=0.85">
-    <meta name="p:domain_verify" content="dc1772a88d0caf598bc7761447f8ca5e"/>
-    <link rel="canonical" href="http://caseytakeda.com/cs61a">
-    
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Casey Takeda | CS61A</title>
+    <!-- Modern Font: Inter -->
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <!-- FontAwesome for Icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <!-- Tailwind CSS via CDN -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    fontFamily: { sans: ['Inter', 'sans-serif'] },
+                    colors: { primary: '#2563eb' }
+                }
+            }
+        }
+    </script>
 </head>
+<body class="bg-slate-50 text-slate-800 antialiased selection:bg-primary selection:text-white flex flex-col min-h-screen">
 
-
-<!-- NAV --> 
-
-    <input id="nav-toggle" type="checkbox" value="selected">
-    <nav>
-        <div class="nav-content" style="margin-top:-100px">
-            <div class = "fade-in"> 
-                <span class = "name">
-                    <a href = "/" target = "_blank">Casey Takeda </a>
-                </span>
-                <div class = "menu">
-                    <div class="nav-category"><u>PORTFOLIO</u></div>
-                    <a href="/"><div class="nav-item">About</div></a>
-                    <a href="/projects"><div class="nav-item">Projects</div></a>
-
-                    <div class="nav-category"><u>PERSONAL</u></div>
-                    <a href="/imgur" target = "_blank"><div class = "nav-item">imgur</div> </a>
-                    <a href="/cs61a"><div class = "nav-item">cs61A stuff</div> </a>
-                    <a href="https://chris.beams.io/posts/git-commit/" target="_blank"><div class = "nav-item">git good @ commitz </div> </a>
-                    <a href="https://open.spotify.com/user/c4seclosed/playlist/30PUs2GClq63qy3PUWIwjV" target = "_blank"><div class = "nav-item">if you Like edM ?</div> </a>
-
-                    <div class="nav-category"><u>CONTACT</u></div>
-                    <a href="files/CaseyResume.pdf" target = "_blank"><div class="nav-item">Resume</div></a>
-                    <a href="https://github.com/Case-y" target = "_blank"><div class="nav-item">GitHub</div></a>
-                    <a href="http://devpost.com/CaseyIsACookie" target = "_blank"><div class="nav-item">Devpost</div></a>
-                    <a href="https://www.linkedin.com/in/case-y/" target = "_blank"><div class="nav-item">LinkedIn</div></a>
-                    
-                </div>
-            </div>
-        </div>
-        <div class = "nav-button">
-            <div class = "nav-button-div"  style="margin-top:-100px;">
-                <div class = "nav-button-press">
-                        <img class = "logo" src="assets/startlogo.png">
-                </div>
+    <!-- Navigation -->
+    <nav class="w-full bg-slate-50 py-6">
+        <div class="max-w-3xl mx-auto px-6 flex justify-between items-center">
+            <a href="index.html" class="text-xl font-bold text-slate-900 tracking-tight hover:text-primary transition-colors">Casey Takeda</a>
+            <div class="flex space-x-6 text-sm font-medium text-slate-600">
+                <a href="work.html" class="hover:text-primary transition-colors duration-200">Work</a>
+                <a href="school.html" class="hover:text-primary transition-colors duration-200">School</a>
+                <!-- Notice how CS61A is highlighted here since it's the active page -->
+                <a href="cs61a.html" class="text-primary font-semibold transition-colors duration-200">CS61A</a>
             </div>
         </div>
     </nav>
-  </input>
 
-<body>
-
-<div style="max-width: 800px; margin: 100px auto;">
-    <div style="margin-top: 100px;">
-        <div style="font-weight: 700; font-size: 70px;">cs61a</div>
-        <div style="font-weight: 400; font-size: 22px; color: #828282;">the structure and interpretation of computer programs</div>
-    </div>
-    <h2 style="font-size: 25px; text-align: center;"> Fall 2017 
-    </h2>
-    <h1>casey</h1>
-    <ul>
-        <li>
-            <strong>About:</strong>
-            I'm Casey Takeda and you can check my website <a href="/" style="text-decoration: underline;"> here</a>.
-        </li>
-        <li>
-            <strong>Course Website:</strong>
-            <a href="http://cs61a.org">http://cs61a.org</a>
-        </li>
-        <li>
-            <strong>Section Times:</strong>
-            <ul>
-                <li>
-                    <strong>Lab:</strong>
-                    Tues 2:00PM - 3:29PM, Soda 271
-                </li>
-                <li>
-                    <strong>Discussion:</strong>
-                    Thurs 2:00PM - 3:29PM, Dwinelle 234
-                </li>
-            </ul>
-        </li>
-        <li>
-            <strong>UPE Office Hour:</strong>
-            Tues 4:00PM - 4:59PM, Soda 346... this is less packed :)
-        </li>
-        <li>
-            <strong>Office Hour:</strong>
-            Thurs 4:00PM - 4:59PM, Morgan 109
-        </li>
+    <!-- Main Content -->
+    <main class="flex-grow max-w-3xl mx-auto px-6 py-12 md:py-16 w-full">
         
-    </ul>
-    <h1>slides + forms</h1>
-    <ul>
-        <li>
-            <strong>Welcome to cs61a:</strong>
-            <a href="https://docs.google.com/a/berkeley.edu/presentation/d/11r1Ts5F22AJWnPBU3azXxtQkw6yVxBQoeDbMTk6RYOU/edit?usp=sharing" target="_blank">slides</a> 
-            <strong> Form: </strong>
-             <a href="https://goo.gl/forms/SJ98kynj907jiZwH3" target="_blank"> https://goo.gl/forms/SJ98kynj907jiZwH3 </a> 
-            
-        </li>
-        <li>
-            <strong>Control and Environment Diagrams and HOF: </strong>
-            <a href="https://docs.google.com/a/berkeley.edu/presentation/d/1JOOtQyAu0UYToFnWIOfWVgRebYQ0SNYt-7NmeZAgq3o/edit?usp=sharing" target="_blank">slides</a> 
-            <strong> Form: </strong>
-             <a href="http://tinyurl.com/disc01ct
-" target="_blank"> http://tinyurl.com/disc01ct
-			</a> 
-        </li>
-        <li>
-            <strong>More Environment Diagrams and Recursion: </strong>
-            <a href="https://docs.google.com/a/berkeley.edu/presentation/d/17yqEtx0t96f3tdviaGoV_2444dquG9PAR0sr-BM5Z5E/edit?usp=sharing" target="_blank">slides</a> 
-            <strong> Form: </strong>
-             <a href="http://tinyurl.com/disc02ct
-" target="_blank"> http://tinyurl.com/disc02ct
-			</a>
-            
-        </li>
-        <li>
-            <strong>Trees and Sequences: </strong>
-            <a href="https://docs.google.com/a/berkeley.edu/presentation/d/1x4OxCM5vqrqTzaNk4kORkS55mnfSL68P05X7DbNgl-8/edit?usp=sharing" target="_blank">slides</a> 
-        </li>
-        <li>
-            <strong>Growth and Mutation: </strong>
-           	<a href="https://docs.google.com/a/berkeley.edu/presentation/d/1U3O1xUnFqUhvisr1M1XwdXtxBEgYmPOj5PTYzBjwfiM/edit?usp=sharing" target="_blank">slides</a> 
-        </li>
-        <li>
-            <strong>Object Oriented Programming: </strong>
-            <a href="https://docs.google.com/a/berkeley.edu/presentation/d/1Gj-yQRS1seBO5OcsYX5yaxRO6WAWU1Q-ZAhBJwmTNWQ/edit?usp=sharing" target="_blank">slides</a> 
-        </li>
-        <li>
-            <strong>Scheme: </strong>
-            <a href="https://docs.google.com/a/berkeley.edu/presentation/d/1uP-FKajWrsk_BD6CToUsgH-wPKIlKl9VQWcr0pcCkIA/edit?usp=sharing" target="_blank">slides</a> 
-        </li>
-        <li>
-            <strong> Interpreters / Tail Context: </strong>
-            <a href="https://docs.google.com/a/berkeley.edu/presentation/d/1TTHdnRiYRdOG7b3MEKFr9avFaE5wHwbKpivkEUMe0Vo/edit?usp=sharing" target="_blank"> slides </a>
-        </li>
-        <li>
-            <strong> Iterables / Iterators / Generators / Streams: </strong>
-            <a href="https://docs.google.com/a/berkeley.edu/presentation/d/1U-viMEHUeJln1ChIYqZ2jUiGSNb64OxboLcyi6I-qjo/edit?usp=sharing" target="_blank"> slides </a>
-        </li>
-        <li>
-            <strong> SQL: </strong>
-            <a href="https://docs.google.com/a/berkeley.edu/presentation/d/1axHS-jG_mfZThgqMCYRlxaggkxtU56Fl6Au9ABFkthQ/edit?usp=sharing" target="_blank"> slides </a>
-        </li>
-    </ul>
-    <h1>cs61a Resources</h1>
-    <ul>
-        <li>
-            <strong>Video Walkthroughs: </strong>
-            <a href="https://www.youtube.com/channel/UCuteugW6eO65Awk83I6ehoA/featured" target="_blank"> https://www.youtube.com/channel/UCuteugW6eO65Awk83I6ehoA/featured </a>
-        </li>
-        <li>
-            <strong>Scheme Repl: </strong>
-            <a href="https://repl.it/languages/scheme" target="_blank"> https://repl.it/languages/scheme
-            </a>
-        </li>
-        <li>
-            <strong>Course Wiki: </strong>
-            <a href="https://www.ocf.berkeley.edu/~shidi/cs61a/wiki/Main_Page" target="_blank"> https://www.ocf.berkeley.edu/~shidi/cs61a/wiki/Main_Page
-            </a>
-        </li>
-        <li>
-            <strong>Python Tutor: </strong>
-            <a href="http://pythontutor.com/composingprograms.html#mode=edit" target="_blank"> http://pythontutor.com/composingprograms.html#mode=edit </a>
-        </li>
-        <li>
-            <strong>upe tutoring: </strong>
-            <a href="https://upe.cs.berkeley.edu/oh/" target="_blank"> https://upe.cs.berkeley.edu/oh/ </a> 
-        </li>
-        <li>
-            <strong>hkn tutoring: </strong>
-            <a href="https://hkn.eecs.berkeley.edu/tutor/" target="_blank"> https://hkn.eecs.berkeley.edu/tutor/ </a>
-        </li>
-         <li>
-            <strong>hkn cs61a exams: </strong>
-            <a href="https://hkn.eecs.berkeley.edu/exams/course/cs/61a" target="_blank"> https://hkn.eecs.berkeley.edu/exams/course/cs/61a</a>
-        </li>
-        <li>
-            <strong>tbp cs61a exams: </strong>
-            <a href="https://tbp.berkeley.edu/courses/cs/61A/" target="_blank"> https://tbp.berkeley.edu/courses/cs/61A/
-            </a>
-        </li>
-        <li>
-            <strong>albert wu's practice problems: </strong>
-            <a href="http://albertwu.org/cs61a/" target="_blank"> http://albertwu.org/cs61a/ </a>
-        </li>
-    </ul>
-</div>
+        <!-- Header Section -->
+        <header class="mb-12">
+            <div class="inline-block px-3 py-1 bg-blue-50 text-blue-700 text-sm font-semibold rounded-full mb-4 border border-blue-100">
+                Fall 2017
+            </div>
+            <h1 class="text-4xl md:text-5xl font-bold text-slate-900 tracking-tight mb-4">CS61A</h1>
+            <p class="text-xl text-slate-600">The Structure and Interpretation of Computer Programs</p>
+        </header>
 
+        <!-- Course Logistics Card -->
+        <section class="mb-12 p-8 bg-white border border-slate-200 rounded-2xl shadow-sm">
+            <h2 class="text-xl font-bold text-slate-900 mb-6 flex items-center border-b border-slate-100 pb-4">
+                <i class="fas fa-calendar-alt text-primary mr-3"></i> Logistics & Info
+            </h2>
+            <div class="grid grid-cols-1 md:grid-cols-2 gap-6 text-slate-700">
+                <div>
+                    <h3 class="font-semibold text-slate-900 mb-2">Section Times</h3>
+                    <ul class="space-y-2 text-sm">
+                        <li><span class="font-medium">Lab:</span> Tues 2:00PM - 3:29PM <br><span class="text-slate-500">Soda 271</span></li>
+                        <li><span class="font-medium">Discussion:</span> Thurs 2:00PM - 3:29PM <br><span class="text-slate-500">Dwinelle 234</span></li>
+                    </ul>
+                </div>
+                <div>
+                    <h3 class="font-semibold text-slate-900 mb-2">Office Hours</h3>
+                    <ul class="space-y-2 text-sm">
+                        <li><span class="font-medium">UPE Office Hour:</span> Tues 4:00PM - 4:59PM <br><span class="text-slate-500">Soda 346 (less packed 🙂)</span></li>
+                        <li><span class="font-medium">Regular Office Hour:</span> Thurs 4:00PM - 4:59PM <br><span class="text-slate-500">Morgan 109</span></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="mt-6 pt-6 border-t border-slate-100 text-sm">
+                <a href="http://cs61a.org" target="_blank" class="text-primary hover:underline font-medium inline-flex items-center">
+                    Official Course Website <i class="fas fa-external-link-alt ml-1 text-xs"></i>
+                </a>
+            </div>
+        </section>
 
+        <!-- Slides & Forms Section -->
+        <section class="mb-12">
+            <h2 class="text-2xl font-bold text-slate-900 mb-6 flex items-center">
+                <i class="fas fa-chalkboard-teacher text-primary mr-3"></i> Slides + Forms
+            </h2>
+            <div class="bg-white border border-slate-200 rounded-2xl shadow-sm overflow-hidden">
+                <ul class="divide-y divide-slate-100">
+                    <!-- Item 1 -->
+                    <li class="p-4 hover:bg-slate-50 transition-colors flex flex-col sm:flex-row sm:items-center justify-between gap-2">
+                        <span class="font-medium text-slate-800">Welcome to CS61A</span>
+                        <div class="flex space-x-4 text-sm">
+                            <a href="https://docs.google.com/a/berkeley.edu/presentation/d/11r1Ts5F22AJWnPBU3azXxtQkw6yVxBQoeDbMTk6RYOU/edit?usp=sharing" target="_blank" class="text-primary hover:underline">Slides</a>
+                            <a href="https://goo.gl/forms/SJ98kynj907jiZwH3" target="_blank" class="text-slate-500 hover:text-slate-800 hover:underline">Form</a>
+                        </div>
+                    </li>
+                    <!-- Item 2 -->
+                    <li class="p-4 hover:bg-slate-50 transition-colors flex flex-col sm:flex-row sm:items-center justify-between gap-2">
+                        <span class="font-medium text-slate-800">Control, Env Diagrams & HOF</span>
+                        <div class="flex space-x-4 text-sm">
+                            <a href="https://docs.google.com/a/berkeley.edu/presentation/d/1JOOtQyAu0UYToFnWIOfWVgRebYQ0SNYt-7NmeZAgq3o/edit?usp=sharing" target="_blank" class="text-primary hover:underline">Slides</a>
+                            <a href="http://tinyurl.com/disc01ct" target="_blank" class="text-slate-500 hover:text-slate-800 hover:underline">Form</a>
+                        </div>
+                    </li>
+                    <!-- Item 3 -->
+                    <li class="p-4 hover:bg-slate-50 transition-colors flex flex-col sm:flex-row sm:items-center justify-between gap-2">
+                        <span class="font-medium text-slate-800">More Env Diagrams & Recursion</span>
+                        <div class="flex space-x-4 text-sm">
+                            <a href="https://docs.google.com/a/berkeley.edu/presentation/d/17yqEtx0t96f3tdviaGoV_2444dquG9PAR0sr-BM5Z5E/edit?usp=sharing" target="_blank" class="text-primary hover:underline">Slides</a>
+                            <a href="http://tinyurl.com/disc02ct" target="_blank" class="text-slate-500 hover:text-slate-800 hover:underline">Form</a>
+                        </div>
+                    </li>
+                    <!-- Item 4 -->
+                    <li class="p-4 hover:bg-slate-50 transition-colors flex flex-col sm:flex-row sm:items-center justify-between gap-2">
+                        <span class="font-medium text-slate-800">Trees and Sequences</span>
+                        <div class="flex space-x-4 text-sm">
+                            <a href="https://docs.google.com/a/berkeley.edu/presentation/d/1x4OxCM5vqrqTzaNk4kORkS55mnfSL68P05X7DbNgl-8/edit?usp=sharing" target="_blank" class="text-primary hover:underline">Slides</a>
+                        </div>
+                    </li>
+                    <!-- Item 5 -->
+                    <li class="p-4 hover:bg-slate-50 transition-colors flex flex-col sm:flex-row sm:items-center justify-between gap-2">
+                        <span class="font-medium text-slate-800">Growth and Mutation</span>
+                        <div class="flex space-x-4 text-sm">
+                            <a href="https://docs.google.com/a/berkeley.edu/presentation/d/1U3O1xUnFqUhvisr1M1XwdXtxBEgYmPOj5PTYzBjwfiM/edit?usp=sharing" target="_blank" class="text-primary hover:underline">Slides</a>
+                        </div>
+                    </li>
+                    <!-- Item 6 -->
+                    <li class="p-4 hover:bg-slate-50 transition-colors flex flex-col sm:flex-row sm:items-center justify-between gap-2">
+                        <span class="font-medium text-slate-800">Object Oriented Programming</span>
+                        <div class="flex space-x-4 text-sm">
+                            <a href="https://docs.google.com/a/berkeley.edu/presentation/d/1Gj-yQRS1seBO5OcsYX5yaxRO6WAWU1Q-ZAhBJwmTNWQ/edit?usp=sharing" target="_blank" class="text-primary hover:underline">Slides</a>
+                        </div>
+                    </li>
+                    <!-- Item 7 -->
+                    <li class="p-4 hover:bg-slate-50 transition-colors flex flex-col sm:flex-row sm:items-center justify-between gap-2">
+                        <span class="font-medium text-slate-800">Scheme</span>
+                        <div class="flex space-x-4 text-sm">
+                            <a href="https://docs.google.com/a/berkeley.edu/presentation/d/1uP-FKajWrsk_BD6CToUsgH-wPKIlKl9VQWcr0pcCkIA/edit?usp=sharing" target="_blank" class="text-primary hover:underline">Slides</a>
+                        </div>
+                    </li>
+                    <!-- Item 8 -->
+                    <li class="p-4 hover:bg-slate-50 transition-colors flex flex-col sm:flex-row sm:items-center justify-between gap-2">
+                        <span class="font-medium text-slate-800">Interpreters / Tail Context</span>
+                        <div class="flex space-x-4 text-sm">
+                            <a href="https://docs.google.com/a/berkeley.edu/presentation/d/1TTHdnRiYRdOG7b3MEKFr9avFaE5wHwbKpivkEUMe0Vo/edit?usp=sharing" target="_blank" class="text-primary hover:underline">Slides</a>
+                        </div>
+                    </li>
+                    <!-- Item 9 -->
+                    <li class="p-4 hover:bg-slate-50 transition-colors flex flex-col sm:flex-row sm:items-center justify-between gap-2">
+                        <span class="font-medium text-slate-800">Iterables, Iterators, Generators, Streams</span>
+                        <div class="flex space-x-4 text-sm">
+                            <a href="https://docs.google.com/a/berkeley.edu/presentation/d/1U-viMEHUeJln1ChIYqZ2jUiGSNb64OxboLcyi6I-qjo/edit?usp=sharing" target="_blank" class="text-primary hover:underline">Slides</a>
+                        </div>
+                    </li>
+                    <!-- Item 10 -->
+                    <li class="p-4 hover:bg-slate-50 transition-colors flex flex-col sm:flex-row sm:items-center justify-between gap-2">
+                        <span class="font-medium text-slate-800">SQL</span>
+                        <div class="flex space-x-4 text-sm">
+                            <a href="https://docs.google.com/a/berkeley.edu/presentation/d/1axHS-jG_mfZThgqMCYRlxaggkxtU56Fl6Au9ABFkthQ/edit?usp=sharing" target="_blank" class="text-primary hover:underline">Slides</a>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+        </section>
+
+        <!-- Resources Section -->
+        <section>
+            <h2 class="text-2xl font-bold text-slate-900 mb-6 flex items-center">
+                <i class="fas fa-link text-primary mr-3"></i> Helpful Resources
+            </h2>
+            <div class="grid grid-cols-1 sm:grid-cols-2 gap-4">
+                <a href="https://repl.it/languages/scheme" target="_blank" class="p-4 border border-slate-200 rounded-xl hover:border-primary hover:shadow-md transition-all group">
+                    <div class="font-semibold text-slate-800 group-hover:text-primary transition-colors">Scheme Repl</div>
+                    <div class="text-sm text-slate-500 mt-1">Run and test Scheme code online</div>
+                </a>
+                <a href="http://pythontutor.com/composingprograms.html#mode=edit" target="_blank" class="p-4 border border-slate-200 rounded-xl hover:border-primary hover:shadow-md transition-all group">
+                    <div class="font-semibold text-slate-800 group-hover:text-primary transition-colors">Python Tutor</div>
+                    <div class="text-sm text-slate-500 mt-1">Visualize code execution step-by-step</div>
+                </a>
+                <a href="https://www.ocf.berkeley.edu/~shidi/cs61a/wiki/Main_Page" target="_blank" class="p-4 border border-slate-200 rounded-xl hover:border-primary hover:shadow-md transition-all group">
+                    <div class="font-semibold text-slate-800 group-hover:text-primary transition-colors">Course Wiki</div>
+                    <div class="text-sm text-slate-500 mt-1">Student-maintained course notes</div>
+                </a>
+                <a href="http://albertwu.org/cs61a/" target="_blank" class="p-4 border border-slate-200 rounded-xl hover:border-primary hover:shadow-md transition-all group">
+                    <div class="font-semibold text-slate-800 group-hover:text-primary transition-colors">Albert Wu's Practice</div>
+                    <div class="text-sm text-slate-500 mt-1">Extra practice problems for exams</div>
+                </a>
+                <a href="https://upe.cs.berkeley.edu/oh/" target="_blank" class="p-4 border border-slate-200 rounded-xl hover:border-primary hover:shadow-md transition-all group">
+                    <div class="font-semibold text-slate-800 group-hover:text-primary transition-colors">UPE Tutoring</div>
+                    <div class="text-sm text-slate-500 mt-1">Computer Science honor society help</div>
+                </a>
+                <a href="https://hkn.eecs.berkeley.edu/tutor/" target="_blank" class="p-4 border border-slate-200 rounded-xl hover:border-primary hover:shadow-md transition-all group">
+                    <div class="font-semibold text-slate-800 group-hover:text-primary transition-colors">HKN Tutoring & Exams</div>
+                    <div class="text-sm text-slate-500 mt-1">Past exams and tutoring schedules</div>
+                </a>
+            </div>
+        </section>
+
+    </main>
+
+    <!-- Footer -->
+    <footer class="w-full border-t border-slate-200 py-8 mt-auto text-center">
+        <p class="text-slate-500 text-sm">
+            Designed & Built by Casey Takeda &copy; <script>document.write(new Date().getFullYear())</script>
+        </p>
+    </footer>
+
+</body>
+</html>
